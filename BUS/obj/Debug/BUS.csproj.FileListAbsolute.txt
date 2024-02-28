@@ -1,0 +1,6 @@
+C:\Users\ADMIN\Documents\CODE\BUS\bin\Debug\BUS.dll
+C:\Users\ADMIN\Documents\CODE\BUS\bin\Debug\BUS.pdb
+C:\Users\ADMIN\Documents\CODE\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\CODE\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\CODE\BUS\obj\Debug\BUS.dll
+C:\Users\ADMIN\Documents\CODE\BUS\obj\Debug\BUS.pdb
