@@ -300,7 +300,7 @@
             // 
             this.ptrbAvatar.Image = global::GUI.Properties.Resources.user_icon;
             this.ptrbAvatar.ImageRotate = 0F;
-            this.ptrbAvatar.Location = new System.Drawing.Point(163, 12);
+            this.ptrbAvatar.Location = new System.Drawing.Point(77, 12);
             this.ptrbAvatar.Name = "ptrbAvatar";
             this.ptrbAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.ptrbAvatar.Size = new System.Drawing.Size(50, 49);
