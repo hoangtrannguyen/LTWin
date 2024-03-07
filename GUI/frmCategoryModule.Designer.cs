@@ -23,6 +23,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
             this.lblCategoryModule = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -31,6 +32,7 @@
             this.btnSave = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnUpdate = new Guna.UI2.WinForms.Guna2GradientButton();
             this.txtBrandName = new Guna.UI2.WinForms.Guna2TextBox();
+            this.frmCategoryModuleAnimateWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,9 +68,9 @@
             this.lblCategoryModule.ForeColor = System.Drawing.Color.White;
             this.lblCategoryModule.Location = new System.Drawing.Point(30, 7);
             this.lblCategoryModule.Name = "lblCategoryModule";
-            this.lblCategoryModule.Size = new System.Drawing.Size(123, 23);
+            this.lblCategoryModule.Size = new System.Drawing.Size(115, 23);
             this.lblCategoryModule.TabIndex = 7;
-            this.lblCategoryModule.Text = "Category Module";
+            this.lblCategoryModule.Text = "Thêm danh mục";
             // 
             // lblBrandName
             // 
@@ -77,9 +79,9 @@
             this.lblBrandName.ForeColor = System.Drawing.Color.White;
             this.lblBrandName.Location = new System.Drawing.Point(58, 114);
             this.lblBrandName.Name = "lblBrandName";
-            this.lblBrandName.Size = new System.Drawing.Size(115, 23);
+            this.lblBrandName.Size = new System.Drawing.Size(104, 23);
             this.lblBrandName.TabIndex = 13;
-            this.lblBrandName.Text = "Category Name:";
+            this.lblBrandName.Text = "Tên danh mục:";
             // 
             // btnCancel
             // 
@@ -102,7 +104,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(92, 45);
             this.btnCancel.TabIndex = 10;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "Hủy";
             this.btnCancel.UseTransparentBackground = true;
             // 
             // btnSave
@@ -126,7 +128,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(92, 45);
             this.btnSave.TabIndex = 11;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Lưu";
             this.btnSave.UseTransparentBackground = true;
             // 
             // btnUpdate
@@ -150,7 +152,7 @@
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(92, 45);
             this.btnUpdate.TabIndex = 12;
-            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Text = "Cập nhật";
             this.btnUpdate.UseTransparentBackground = true;
             // 
             // txtBrandName
@@ -173,11 +175,15 @@
             this.txtBrandName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBrandName.Name = "txtBrandName";
             this.txtBrandName.PasswordChar = '●';
-            this.txtBrandName.PlaceholderText = "Enter a Category Name";
+            this.txtBrandName.PlaceholderText = "Nhập tên danh mục...";
             this.txtBrandName.SelectedText = "";
             this.txtBrandName.Size = new System.Drawing.Size(521, 41);
             this.txtBrandName.TabIndex = 9;
             this.txtBrandName.UseSystemPasswordChar = true;
+            // 
+            // frmCategoryModuleAnimateWindow
+            // 
+            this.frmCategoryModuleAnimateWindow.TargetForm = this;
             // 
             // frmCategoryModule
             // 
@@ -212,5 +218,6 @@
         private Guna.UI2.WinForms.Guna2GradientButton btnSave;
         private Guna.UI2.WinForms.Guna2GradientButton btnUpdate;
         private Guna.UI2.WinForms.Guna2TextBox txtBrandName;
+        private Guna.UI2.WinForms.Guna2AnimateWindow frmCategoryModuleAnimateWindow;
     }
 }

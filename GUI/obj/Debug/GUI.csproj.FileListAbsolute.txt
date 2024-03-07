@@ -40,7 +40,6 @@ C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmCart.reso
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmCategory.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmCategoryModule.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmCustomer.resources
-C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmDiscount.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmAdministrator.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmLogin.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmProduct.resources

@@ -31,21 +31,24 @@
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.lblRole = new System.Windows.Forms.Label();
             this.panelSlide = new Guna.UI2.WinForms.Guna2Panel();
-            this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnChangePassword = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnUpdateInfo = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSettlePayment = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnCart = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSearchProduct = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnHome = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
+            this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.frmCustomerDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.frmCustomerElipse = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.frmCustomerAnimateWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.panelTitle.SuspendLayout();
             this.panelSlide.SuspendLayout();
             this.panelInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -67,7 +70,7 @@
             this.btnClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnClose.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnClose.IconColor = System.Drawing.Color.White;
-            this.btnClose.Location = new System.Drawing.Point(1009, 0);
+            this.btnClose.Location = new System.Drawing.Point(1033, 0);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(50, 33);
             this.btnClose.TabIndex = 4;
@@ -82,7 +85,7 @@
             this.panelTitle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.panelTitle.Location = new System.Drawing.Point(213, 0);
             this.panelTitle.Name = "panelTitle";
-            this.panelTitle.Size = new System.Drawing.Size(1059, 33);
+            this.panelTitle.Size = new System.Drawing.Size(1083, 33);
             this.panelTitle.TabIndex = 11;
             // 
             // btnMinimize
@@ -93,7 +96,7 @@
             this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnMinimize.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnMinimize.IconColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(959, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(983, 0);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(50, 33);
             this.btnMinimize.TabIndex = 5;
@@ -114,7 +117,7 @@
             this.panelSlide.AutoScroll = true;
             this.panelSlide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.panelSlide.Controls.Add(this.guna2GradientButton1);
-            this.panelSlide.Controls.Add(this.btnChangePassword);
+            this.panelSlide.Controls.Add(this.btnUpdateInfo);
             this.panelSlide.Controls.Add(this.btnSettlePayment);
             this.panelSlide.Controls.Add(this.btnCart);
             this.panelSlide.Controls.Add(this.btnSearchProduct);
@@ -123,51 +126,8 @@
             this.panelSlide.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSlide.Location = new System.Drawing.Point(0, 0);
             this.panelSlide.Name = "panelSlide";
-            this.panelSlide.Size = new System.Drawing.Size(213, 534);
+            this.panelSlide.Size = new System.Drawing.Size(213, 666);
             this.panelSlide.TabIndex = 10;
-            // 
-            // panelInfo
-            // 
-            this.panelInfo.Controls.Add(this.lblRole);
-            this.panelInfo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelInfo.Location = new System.Drawing.Point(0, 0);
-            this.panelInfo.Name = "panelInfo";
-            this.panelInfo.Size = new System.Drawing.Size(213, 100);
-            this.panelInfo.TabIndex = 0;
-            // 
-            // guna2ShadowForm1
-            // 
-            this.guna2ShadowForm1.TargetForm = this;
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2DragControl1.TargetControl = this.panelTitle;
-            this.guna2DragControl1.UseTransparentDrag = true;
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this;
-            // 
-            // dataGridViewImageColumn1
-            // 
-            this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dataGridViewImageColumn1.HeaderText = "";
-            this.dataGridViewImageColumn1.Image = global::GUI.Properties.Resources.edit_20px;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            this.dataGridViewImageColumn1.ReadOnly = true;
-            this.dataGridViewImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewImageColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewImageColumn1.Width = 20;
-            // 
-            // dataGridViewImageColumn2
-            // 
-            this.dataGridViewImageColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dataGridViewImageColumn2.HeaderText = "";
-            this.dataGridViewImageColumn2.Image = global::GUI.Properties.Resources.delete_20px;
-            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
-            this.dataGridViewImageColumn2.ReadOnly = true;
-            this.dataGridViewImageColumn2.Width = 20;
             // 
             // guna2GradientButton1
             // 
@@ -188,38 +148,38 @@
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.guna2GradientButton1.Image = global::GUI.Properties.Resources.logout_icon;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(0, 489);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(0, 621);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(213, 45);
             this.guna2GradientButton1.TabIndex = 8;
             this.guna2GradientButton1.Text = "Đăng xuất";
             this.guna2GradientButton1.UseTransparentBackground = true;
             // 
-            // btnChangePassword
+            // btnUpdateInfo
             // 
-            this.btnChangePassword.Animated = true;
-            this.btnChangePassword.BackColor = System.Drawing.Color.Transparent;
-            this.btnChangePassword.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnChangePassword.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnChangePassword.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnChangePassword.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnChangePassword.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnChangePassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnChangePassword.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnChangePassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnChangePassword.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnChangePassword.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnChangePassword.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnChangePassword.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnChangePassword.ForeColor = System.Drawing.Color.White;
-            this.btnChangePassword.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
-            this.btnChangePassword.Image = global::GUI.Properties.Resources.password_reset_30px;
-            this.btnChangePassword.Location = new System.Drawing.Point(0, 280);
-            this.btnChangePassword.Name = "btnChangePassword";
-            this.btnChangePassword.Size = new System.Drawing.Size(213, 45);
-            this.btnChangePassword.TabIndex = 7;
-            this.btnChangePassword.Text = "Đổi mật khẩu";
-            this.btnChangePassword.UseTransparentBackground = true;
+            this.btnUpdateInfo.Animated = true;
+            this.btnUpdateInfo.BackColor = System.Drawing.Color.Transparent;
+            this.btnUpdateInfo.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUpdateInfo.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUpdateInfo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUpdateInfo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnUpdateInfo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnUpdateInfo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUpdateInfo.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUpdateInfo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnUpdateInfo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnUpdateInfo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUpdateInfo.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUpdateInfo.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnUpdateInfo.ForeColor = System.Drawing.Color.White;
+            this.btnUpdateInfo.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
+            this.btnUpdateInfo.Image = global::GUI.Properties.Resources.password_reset_30px;
+            this.btnUpdateInfo.Location = new System.Drawing.Point(0, 280);
+            this.btnUpdateInfo.Name = "btnUpdateInfo";
+            this.btnUpdateInfo.Size = new System.Drawing.Size(213, 45);
+            this.btnUpdateInfo.TabIndex = 7;
+            this.btnUpdateInfo.Text = "Cập nhật thông tin";
+            this.btnUpdateInfo.UseTransparentBackground = true;
             // 
             // btnSettlePayment
             // 
@@ -298,6 +258,7 @@
             this.btnSearchProduct.TabIndex = 4;
             this.btnSearchProduct.Text = "Tìm kiếm sản phẩm";
             this.btnSearchProduct.UseTransparentBackground = true;
+            this.btnSearchProduct.Click += new System.EventHandler(this.btnSearchProduct_Click);
             // 
             // btnHome
             // 
@@ -325,11 +286,70 @@
             this.btnHome.Text = "Trang chủ";
             this.btnHome.UseTransparentBackground = true;
             // 
+            // panelInfo
+            // 
+            this.panelInfo.Controls.Add(this.ptrbAvatar);
+            this.panelInfo.Controls.Add(this.lblRole);
+            this.panelInfo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelInfo.Location = new System.Drawing.Point(0, 0);
+            this.panelInfo.Name = "panelInfo";
+            this.panelInfo.Size = new System.Drawing.Size(213, 100);
+            this.panelInfo.TabIndex = 0;
+            // 
+            // ptrbAvatar
+            // 
+            this.ptrbAvatar.Image = global::GUI.Properties.Resources.user_icon;
+            this.ptrbAvatar.ImageRotate = 0F;
+            this.ptrbAvatar.Location = new System.Drawing.Point(79, 12);
+            this.ptrbAvatar.Name = "ptrbAvatar";
+            this.ptrbAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ptrbAvatar.Size = new System.Drawing.Size(50, 49);
+            this.ptrbAvatar.TabIndex = 15;
+            this.ptrbAvatar.TabStop = false;
+            // 
+            // frmCustomerDragControl
+            // 
+            this.frmCustomerDragControl.DockIndicatorTransparencyValue = 0.6D;
+            this.frmCustomerDragControl.TargetControl = this.panelTitle;
+            this.frmCustomerDragControl.UseTransparentDrag = true;
+            // 
+            // frmCustomerElipse
+            // 
+            this.frmCustomerElipse.TargetControl = this;
+            // 
+            // panelContent
+            // 
+            this.panelContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
+            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContent.Location = new System.Drawing.Point(213, 33);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(1083, 633);
+            this.panelContent.TabIndex = 12;
+            // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dataGridViewImageColumn1.HeaderText = "";
+            this.dataGridViewImageColumn1.Image = global::GUI.Properties.Resources.edit_20px;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            this.dataGridViewImageColumn1.ReadOnly = true;
+            this.dataGridViewImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewImageColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // dataGridViewImageColumn2
+            // 
+            this.dataGridViewImageColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dataGridViewImageColumn2.HeaderText = "";
+            this.dataGridViewImageColumn2.Image = global::GUI.Properties.Resources.delete_20px;
+            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
+            this.dataGridViewImageColumn2.ReadOnly = true;
+            // 
             // frmCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1272, 534);
+            this.ClientSize = new System.Drawing.Size(1296, 666);
+            this.Controls.Add(this.panelContent);
             this.Controls.Add(this.panelTitle);
             this.Controls.Add(this.panelSlide);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -341,6 +361,7 @@
             this.panelSlide.ResumeLayout(false);
             this.panelInfo.ResumeLayout(false);
             this.panelInfo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -354,10 +375,9 @@
         private System.Windows.Forms.Label lblRole;
         private Guna.UI2.WinForms.Guna2Panel panelSlide;
         private Guna.UI2.WinForms.Guna2Panel panelInfo;
-        private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2GradientButton btnChangePassword;
+        private Guna.UI2.WinForms.Guna2DragControl frmCustomerDragControl;
+        private Guna.UI2.WinForms.Guna2Elipse frmCustomerElipse;
+        private Guna.UI2.WinForms.Guna2GradientButton btnUpdateInfo;
         private Guna.UI2.WinForms.Guna2GradientButton btnSettlePayment;
         private Guna.UI2.WinForms.Guna2GradientButton btnCart;
         private Guna.UI2.WinForms.Guna2GradientButton btnSearchProduct;
@@ -365,5 +385,8 @@
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ptrbAvatar;
+        private Guna.UI2.WinForms.Guna2Panel panelContent;
+        private Guna.UI2.WinForms.Guna2AnimateWindow frmCustomerAnimateWindow;
     }
 }

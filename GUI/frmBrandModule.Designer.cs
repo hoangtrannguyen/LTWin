@@ -23,6 +23,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
             this.lblBrandModule = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -31,6 +32,7 @@
             this.btnCancel = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSave = new Guna.UI2.WinForms.Guna2GradientButton();
             this.lblBrandName = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.frmBrandModuleAnimateWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,9 +68,9 @@
             this.lblBrandModule.ForeColor = System.Drawing.Color.White;
             this.lblBrandModule.Location = new System.Drawing.Point(30, 7);
             this.lblBrandModule.Name = "lblBrandModule";
-            this.lblBrandModule.Size = new System.Drawing.Size(101, 23);
+            this.lblBrandModule.Size = new System.Drawing.Size(131, 23);
             this.lblBrandModule.TabIndex = 7;
-            this.lblBrandModule.Text = "Brand Module";
+            this.lblBrandModule.Text = "Thêm thương hiệu";
             // 
             // txtBrandName
             // 
@@ -90,7 +92,7 @@
             this.txtBrandName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBrandName.Name = "txtBrandName";
             this.txtBrandName.PasswordChar = '●';
-            this.txtBrandName.PlaceholderText = "Enter a Brand Name";
+            this.txtBrandName.PlaceholderText = "Nhập tên thương hiệu...";
             this.txtBrandName.SelectedText = "";
             this.txtBrandName.Size = new System.Drawing.Size(521, 41);
             this.txtBrandName.TabIndex = 3;
@@ -117,7 +119,7 @@
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(92, 45);
             this.btnUpdate.TabIndex = 6;
-            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Text = "Cập nhật";
             this.btnUpdate.UseTransparentBackground = true;
             // 
             // btnCancel
@@ -141,7 +143,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(92, 45);
             this.btnCancel.TabIndex = 6;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "Hủy";
             this.btnCancel.UseTransparentBackground = true;
             // 
             // btnSave
@@ -165,7 +167,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(92, 45);
             this.btnSave.TabIndex = 6;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Lưu";
             this.btnSave.UseTransparentBackground = true;
             // 
             // lblBrandName
@@ -175,9 +177,13 @@
             this.lblBrandName.ForeColor = System.Drawing.Color.White;
             this.lblBrandName.Location = new System.Drawing.Point(58, 114);
             this.lblBrandName.Name = "lblBrandName";
-            this.lblBrandName.Size = new System.Drawing.Size(93, 23);
+            this.lblBrandName.Size = new System.Drawing.Size(120, 23);
             this.lblBrandName.TabIndex = 7;
-            this.lblBrandName.Text = "Brand Name:";
+            this.lblBrandName.Text = "Tên thương hiệu:";
+            // 
+            // frmBrandModuleAnimateWindow
+            // 
+            this.frmBrandModuleAnimateWindow.TargetForm = this;
             // 
             // frmBrandModule
             // 
@@ -214,5 +220,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblBrandModule;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblBrandName;
         private Guna.UI2.WinForms.Guna2ControlBox btnClose;
+        private Guna.UI2.WinForms.Guna2AnimateWindow frmBrandModuleAnimateWindow;
     }
 }

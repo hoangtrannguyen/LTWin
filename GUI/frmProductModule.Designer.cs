@@ -31,8 +31,6 @@
             this.btnSave = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnUpdate = new Guna.UI2.WinForms.Guna2GradientButton();
             this.txtProductCode = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtBarcode = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lblBarcode = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtDescription = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblDescription = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.cbxBrand = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -82,7 +80,7 @@
             this.lblProductModule.Name = "lblProductModule";
             this.lblProductModule.Size = new System.Drawing.Size(114, 23);
             this.lblProductModule.TabIndex = 7;
-            this.lblProductModule.Text = "Product Module";
+            this.lblProductModule.Text = "Thêm sản phẩm";
             // 
             // lblProductCode
             // 
@@ -91,9 +89,9 @@
             this.lblProductCode.ForeColor = System.Drawing.Color.White;
             this.lblProductCode.Location = new System.Drawing.Point(86, 78);
             this.lblProductCode.Name = "lblProductCode";
-            this.lblProductCode.Size = new System.Drawing.Size(100, 23);
+            this.lblProductCode.Size = new System.Drawing.Size(97, 23);
             this.lblProductCode.TabIndex = 13;
-            this.lblProductCode.Text = "Product Code:";
+            this.lblProductCode.Text = "Mã sản phẩm";
             // 
             // btnCancel
             // 
@@ -116,7 +114,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(92, 45);
             this.btnCancel.TabIndex = 10;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "Hủy";
             this.btnCancel.UseTransparentBackground = true;
             // 
             // btnSave
@@ -140,7 +138,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(92, 45);
             this.btnSave.TabIndex = 11;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Lưu";
             this.btnSave.UseTransparentBackground = true;
             // 
             // btnUpdate
@@ -164,7 +162,7 @@
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(92, 45);
             this.btnUpdate.TabIndex = 12;
-            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Text = "Cập nhật";
             this.btnUpdate.UseTransparentBackground = true;
             // 
             // txtProductCode
@@ -187,48 +185,11 @@
             this.txtProductCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtProductCode.Name = "txtProductCode";
             this.txtProductCode.PasswordChar = '●';
-            this.txtProductCode.PlaceholderText = "Product Code";
+            this.txtProductCode.PlaceholderText = "Nhập mã sản phẩm...";
             this.txtProductCode.SelectedText = "";
-            this.txtProductCode.Size = new System.Drawing.Size(260, 41);
+            this.txtProductCode.Size = new System.Drawing.Size(680, 41);
             this.txtProductCode.TabIndex = 9;
             this.txtProductCode.UseSystemPasswordChar = true;
-            // 
-            // txtBarcode
-            // 
-            this.txtBarcode.Animated = true;
-            this.txtBarcode.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
-            this.txtBarcode.BorderRadius = 6;
-            this.txtBarcode.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtBarcode.DefaultText = "";
-            this.txtBarcode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtBarcode.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtBarcode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtBarcode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtBarcode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
-            this.txtBarcode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtBarcode.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtBarcode.ForeColor = System.Drawing.Color.White;
-            this.txtBarcode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtBarcode.Location = new System.Drawing.Point(637, 69);
-            this.txtBarcode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtBarcode.Name = "txtBarcode";
-            this.txtBarcode.PasswordChar = '●';
-            this.txtBarcode.PlaceholderText = "Barcode";
-            this.txtBarcode.SelectedText = "";
-            this.txtBarcode.Size = new System.Drawing.Size(260, 41);
-            this.txtBarcode.TabIndex = 9;
-            this.txtBarcode.UseSystemPasswordChar = true;
-            // 
-            // lblBarcode
-            // 
-            this.lblBarcode.BackColor = System.Drawing.Color.Transparent;
-            this.lblBarcode.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBarcode.ForeColor = System.Drawing.Color.White;
-            this.lblBarcode.Location = new System.Drawing.Point(548, 78);
-            this.lblBarcode.Name = "lblBarcode";
-            this.lblBarcode.Size = new System.Drawing.Size(62, 23);
-            this.lblBarcode.TabIndex = 13;
-            this.lblBarcode.Text = "Barcode:";
             // 
             // txtDescription
             // 
@@ -250,7 +211,7 @@
             this.txtDescription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.PasswordChar = '●';
-            this.txtDescription.PlaceholderText = "Description";
+            this.txtDescription.PlaceholderText = "Nhập mô tả...";
             this.txtDescription.SelectedText = "";
             this.txtDescription.Size = new System.Drawing.Size(680, 41);
             this.txtDescription.TabIndex = 9;
@@ -263,9 +224,9 @@
             this.lblDescription.ForeColor = System.Drawing.Color.White;
             this.lblDescription.Location = new System.Drawing.Point(86, 155);
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(85, 23);
+            this.lblDescription.Size = new System.Drawing.Size(46, 23);
             this.lblDescription.TabIndex = 13;
-            this.lblDescription.Text = "Description:";
+            this.lblDescription.Text = "Mô tả:";
             // 
             // cbxBrand
             // 
@@ -292,9 +253,9 @@
             this.lblBrand.ForeColor = System.Drawing.Color.White;
             this.lblBrand.Location = new System.Drawing.Point(86, 232);
             this.lblBrand.Name = "lblBrand";
-            this.lblBrand.Size = new System.Drawing.Size(47, 23);
+            this.lblBrand.Size = new System.Drawing.Size(94, 23);
             this.lblBrand.TabIndex = 13;
-            this.lblBrand.Text = "Brand:";
+            this.lblBrand.Text = "Thương hiệu:";
             // 
             // txtPrice
             // 
@@ -316,7 +277,7 @@
             this.txtPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.PasswordChar = '●';
-            this.txtPrice.PlaceholderText = "Price";
+            this.txtPrice.PlaceholderText = "Nhập giá:";
             this.txtPrice.SelectedText = "";
             this.txtPrice.Size = new System.Drawing.Size(260, 41);
             this.txtPrice.TabIndex = 9;
@@ -329,9 +290,9 @@
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(86, 309);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(40, 23);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(29, 23);
             this.guna2HtmlLabel4.TabIndex = 13;
-            this.guna2HtmlLabel4.Text = "Price:";
+            this.guna2HtmlLabel4.Text = "Giá:";
             // 
             // nudQuantity
             // 
@@ -351,9 +312,9 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(551, 309);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(66, 23);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(69, 23);
             this.guna2HtmlLabel5.TabIndex = 13;
-            this.guna2HtmlLabel5.Text = "Quantity:";
+            this.guna2HtmlLabel5.Text = "Số lượng:";
             // 
             // lblCategory
             // 
@@ -362,9 +323,9 @@
             this.lblCategory.ForeColor = System.Drawing.Color.White;
             this.lblCategory.Location = new System.Drawing.Point(548, 232);
             this.lblCategory.Name = "lblCategory";
-            this.lblCategory.Size = new System.Drawing.Size(69, 23);
+            this.lblCategory.Size = new System.Drawing.Size(77, 23);
             this.lblCategory.TabIndex = 13;
-            this.lblCategory.Text = "Category:";
+            this.lblCategory.Text = "Danh mục:";
             // 
             // cbxCategory
             // 
@@ -413,14 +374,12 @@
             this.Controls.Add(this.guna2HtmlLabel5);
             this.Controls.Add(this.guna2HtmlLabel4);
             this.Controls.Add(this.lblDescription);
-            this.Controls.Add(this.lblBarcode);
             this.Controls.Add(this.lblProductCode);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.txtPrice);
             this.Controls.Add(this.txtDescription);
-            this.Controls.Add(this.txtBarcode);
             this.Controls.Add(this.txtProductCode);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmProductModule";
@@ -444,8 +403,6 @@
         private Guna.UI2.WinForms.Guna2GradientButton btnSave;
         private Guna.UI2.WinForms.Guna2GradientButton btnUpdate;
         private Guna.UI2.WinForms.Guna2TextBox txtProductCode;
-        private Guna.UI2.WinForms.Guna2TextBox txtBarcode;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblBarcode;
         private Guna.UI2.WinForms.Guna2TextBox txtDescription;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblDescription;
         private Guna.UI2.WinForms.Guna2ComboBox cbxBrand;

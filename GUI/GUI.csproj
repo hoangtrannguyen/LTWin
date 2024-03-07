@@ -88,12 +88,6 @@
     <Compile Include="frmCustomer.Designer.cs">
       <DependentUpon>frmCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDiscount.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmDiscount.Designer.cs">
-      <DependentUpon>frmDiscount.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmAdministrator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,9 +137,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCustomer.resx">
       <DependentUpon>frmCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmDiscount.resx">
-      <DependentUpon>frmDiscount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAdministrator.resx">
       <DependentUpon>frmAdministrator.cs</DependentUpon>
@@ -239,6 +230,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logout-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warehouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
