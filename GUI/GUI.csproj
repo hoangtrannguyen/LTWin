@@ -124,12 +124,6 @@
     <Compile Include="frmSearchProduct.Designer.cs">
       <DependentUpon>frmSearchProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSettlePayment.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSettlePayment.Designer.cs">
-      <DependentUpon>frmSettlePayment.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmBrandModule.resx">
@@ -168,9 +162,6 @@
     <EmbeddedResource Include="frmSearchProduct.resx">
       <DependentUpon>frmSearchProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSettlePayment.resx">
-      <DependentUpon>frmSettlePayment.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -194,20 +185,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\BUS\BUS.csproj">
-      <Project>{74941fbb-d4de-4935-ad13-dd1d62511846}</Project>
-      <Name>BUS</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\DAO\DAO.csproj">
-      <Project>{21f33231-542e-42c6-b44a-68140cd95457}</Project>
-      <Name>DAO</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\DTO\DTO.csproj">
-      <Project>{52657a24-c82d-4a03-b506-bcaae1a890fb}</Project>
-      <Name>DTO</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\edit_20px.png" />
