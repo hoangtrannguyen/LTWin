@@ -23,10 +23,8 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.components = new System.ComponentModel.Container();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblProductName = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.UC_ProductElipse = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.lblPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ratingStar = new Guna.UI2.WinForms.Guna2RatingStar();
             this.lblSold = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -56,11 +54,6 @@
             this.lblProductName.Size = new System.Drawing.Size(137, 22);
             this.lblProductName.TabIndex = 1;
             this.lblProductName.Text = "Xe điều khiển từ xa";
-            // 
-            // UC_ProductElipse
-            // 
-            this.UC_ProductElipse.BorderRadius = 5;
-            this.UC_ProductElipse.TargetControl = this;
             // 
             // lblPrice
             // 
@@ -149,7 +142,6 @@
 
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblProductName;
-        private Guna.UI2.WinForms.Guna2Elipse UC_ProductElipse;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPrice;
         private Guna.UI2.WinForms.Guna2RatingStar ratingStar;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblSold;

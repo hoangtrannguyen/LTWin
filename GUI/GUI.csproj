@@ -56,6 +56,7 @@
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,89 +68,89 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmBrandModule.cs">
+    <Compile Include="FBrandModule.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBrandModule.Designer.cs">
-      <DependentUpon>frmBrandModule.cs</DependentUpon>
+    <Compile Include="FBrandModule.Designer.cs">
+      <DependentUpon>FBrandModule.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmBrand.cs">
+    <Compile Include="FBrand.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBrand.Designer.cs">
-      <DependentUpon>frmBrand.cs</DependentUpon>
+    <Compile Include="FBrand.Designer.cs">
+      <DependentUpon>FBrand.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCart.cs">
+    <Compile Include="FCart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCart.Designer.cs">
-      <DependentUpon>frmCart.cs</DependentUpon>
+    <Compile Include="FCart.Designer.cs">
+      <DependentUpon>FCart.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCategory.cs">
+    <Compile Include="FCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCategory.Designer.cs">
-      <DependentUpon>frmCategory.cs</DependentUpon>
+    <Compile Include="FCategory.Designer.cs">
+      <DependentUpon>FCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCategoryModule.cs">
+    <Compile Include="FCategoryModule.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCategoryModule.Designer.cs">
-      <DependentUpon>frmCategoryModule.cs</DependentUpon>
+    <Compile Include="FCategoryModule.Designer.cs">
+      <DependentUpon>FCategoryModule.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCustomer.cs">
+    <Compile Include="FCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCustomer.Designer.cs">
-      <DependentUpon>frmCustomer.cs</DependentUpon>
+    <Compile Include="FCustomer.Designer.cs">
+      <DependentUpon>FCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAdministrator.cs">
+    <Compile Include="FAdministrator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAdministrator.Designer.cs">
-      <DependentUpon>frmAdministrator.cs</DependentUpon>
+    <Compile Include="FAdministrator.Designer.cs">
+      <DependentUpon>FAdministrator.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHomeAdministrator.cs">
+    <Compile Include="FHomeAdministrator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHomeAdministrator.Designer.cs">
-      <DependentUpon>frmHomeAdministrator.cs</DependentUpon>
+    <Compile Include="FHomeAdministrator.Designer.cs">
+      <DependentUpon>FHomeAdministrator.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="FLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <Compile Include="FLogin.Designer.cs">
+      <DependentUpon>FLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmProduct.cs">
+    <Compile Include="FProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmProduct.Designer.cs">
-      <DependentUpon>frmProduct.cs</DependentUpon>
+    <Compile Include="FProduct.Designer.cs">
+      <DependentUpon>FProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmProductDetail.cs">
+    <Compile Include="FProductDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmProductDetail.Designer.cs">
-      <DependentUpon>frmProductDetail.cs</DependentUpon>
+    <Compile Include="FProductDetail.Designer.cs">
+      <DependentUpon>FProductDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmProductModule.cs">
+    <Compile Include="FProductModule.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmProductModule.Designer.cs">
-      <DependentUpon>frmProductModule.cs</DependentUpon>
+    <Compile Include="FProductModule.Designer.cs">
+      <DependentUpon>FProductModule.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRegister.cs">
+    <Compile Include="FRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRegister.Designer.cs">
-      <DependentUpon>frmRegister.cs</DependentUpon>
+    <Compile Include="FRegister.Designer.cs">
+      <DependentUpon>FRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSearchProduct.cs">
+    <Compile Include="FSearchProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSearchProduct.Designer.cs">
-      <DependentUpon>frmSearchProduct.cs</DependentUpon>
+    <Compile Include="FSearchProduct.Designer.cs">
+      <DependentUpon>FSearchProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -160,47 +161,47 @@
       <DependentUpon>UC_Product.cs</DependentUpon>
     </Compile>
     <Compile Include="WinAPI.cs" />
-    <EmbeddedResource Include="frmBrandModule.resx">
-      <DependentUpon>frmBrandModule.cs</DependentUpon>
+    <EmbeddedResource Include="FBrandModule.resx">
+      <DependentUpon>FBrandModule.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmBrand.resx">
-      <DependentUpon>frmBrand.cs</DependentUpon>
+    <EmbeddedResource Include="FBrand.resx">
+      <DependentUpon>FBrand.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCart.resx">
-      <DependentUpon>frmCart.cs</DependentUpon>
+    <EmbeddedResource Include="FCart.resx">
+      <DependentUpon>FCart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCategory.resx">
-      <DependentUpon>frmCategory.cs</DependentUpon>
+    <EmbeddedResource Include="FCategory.resx">
+      <DependentUpon>FCategory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCategoryModule.resx">
-      <DependentUpon>frmCategoryModule.cs</DependentUpon>
+    <EmbeddedResource Include="FCategoryModule.resx">
+      <DependentUpon>FCategoryModule.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCustomer.resx">
-      <DependentUpon>frmCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="FCustomer.resx">
+      <DependentUpon>FCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAdministrator.resx">
-      <DependentUpon>frmAdministrator.cs</DependentUpon>
+    <EmbeddedResource Include="FAdministrator.resx">
+      <DependentUpon>FAdministrator.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHomeAdministrator.resx">
-      <DependentUpon>frmHomeAdministrator.cs</DependentUpon>
+    <EmbeddedResource Include="FHomeAdministrator.resx">
+      <DependentUpon>FHomeAdministrator.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <EmbeddedResource Include="FLogin.resx">
+      <DependentUpon>FLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmProduct.resx">
-      <DependentUpon>frmProduct.cs</DependentUpon>
+    <EmbeddedResource Include="FProduct.resx">
+      <DependentUpon>FProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmProductDetail.resx">
-      <DependentUpon>frmProductDetail.cs</DependentUpon>
+    <EmbeddedResource Include="FProductDetail.resx">
+      <DependentUpon>FProductDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmProductModule.resx">
-      <DependentUpon>frmProductModule.cs</DependentUpon>
+    <EmbeddedResource Include="FProductModule.resx">
+      <DependentUpon>FProductModule.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRegister.resx">
-      <DependentUpon>frmRegister.cs</DependentUpon>
+    <EmbeddedResource Include="FRegister.resx">
+      <DependentUpon>FRegister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSearchProduct.resx">
-      <DependentUpon>frmSearchProduct.cs</DependentUpon>
+    <EmbeddedResource Include="FSearchProduct.resx">
+      <DependentUpon>FSearchProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -309,6 +310,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ao-khoac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previous-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

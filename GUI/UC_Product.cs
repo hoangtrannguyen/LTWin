@@ -8,10 +8,11 @@ namespace GUI {
 
         private void UC_Product_Load(object sender, System.EventArgs e) {
             ratingStar.Value = 3.5f;
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
         }
 
         private void btnViewDetail_Click(object sender, System.EventArgs e) {
-            (new frmProductDetail()).ShowDialog();
+            (new FProductDetail()).ShowDialog();
         }
     }
 }
