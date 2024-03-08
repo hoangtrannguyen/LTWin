@@ -133,6 +133,12 @@
     <Compile Include="frmProductModule.Designer.cs">
       <DependentUpon>frmProductModule.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegister.Designer.cs">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSearchProduct.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +153,7 @@
     <Compile Include="UC_Product.Designer.cs">
       <DependentUpon>UC_Product.cs</DependentUpon>
     </Compile>
+    <Compile Include="WinAPI.cs" />
     <EmbeddedResource Include="frmBrandModule.resx">
       <DependentUpon>frmBrandModule.cs</DependentUpon>
     </EmbeddedResource>
@@ -179,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmProductModule.resx">
       <DependentUpon>frmProductModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegister.resx">
+      <DependentUpon>frmRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSearchProduct.resx">
       <DependentUpon>frmSearchProduct.cs</DependentUpon>
@@ -284,6 +294,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xe-dieu-khien.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ao-khoac.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

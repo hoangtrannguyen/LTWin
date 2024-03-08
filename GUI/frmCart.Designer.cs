@@ -34,6 +34,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmCart";
             this.Text = "frmCart";
+            this.Load += new System.EventHandler(this.frmCart_Load);
             this.ResumeLayout(false);
 
         }

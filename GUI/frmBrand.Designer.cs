@@ -23,13 +23,11 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txtProductCode = new Guna.UI2.WinForms.Guna2TextBox();
-            this.frmBrandAnimateWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.dgvProduct = new Guna.UI2.WinForms.Guna2DataGridView();
             this.No = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -38,6 +36,7 @@
             this.Delete = new System.Windows.Forms.DataGridViewImageColumn();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.panelAddBrand = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnAddBrand = new Guna.UI2.WinForms.Guna2Button();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).BeginInit();
@@ -70,15 +69,9 @@
             this.txtProductCode.PasswordChar = '●';
             this.txtProductCode.PlaceholderText = "Tìm kiếm...";
             this.txtProductCode.SelectedText = "";
-            this.txtProductCode.Size = new System.Drawing.Size(948, 43);
+            this.txtProductCode.Size = new System.Drawing.Size(768, 43);
             this.txtProductCode.TabIndex = 10;
             this.txtProductCode.UseSystemPasswordChar = true;
-            // 
-            // frmBrandAnimateWindow
-            // 
-            this.frmBrandAnimateWindow.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
-            this.frmBrandAnimateWindow.Interval = 200;
-            this.frmBrandAnimateWindow.TargetForm = this;
             // 
             // guna2VScrollBar1
             // 
@@ -216,11 +209,34 @@
             // 
             this.panelAddBrand.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.panelAddBrand.Controls.Add(this.txtProductCode);
+            this.panelAddBrand.Controls.Add(this.btnAddBrand);
             this.panelAddBrand.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelAddBrand.Location = new System.Drawing.Point(0, 0);
             this.panelAddBrand.Name = "panelAddBrand";
             this.panelAddBrand.Size = new System.Drawing.Size(948, 43);
             this.panelAddBrand.TabIndex = 16;
+            // 
+            // btnAddBrand
+            // 
+            this.btnAddBrand.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.btnAddBrand.BorderColor = System.Drawing.Color.Transparent;
+            this.btnAddBrand.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAddBrand.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddBrand.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddBrand.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAddBrand.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAddBrand.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnAddBrand.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.btnAddBrand.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnAddBrand.ForeColor = System.Drawing.Color.White;
+            this.btnAddBrand.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.btnAddBrand.Image = global::GUI.Properties.Resources.add_30px;
+            this.btnAddBrand.Location = new System.Drawing.Point(768, 0);
+            this.btnAddBrand.Name = "btnAddBrand";
+            this.btnAddBrand.Size = new System.Drawing.Size(180, 43);
+            this.btnAddBrand.TabIndex = 14;
+            this.btnAddBrand.Text = "Thêm thương hiệu";
+            this.btnAddBrand.Click += new System.EventHandler(this.btnAddBrand_Click);
             // 
             // dataGridViewImageColumn2
             // 
@@ -260,16 +276,16 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2TextBox txtProductCode;
-        private Guna.UI2.WinForms.Guna2AnimateWindow frmBrandAnimateWindow;
         private Guna.UI2.WinForms.Guna2VScrollBar guna2VScrollBar1;
         private Guna.UI2.WinForms.Guna2DataGridView dgvProduct;
         private System.Windows.Forms.DataGridViewTextBoxColumn No;
         private System.Windows.Forms.DataGridViewTextBoxColumn Brand;
         private System.Windows.Forms.DataGridViewImageColumn Edit;
         private System.Windows.Forms.DataGridViewImageColumn Delete;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel panelAddBrand;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Button btnAddBrand;
     }
 }

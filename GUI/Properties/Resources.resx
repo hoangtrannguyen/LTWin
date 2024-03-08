@@ -118,17 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buy_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\buy_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="statistics-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\statistics-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search_20px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close_window_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close_window_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="statistics-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statistics-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="home-page-white-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home-page-white-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,11 +145,20 @@
   <data name="search_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="xe-dieu-khien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xe-dieu-khien.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="clear_shopping_cart_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\clear_shopping_cart_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Warehouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Warehouse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopify_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopify_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_window_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_window_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="low_price_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\low_price_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,13 +178,13 @@
   <data name="logout-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout-icon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopify_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shopify_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="buy_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buy_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="password_reset_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\password_reset_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ao-khoac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ao-khoac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

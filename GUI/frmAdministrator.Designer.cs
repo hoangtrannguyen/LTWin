@@ -25,33 +25,28 @@
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAdministrator));
-            this.frmAdministratorElipse = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.frmAdministratorDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panelTitle = new Guna.UI2.WinForms.Guna2Panel();
             this.lblTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
             this.panelSlide = new Guna.UI2.WinForms.Guna2Panel();
-            this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblRole = new System.Windows.Forms.Label();
-            this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
-            this.frmAdministratorAnimateWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.btnStatistics = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnStock = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnOrder = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnLogout = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnProduct = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnDashboard = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
             this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.lblRole = new System.Windows.Forms.Label();
+            this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
+            this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.panelTitle.SuspendLayout();
             this.panelSlide.SuspendLayout();
             this.panelInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).BeginInit();
             this.SuspendLayout();
-            // 
-            // frmAdministratorElipse
-            // 
-            this.frmAdministratorElipse.TargetControl = this;
             // 
             // frmAdministratorDragControl
             // 
@@ -68,7 +63,7 @@
             this.panelTitle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.panelTitle.Location = new System.Drawing.Point(213, 0);
             this.panelTitle.Name = "panelTitle";
-            this.panelTitle.Size = new System.Drawing.Size(1083, 33);
+            this.panelTitle.Size = new System.Drawing.Size(1036, 33);
             this.panelTitle.TabIndex = 8;
             // 
             // lblTitle
@@ -90,7 +85,7 @@
             this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnMinimize.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnMinimize.IconColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(983, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(936, 0);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(50, 33);
             this.btnMinimize.TabIndex = 5;
@@ -98,15 +93,18 @@
             // btnClose
             // 
             this.btnClose.Animated = true;
+            this.btnClose.CausesValidation = false;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClose.CustomClick = true;
             this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnClose.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnClose.IconColor = System.Drawing.Color.White;
-            this.btnClose.Location = new System.Drawing.Point(1033, 0);
+            this.btnClose.Location = new System.Drawing.Point(986, 0);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(50, 33);
             this.btnClose.TabIndex = 4;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // panelSlide
             // 
@@ -124,40 +122,6 @@
             this.panelSlide.Name = "panelSlide";
             this.panelSlide.Size = new System.Drawing.Size(213, 666);
             this.panelSlide.TabIndex = 7;
-            // 
-            // panelInfo
-            // 
-            this.panelInfo.Controls.Add(this.ptrbAvatar);
-            this.panelInfo.Controls.Add(this.lblRole);
-            this.panelInfo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelInfo.Location = new System.Drawing.Point(0, 0);
-            this.panelInfo.Name = "panelInfo";
-            this.panelInfo.Size = new System.Drawing.Size(213, 113);
-            this.panelInfo.TabIndex = 0;
-            // 
-            // lblRole
-            // 
-            this.lblRole.AutoSize = true;
-            this.lblRole.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRole.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblRole.Location = new System.Drawing.Point(58, 70);
-            this.lblRole.Name = "lblRole";
-            this.lblRole.Size = new System.Drawing.Size(106, 21);
-            this.lblRole.TabIndex = 13;
-            this.lblRole.Text = "Administrator";
-            // 
-            // panelContent
-            // 
-            this.panelContent.AutoScroll = true;
-            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContent.Location = new System.Drawing.Point(213, 33);
-            this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(1083, 633);
-            this.panelContent.TabIndex = 9;
-            // 
-            // frmAdministratorAnimateWindow
-            // 
-            this.frmAdministratorAnimateWindow.TargetForm = this;
             // 
             // btnStatistics
             // 
@@ -316,6 +280,16 @@
             this.btnDashboard.Text = "Trang chủ";
             this.btnDashboard.UseTransparentBackground = true;
             // 
+            // panelInfo
+            // 
+            this.panelInfo.Controls.Add(this.ptrbAvatar);
+            this.panelInfo.Controls.Add(this.lblRole);
+            this.panelInfo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelInfo.Location = new System.Drawing.Point(0, 0);
+            this.panelInfo.Name = "panelInfo";
+            this.panelInfo.Size = new System.Drawing.Size(213, 113);
+            this.panelInfo.TabIndex = 0;
+            // 
             // ptrbAvatar
             // 
             this.ptrbAvatar.ImageRotate = 0F;
@@ -326,12 +300,38 @@
             this.ptrbAvatar.TabIndex = 14;
             this.ptrbAvatar.TabStop = false;
             // 
+            // lblRole
+            // 
+            this.lblRole.AutoSize = true;
+            this.lblRole.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRole.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblRole.Location = new System.Drawing.Point(58, 70);
+            this.lblRole.Name = "lblRole";
+            this.lblRole.Size = new System.Drawing.Size(106, 21);
+            this.lblRole.TabIndex = 13;
+            this.lblRole.Text = "Administrator";
+            // 
+            // panelContent
+            // 
+            this.panelContent.AutoScroll = true;
+            this.panelContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContent.Location = new System.Drawing.Point(213, 33);
+            this.panelContent.Margin = new System.Windows.Forms.Padding(0);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(1036, 633);
+            this.panelContent.TabIndex = 9;
+            // 
+            // timerClose
+            // 
+            this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
+            // 
             // frmAdministrator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
-            this.ClientSize = new System.Drawing.Size(1296, 666);
+            this.ClientSize = new System.Drawing.Size(1249, 666);
             this.Controls.Add(this.panelContent);
             this.Controls.Add(this.panelTitle);
             this.Controls.Add(this.panelSlide);
@@ -339,6 +339,7 @@
             this.Name = "frmAdministrator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAdministrator";
+            this.Load += new System.EventHandler(this.frmAdministrator_Load);
             this.panelTitle.ResumeLayout(false);
             this.panelTitle.PerformLayout();
             this.panelSlide.ResumeLayout(false);
@@ -350,7 +351,6 @@
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2Elipse frmAdministratorElipse;
         private Guna.UI2.WinForms.Guna2DragControl frmAdministratorDragControl;
         private Guna.UI2.WinForms.Guna2Panel panelSlide;
         private Guna.UI2.WinForms.Guna2Panel panelInfo;
@@ -361,12 +361,12 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTitle;
         private Guna.UI2.WinForms.Guna2ControlBox btnMinimize;
         private Guna.UI2.WinForms.Guna2ControlBox btnClose;
-        private Guna.UI2.WinForms.Guna2Panel panelContent;
         private Guna.UI2.WinForms.Guna2GradientButton btnLogout;
         private Guna.UI2.WinForms.Guna2GradientButton btnStatistics;
         private Guna.UI2.WinForms.Guna2GradientButton btnStock;
         private Guna.UI2.WinForms.Guna2GradientButton btnOrder;
         private Guna.UI2.WinForms.Guna2CirclePictureBox ptrbAvatar;
-        private Guna.UI2.WinForms.Guna2AnimateWindow frmAdministratorAnimateWindow;
+        private Guna.UI2.WinForms.Guna2Panel panelContent;
+        private System.Windows.Forms.Timer timerClose;
     }
 }

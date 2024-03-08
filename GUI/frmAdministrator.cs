@@ -32,5 +32,21 @@ namespace GUI {
             }
         }
 
+        private void frmAdministrator_Load(object sender, EventArgs e) {
+            WinAPI.AnimateWindow(this.Handle, 500, WinAPI.BLEND);
+        }
+
+        private void timerClose_Tick(object sender, EventArgs e) {
+            if(this.Opacity > 0.0) {
+                this.Opacity -= 0.5;
+            } else {
+                timerClose.Stop();
+                Application.Exit();
+            }
+        }
+
+        private void btnClose_Click(object sender, EventArgs e) {
+            timerClose.Start();
+        }
     }
 }

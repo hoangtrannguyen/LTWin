@@ -23,15 +23,12 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.components = new System.ComponentModel.Container();
             this.panelAddBrand = new Guna.UI2.WinForms.Guna2Panel();
-            this.frmProductAnimateWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
-            this.flowPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.txtProductCode = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnAddProduct = new Guna.UI2.WinForms.Guna2Button();
+            this.flowPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.panelAddBrand.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,28 +43,11 @@
             this.panelAddBrand.Size = new System.Drawing.Size(948, 43);
             this.panelAddBrand.TabIndex = 12;
             // 
-            // frmProductAnimateWindow
-            // 
-            this.frmProductAnimateWindow.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_BLEND;
-            this.frmProductAnimateWindow.Interval = 200;
-            this.frmProductAnimateWindow.TargetForm = this;
-            // 
-            // flowPanel
-            // 
-            this.flowPanel.AutoScroll = true;
-            this.flowPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
-            this.flowPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowPanel.Location = new System.Drawing.Point(0, 43);
-            this.flowPanel.Name = "flowPanel";
-            this.flowPanel.Size = new System.Drawing.Size(948, 510);
-            this.flowPanel.TabIndex = 13;
-            this.flowPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.flowPanel_Paint);
-            // 
             // txtProductCode
             // 
             this.txtProductCode.Animated = true;
-            this.txtProductCode.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.txtProductCode.BorderRadius = 6;
+            this.txtProductCode.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.txtProductCode.BorderThickness = 0;
             this.txtProductCode.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtProductCode.DefaultText = "";
             this.txtProductCode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -75,11 +55,11 @@
             this.txtProductCode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtProductCode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtProductCode.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtProductCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.txtProductCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.txtProductCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtProductCode.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.txtProductCode.ForeColor = System.Drawing.Color.White;
-            this.txtProductCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtProductCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
             this.txtProductCode.IconLeft = global::GUI.Properties.Resources.search_30px;
             this.txtProductCode.IconLeftOffset = new System.Drawing.Point(20, 0);
             this.txtProductCode.Location = new System.Drawing.Point(0, 0);
@@ -94,7 +74,7 @@
             // 
             // btnAddProduct
             // 
-            this.btnAddProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.btnAddProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.btnAddProduct.BorderColor = System.Drawing.Color.Transparent;
             this.btnAddProduct.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAddProduct.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -113,6 +93,19 @@
             this.btnAddProduct.TabIndex = 0;
             this.btnAddProduct.Text = "Thêm sản phẩm";
             // 
+            // flowPanel
+            // 
+            this.flowPanel.AutoScroll = true;
+            this.flowPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.flowPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.flowPanel.Location = new System.Drawing.Point(0, 43);
+            this.flowPanel.Name = "flowPanel";
+            this.flowPanel.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.flowPanel.Size = new System.Drawing.Size(948, 510);
+            this.flowPanel.TabIndex = 13;
+            this.flowPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.flowPanel_Paint);
+            // 
             // dataGridViewImageColumn1
             // 
             this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -129,32 +122,18 @@
             this.dataGridViewImageColumn2.Image = global::GUI.Properties.Resources.close_window_30px;
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             // 
-            // guna2VScrollBar1
-            // 
-            this.guna2VScrollBar1.AutoRoundedCorners = true;
-            this.guna2VScrollBar1.BindingContainer = this.flowPanel;
-            this.guna2VScrollBar1.BorderRadius = 8;
-            this.guna2VScrollBar1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2VScrollBar1.InUpdate = false;
-            this.guna2VScrollBar1.LargeChange = 10;
-            this.guna2VScrollBar1.Location = new System.Drawing.Point(930, 43);
-            this.guna2VScrollBar1.Name = "guna2VScrollBar1";
-            this.guna2VScrollBar1.ScrollbarSize = 18;
-            this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 510);
-            this.guna2VScrollBar1.TabIndex = 0;
-            // 
             // frmProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(948, 553);
-            this.Controls.Add(this.guna2VScrollBar1);
             this.Controls.Add(this.flowPanel);
             this.Controls.Add(this.panelAddBrand);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmProduct";
+            this.Load += new System.EventHandler(this.frmProduct_Load);
             this.panelAddBrand.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -166,8 +145,6 @@
         private Guna.UI2.WinForms.Guna2Panel panelAddBrand;
         private Guna.UI2.WinForms.Guna2TextBox txtProductCode;
         private Guna.UI2.WinForms.Guna2Button btnAddProduct;
-        private Guna.UI2.WinForms.Guna2AnimateWindow frmProductAnimateWindow;
         private System.Windows.Forms.FlowLayoutPanel flowPanel;
-        private Guna.UI2.WinForms.Guna2VScrollBar guna2VScrollBar1;
     }
 }

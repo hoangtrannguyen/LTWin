@@ -41,7 +41,6 @@
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblCategory = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.cbxCategory = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).BeginInit();
             this.SuspendLayout();
@@ -345,20 +344,6 @@
             this.cbxCategory.Size = new System.Drawing.Size(260, 36);
             this.cbxCategory.TabIndex = 14;
             // 
-            // guna2ContextMenuStrip1
-            // 
-            this.guna2ContextMenuStrip1.Name = "guna2ContextMenuStrip1";
-            this.guna2ContextMenuStrip1.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.guna2ContextMenuStrip1.RenderStyle.BorderColor = System.Drawing.Color.Gainsboro;
-            this.guna2ContextMenuStrip1.RenderStyle.ColorTable = null;
-            this.guna2ContextMenuStrip1.RenderStyle.RoundedEdges = true;
-            this.guna2ContextMenuStrip1.RenderStyle.SelectionArrowColor = System.Drawing.Color.White;
-            this.guna2ContextMenuStrip1.RenderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2ContextMenuStrip1.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.guna2ContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
-            this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // frmProductModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -385,6 +370,7 @@
             this.Name = "frmProductModule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmProductModule";
+            this.Load += new System.EventHandler(this.frmProductModule_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).EndInit();
@@ -413,6 +399,5 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblCategory;
         private Guna.UI2.WinForms.Guna2ComboBox cbxCategory;
-        private Guna.UI2.WinForms.Guna2ContextMenuStrip guna2ContextMenuStrip1;
     }
 }

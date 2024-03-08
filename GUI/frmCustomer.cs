@@ -1,12 +1,5 @@
 ﻿using Guna.UI2.WinForms;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GUI {
@@ -37,6 +30,27 @@ namespace GUI {
                 OpenChildForm(new frmSearchProduct(), "Tìm kiếm sản phẩm");
                 currentButton = (Guna2GradientButton)sender;
             }
+        }
+
+        private void frmCustomer_Load(object sender, EventArgs e) {
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
+        }
+
+        private void panelContent_Paint(object sender, PaintEventArgs e) {
+            
+        }
+
+        private void timerClose_Tick(object sender, EventArgs e) {
+            if(this.Opacity > 0.0) {
+                this.Opacity -= 0.2;
+            } else {
+                timerClose.Stop();
+                Application.Exit();
+            }
+        }
+
+        private void btnClose_Click(object sender, EventArgs e) {
+            timerClose.Start();
         }
     }
 }

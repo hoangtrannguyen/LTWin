@@ -23,12 +23,10 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.frmProductAnimateWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Edit = new System.Windows.Forms.DataGridViewImageColumn();
             this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,20 +39,15 @@
             this.dgvProduct = new Guna.UI2.WinForms.Guna2DataGridView();
             this.Delete = new System.Windows.Forms.DataGridViewImageColumn();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.vScrollbar = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.txtProductCode = new Guna.UI2.WinForms.Guna2TextBox();
             this.panelAddBrand = new Guna.UI2.WinForms.Guna2Panel();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.vScrollbar = new Guna.UI2.WinForms.Guna2VScrollBar();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.panelAddBrand.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // frmProductAnimateWindow
-            // 
-            this.frmProductAnimateWindow.Interval = 200;
-            this.frmProductAnimateWindow.TargetForm = this;
             // 
             // Edit
             // 
@@ -141,18 +134,18 @@
             // dgvProduct
             // 
             this.dgvProduct.AllowUserToAddRows = false;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
-            this.dgvProduct.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.dgvProduct.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvProduct.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
             this.dgvProduct.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvProduct.ColumnHeadersHeight = 25;
             this.dgvProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dgvProduct.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -166,27 +159,27 @@
             this.Edit,
             this.Delete});
             this.dgvProduct.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(75)))), ((int)(((byte)(101)))));
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(75)))), ((int)(((byte)(101)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvProduct.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(75)))), ((int)(((byte)(101)))));
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(75)))), ((int)(((byte)(101)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvProduct.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvProduct.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvProduct.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(75)))), ((int)(((byte)(101)))));
             this.dgvProduct.Location = new System.Drawing.Point(0, 0);
             this.dgvProduct.Name = "dgvProduct";
             this.dgvProduct.ReadOnly = true;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvProduct.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvProduct.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvProduct.RowHeadersVisible = false;
             this.dgvProduct.Size = new System.Drawing.Size(948, 510);
             this.dgvProduct.TabIndex = 12;
@@ -232,6 +225,22 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(948, 510);
             this.guna2Panel1.TabIndex = 15;
+            // 
+            // vScrollbar
+            // 
+            this.vScrollbar.AutoRoundedCorners = true;
+            this.vScrollbar.BindingContainer = this.dgvProduct;
+            this.vScrollbar.BorderRadius = 8;
+            this.vScrollbar.FillColor = System.Drawing.Color.Transparent;
+            this.vScrollbar.InUpdate = false;
+            this.vScrollbar.LargeChange = 10;
+            this.vScrollbar.Location = new System.Drawing.Point(930, 0);
+            this.vScrollbar.Minimum = 1;
+            this.vScrollbar.Name = "vScrollbar";
+            this.vScrollbar.ScrollbarSize = 18;
+            this.vScrollbar.Size = new System.Drawing.Size(18, 510);
+            this.vScrollbar.TabIndex = 14;
+            this.vScrollbar.Value = 1;
             // 
             // txtProductCode
             // 
@@ -288,22 +297,6 @@
             this.dataGridViewImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewImageColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
-            // vScrollbar
-            // 
-            this.vScrollbar.AutoRoundedCorners = true;
-            this.vScrollbar.BindingContainer = this.dgvProduct;
-            this.vScrollbar.BorderRadius = 8;
-            this.vScrollbar.FillColor = System.Drawing.Color.Transparent;
-            this.vScrollbar.InUpdate = false;
-            this.vScrollbar.LargeChange = 10;
-            this.vScrollbar.Location = new System.Drawing.Point(930, 0);
-            this.vScrollbar.Minimum = 1;
-            this.vScrollbar.Name = "vScrollbar";
-            this.vScrollbar.ScrollbarSize = 18;
-            this.vScrollbar.Size = new System.Drawing.Size(18, 510);
-            this.vScrollbar.TabIndex = 14;
-            this.vScrollbar.Value = 1;
-            // 
             // frmSearchProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -315,6 +308,7 @@
             this.Name = "frmSearchProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmSearchProduct";
+            this.Load += new System.EventHandler(this.frmSearchProduct_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.panelAddBrand.ResumeLayout(false);
@@ -323,8 +317,6 @@
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2AnimateWindow frmProductAnimateWindow;
         private System.Windows.Forms.DataGridViewImageColumn Edit;
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
         private System.Windows.Forms.DataGridViewTextBoxColumn Price;

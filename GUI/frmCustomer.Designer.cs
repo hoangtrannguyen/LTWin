@@ -40,11 +40,10 @@
             this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
             this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.frmCustomerDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.frmCustomerElipse = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.frmCustomerAnimateWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.panelTitle.SuspendLayout();
             this.panelSlide.SuspendLayout();
             this.panelInfo.SuspendLayout();
@@ -66,6 +65,7 @@
             // 
             this.btnClose.Animated = true;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClose.CustomClick = true;
             this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnClose.HoverState.FillColor = System.Drawing.Color.Red;
@@ -74,6 +74,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(50, 33);
             this.btnClose.TabIndex = 4;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // panelTitle
             // 
@@ -313,10 +314,6 @@
             this.frmCustomerDragControl.TargetControl = this.panelTitle;
             this.frmCustomerDragControl.UseTransparentDrag = true;
             // 
-            // frmCustomerElipse
-            // 
-            this.frmCustomerElipse.TargetControl = this;
-            // 
             // panelContent
             // 
             this.panelContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
@@ -325,6 +322,7 @@
             this.panelContent.Name = "panelContent";
             this.panelContent.Size = new System.Drawing.Size(1083, 633);
             this.panelContent.TabIndex = 12;
+            this.panelContent.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContent_Paint);
             // 
             // dataGridViewImageColumn1
             // 
@@ -344,6 +342,10 @@
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             this.dataGridViewImageColumn2.ReadOnly = true;
             // 
+            // timerClose
+            // 
+            this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
+            // 
             // frmCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -356,6 +358,7 @@
             this.Name = "frmCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCustomer";
+            this.Load += new System.EventHandler(this.frmCustomer_Load);
             this.panelTitle.ResumeLayout(false);
             this.panelTitle.PerformLayout();
             this.panelSlide.ResumeLayout(false);
@@ -376,7 +379,6 @@
         private Guna.UI2.WinForms.Guna2Panel panelSlide;
         private Guna.UI2.WinForms.Guna2Panel panelInfo;
         private Guna.UI2.WinForms.Guna2DragControl frmCustomerDragControl;
-        private Guna.UI2.WinForms.Guna2Elipse frmCustomerElipse;
         private Guna.UI2.WinForms.Guna2GradientButton btnUpdateInfo;
         private Guna.UI2.WinForms.Guna2GradientButton btnSettlePayment;
         private Guna.UI2.WinForms.Guna2GradientButton btnCart;
@@ -387,6 +389,6 @@
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox ptrbAvatar;
         private Guna.UI2.WinForms.Guna2Panel panelContent;
-        private Guna.UI2.WinForms.Guna2AnimateWindow frmCustomerAnimateWindow;
+        private System.Windows.Forms.Timer timerClose;
     }
 }

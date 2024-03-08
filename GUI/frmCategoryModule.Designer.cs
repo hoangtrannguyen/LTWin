@@ -23,7 +23,6 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
             this.lblCategoryModule = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -32,7 +31,6 @@
             this.btnSave = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnUpdate = new Guna.UI2.WinForms.Guna2GradientButton();
             this.txtBrandName = new Guna.UI2.WinForms.Guna2TextBox();
-            this.frmCategoryModuleAnimateWindow = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -181,10 +179,6 @@
             this.txtBrandName.TabIndex = 9;
             this.txtBrandName.UseSystemPasswordChar = true;
             // 
-            // frmCategoryModuleAnimateWindow
-            // 
-            this.frmCategoryModuleAnimateWindow.TargetForm = this;
-            // 
             // frmCategoryModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,6 +195,7 @@
             this.Name = "frmCategoryModule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCategoryModule";
+            this.Load += new System.EventHandler(this.frmCategoryModule_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -218,6 +213,5 @@
         private Guna.UI2.WinForms.Guna2GradientButton btnSave;
         private Guna.UI2.WinForms.Guna2GradientButton btnUpdate;
         private Guna.UI2.WinForms.Guna2TextBox txtBrandName;
-        private Guna.UI2.WinForms.Guna2AnimateWindow frmCategoryModuleAnimateWindow;
     }
 }

@@ -8,13 +8,17 @@ namespace GUI {
             //for(int i = 0; i < 50; i++) {
             //    dgvProduct.Rows.Add(row);
             //}
-            for(int i = 0; i < 20; i++) {
+            for(int i = 0; i < 8; i++) {
                 flowPanel.Controls.Add(new UC_Product());
             }
         }
 
         private void flowPanel_Paint(object sender, PaintEventArgs e) {
 
+        }
+
+        private void frmProduct_Load(object sender, System.EventArgs e) {
+            WinAPI.AnimateWindow(this.Handle, 500, WinAPI.BLEND);
         }
     }
 }
