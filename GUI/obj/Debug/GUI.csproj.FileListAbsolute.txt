@@ -54,3 +54,4 @@ C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.pdb
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmHomeAdministrator.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.UC_Product.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmRegister.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmProductDetail.resources
