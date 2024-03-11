@@ -1,10 +1,11 @@
 ﻿using Guna.UI2.WinForms;
 using System;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GUI {
-    public partial class FAdministrator : Form {
-        public FAdministrator() {
+    public partial class FAdmin : Form {
+        public FAdmin() {
             InitializeComponent();
 
         }
@@ -32,8 +33,12 @@ namespace GUI {
             }
         }
 
-        private void frmAdministrator_Load(object sender, EventArgs e) {
+        private async void FAdmin_Load(object sender, EventArgs e) {
             WinAPI.AnimateWindow(this.Handle, 500, WinAPI.BLEND);
+            await Task.Delay(100);
+
+            OpenChildForm(new FHomePageAdmin(), "Trang chủ");
+            currentButton = btnHomePage;
         }
 
         private void timerClose_Tick(object sender, EventArgs e) {
@@ -51,9 +56,17 @@ namespace GUI {
 
         private void btnHomePage_Click(object sender, EventArgs e) {
             if(currentButton != (Guna2GradientButton)sender) {
-                OpenChildForm(new FHomeAdministrator(), "Trang chủ");
+                OpenChildForm(new FHomePageAdmin(), "Trang chủ");
                 currentButton = (Guna2GradientButton)sender;
             }
         }
+
+        private void btnStatistics_Click(object sender, EventArgs e) {
+            if(currentButton != (Guna2GradientButton)sender) {
+                OpenChildForm(new FStatistics(), "Thống kê");
+                currentButton = (Guna2GradientButton)sender;
+            }
+        }
+
     }
 }

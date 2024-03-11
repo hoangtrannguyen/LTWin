@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GUI {
-    public partial class FHomeAdministrator : Form {
-        public FHomeAdministrator() {
+    public partial class UC_Order : UserControl {
+        public UC_Order() {
             InitializeComponent();
         }
     }

@@ -47,11 +47,14 @@ C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FCart.resour
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FCategory.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FCategoryModule.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FCustomer.resources
-C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FAdministrator.resources
-C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FHomeAdministrator.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FLogin.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FProduct.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FProductDetail.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FProductModule.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FRegister.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FSearchProduct.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FAdmin.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FStatistics.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FHomePageAdmin.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.UC_CartItem.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FPayment.resources

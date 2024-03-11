@@ -16,7 +16,7 @@ namespace GUI {
             for(int i = 0; i < 8; i++) {
                 flowPanel.Controls.Add(new UC_Product());
 
-                await Task.Delay(200);
+                await Task.Delay(100);
             }
         }
 

@@ -60,7 +60,7 @@
             this.lblPrice.BackColor = System.Drawing.Color.Transparent;
             this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPrice.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPrice.Location = new System.Drawing.Point(52, 157);
+            this.lblPrice.Location = new System.Drawing.Point(90, 157);
             this.lblPrice.Name = "lblPrice";
             this.lblPrice.Size = new System.Drawing.Size(61, 22);
             this.lblPrice.TabIndex = 1;
@@ -106,7 +106,7 @@
             this.btnViewDetail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnViewDetail.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnViewDetail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
-            this.btnViewDetail.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnViewDetail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewDetail.ForeColor = System.Drawing.Color.White;
             this.btnViewDetail.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.btnViewDetail.Location = new System.Drawing.Point(0, 231);
@@ -129,6 +129,7 @@
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblProductName);
             this.Controls.Add(this.guna2PictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 3, 5, 3);
             this.Name = "UC_Product";
             this.Size = new System.Drawing.Size(241, 271);
             this.Load += new System.EventHandler(this.UC_Product_Load);

@@ -1,5 +1,5 @@
 ﻿namespace GUI {
-    partial class FAdministrator {
+    partial class FAdmin {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -24,7 +24,7 @@
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FAdministrator));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FAdmin));
             this.frmAdministratorDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panelTitle = new Guna.UI2.WinForms.Guna2Panel();
             this.lblTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -148,6 +148,7 @@
             this.btnStatistics.TabIndex = 7;
             this.btnStatistics.Text = "Thống kê";
             this.btnStatistics.UseTransparentBackground = true;
+            this.btnStatistics.Click += new System.EventHandler(this.btnStatistics_Click);
             // 
             // btnStock
             // 
@@ -327,7 +328,7 @@
             // 
             this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
             // 
-            // FAdministrator
+            // FAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -337,10 +338,10 @@
             this.Controls.Add(this.panelTitle);
             this.Controls.Add(this.panelSlide);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FAdministrator";
+            this.Name = "FAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAdministrator";
-            this.Load += new System.EventHandler(this.frmAdministrator_Load);
+            this.Load += new System.EventHandler(this.FAdmin_Load);
             this.panelTitle.ResumeLayout(false);
             this.panelTitle.PerformLayout();
             this.panelSlide.ResumeLayout(false);

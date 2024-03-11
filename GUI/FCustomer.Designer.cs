@@ -31,19 +31,20 @@
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.lblRole = new System.Windows.Forms.Label();
             this.panelSlide = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
+            this.frmCustomerDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
+            this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.btnUpdateInfo = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnSettlePayment = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnOrderHistory = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnOrderStatus = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnCart = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSearchProduct = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnHome = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
             this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.frmCustomerDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.panelTitle.SuspendLayout();
             this.panelSlide.SuspendLayout();
             this.panelInfo.SuspendLayout();
@@ -55,7 +56,7 @@
             this.lblTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(531, 3);
+            this.lblTitle.Location = new System.Drawing.Point(425, 4);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(32, 23);
             this.lblTitle.TabIndex = 6;
@@ -70,7 +71,7 @@
             this.btnClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnClose.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnClose.IconColor = System.Drawing.Color.White;
-            this.btnClose.Location = new System.Drawing.Point(1033, 0);
+            this.btnClose.Location = new System.Drawing.Point(986, 0);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(50, 33);
             this.btnClose.TabIndex = 4;
@@ -86,7 +87,7 @@
             this.panelTitle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.panelTitle.Location = new System.Drawing.Point(213, 0);
             this.panelTitle.Name = "panelTitle";
-            this.panelTitle.Size = new System.Drawing.Size(1083, 33);
+            this.panelTitle.Size = new System.Drawing.Size(1036, 33);
             this.panelTitle.TabIndex = 11;
             // 
             // btnMinimize
@@ -97,7 +98,7 @@
             this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnMinimize.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnMinimize.IconColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(983, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(936, 0);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(50, 33);
             this.btnMinimize.TabIndex = 5;
@@ -117,9 +118,10 @@
             // 
             this.panelSlide.AutoScroll = true;
             this.panelSlide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.panelSlide.Controls.Add(this.guna2GradientButton1);
             this.panelSlide.Controls.Add(this.btnUpdateInfo);
-            this.panelSlide.Controls.Add(this.btnSettlePayment);
+            this.panelSlide.Controls.Add(this.guna2GradientButton1);
+            this.panelSlide.Controls.Add(this.btnOrderHistory);
+            this.panelSlide.Controls.Add(this.btnOrderStatus);
             this.panelSlide.Controls.Add(this.btnCart);
             this.panelSlide.Controls.Add(this.btnSearchProduct);
             this.panelSlide.Controls.Add(this.btnHome);
@@ -129,6 +131,63 @@
             this.panelSlide.Name = "panelSlide";
             this.panelSlide.Size = new System.Drawing.Size(213, 666);
             this.panelSlide.TabIndex = 10;
+            // 
+            // panelInfo
+            // 
+            this.panelInfo.Controls.Add(this.ptrbAvatar);
+            this.panelInfo.Controls.Add(this.lblRole);
+            this.panelInfo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelInfo.Location = new System.Drawing.Point(0, 0);
+            this.panelInfo.Name = "panelInfo";
+            this.panelInfo.Size = new System.Drawing.Size(213, 100);
+            this.panelInfo.TabIndex = 0;
+            // 
+            // frmCustomerDragControl
+            // 
+            this.frmCustomerDragControl.DockIndicatorTransparencyValue = 0.6D;
+            this.frmCustomerDragControl.TargetControl = this.panelTitle;
+            this.frmCustomerDragControl.UseTransparentDrag = true;
+            // 
+            // panelContent
+            // 
+            this.panelContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContent.Location = new System.Drawing.Point(213, 33);
+            this.panelContent.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(1036, 633);
+            this.panelContent.TabIndex = 12;
+            this.panelContent.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContent_Paint);
+            // 
+            // timerClose
+            // 
+            this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
+            // 
+            // btnUpdateInfo
+            // 
+            this.btnUpdateInfo.Animated = true;
+            this.btnUpdateInfo.BackColor = System.Drawing.Color.Transparent;
+            this.btnUpdateInfo.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUpdateInfo.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUpdateInfo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUpdateInfo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnUpdateInfo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnUpdateInfo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUpdateInfo.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUpdateInfo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnUpdateInfo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnUpdateInfo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUpdateInfo.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUpdateInfo.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnUpdateInfo.ForeColor = System.Drawing.Color.White;
+            this.btnUpdateInfo.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
+            this.btnUpdateInfo.Image = global::GUI.Properties.Resources.password_reset_30px;
+            this.btnUpdateInfo.Location = new System.Drawing.Point(0, 325);
+            this.btnUpdateInfo.Name = "btnUpdateInfo";
+            this.btnUpdateInfo.Size = new System.Drawing.Size(213, 45);
+            this.btnUpdateInfo.TabIndex = 9;
+            this.btnUpdateInfo.Text = "Cập nhật thông tin";
+            this.btnUpdateInfo.UseTransparentBackground = true;
             // 
             // guna2GradientButton1
             // 
@@ -156,57 +215,57 @@
             this.guna2GradientButton1.Text = "Đăng xuất";
             this.guna2GradientButton1.UseTransparentBackground = true;
             // 
-            // btnUpdateInfo
+            // btnOrderHistory
             // 
-            this.btnUpdateInfo.Animated = true;
-            this.btnUpdateInfo.BackColor = System.Drawing.Color.Transparent;
-            this.btnUpdateInfo.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnUpdateInfo.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnUpdateInfo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUpdateInfo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnUpdateInfo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnUpdateInfo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnUpdateInfo.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnUpdateInfo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnUpdateInfo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnUpdateInfo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnUpdateInfo.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnUpdateInfo.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnUpdateInfo.ForeColor = System.Drawing.Color.White;
-            this.btnUpdateInfo.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
-            this.btnUpdateInfo.Image = global::GUI.Properties.Resources.password_reset_30px;
-            this.btnUpdateInfo.Location = new System.Drawing.Point(0, 280);
-            this.btnUpdateInfo.Name = "btnUpdateInfo";
-            this.btnUpdateInfo.Size = new System.Drawing.Size(213, 45);
-            this.btnUpdateInfo.TabIndex = 7;
-            this.btnUpdateInfo.Text = "Cập nhật thông tin";
-            this.btnUpdateInfo.UseTransparentBackground = true;
+            this.btnOrderHistory.Animated = true;
+            this.btnOrderHistory.BackColor = System.Drawing.Color.Transparent;
+            this.btnOrderHistory.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnOrderHistory.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnOrderHistory.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOrderHistory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnOrderHistory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnOrderHistory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnOrderHistory.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnOrderHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnOrderHistory.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnOrderHistory.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnOrderHistory.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnOrderHistory.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnOrderHistory.ForeColor = System.Drawing.Color.White;
+            this.btnOrderHistory.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
+            this.btnOrderHistory.Image = global::GUI.Properties.Resources.order_history_icon;
+            this.btnOrderHistory.Location = new System.Drawing.Point(0, 280);
+            this.btnOrderHistory.Name = "btnOrderHistory";
+            this.btnOrderHistory.Size = new System.Drawing.Size(213, 45);
+            this.btnOrderHistory.TabIndex = 7;
+            this.btnOrderHistory.Text = "Lịch sử mua hàng";
+            this.btnOrderHistory.UseTransparentBackground = true;
             // 
-            // btnSettlePayment
+            // btnOrderStatus
             // 
-            this.btnSettlePayment.Animated = true;
-            this.btnSettlePayment.BackColor = System.Drawing.Color.Transparent;
-            this.btnSettlePayment.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnSettlePayment.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnSettlePayment.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSettlePayment.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSettlePayment.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSettlePayment.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSettlePayment.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSettlePayment.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSettlePayment.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSettlePayment.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnSettlePayment.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnSettlePayment.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnSettlePayment.ForeColor = System.Drawing.Color.White;
-            this.btnSettlePayment.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
-            this.btnSettlePayment.Image = global::GUI.Properties.Resources.calculator_30px;
-            this.btnSettlePayment.Location = new System.Drawing.Point(0, 235);
-            this.btnSettlePayment.Name = "btnSettlePayment";
-            this.btnSettlePayment.Size = new System.Drawing.Size(213, 45);
-            this.btnSettlePayment.TabIndex = 6;
-            this.btnSettlePayment.Text = "Thanh toán";
-            this.btnSettlePayment.UseTransparentBackground = true;
+            this.btnOrderStatus.Animated = true;
+            this.btnOrderStatus.BackColor = System.Drawing.Color.Transparent;
+            this.btnOrderStatus.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnOrderStatus.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnOrderStatus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOrderStatus.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnOrderStatus.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnOrderStatus.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnOrderStatus.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnOrderStatus.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnOrderStatus.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnOrderStatus.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnOrderStatus.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnOrderStatus.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnOrderStatus.ForeColor = System.Drawing.Color.White;
+            this.btnOrderStatus.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
+            this.btnOrderStatus.Image = global::GUI.Properties.Resources.in_order_icon;
+            this.btnOrderStatus.Location = new System.Drawing.Point(0, 235);
+            this.btnOrderStatus.Name = "btnOrderStatus";
+            this.btnOrderStatus.Size = new System.Drawing.Size(213, 45);
+            this.btnOrderStatus.TabIndex = 6;
+            this.btnOrderStatus.Text = "Đơn hàng";
+            this.btnOrderStatus.UseTransparentBackground = true;
             // 
             // btnCart
             // 
@@ -233,6 +292,7 @@
             this.btnCart.TabIndex = 5;
             this.btnCart.Text = "Giỏ hàng";
             this.btnCart.UseTransparentBackground = true;
+            this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
             // 
             // btnSearchProduct
             // 
@@ -287,16 +347,6 @@
             this.btnHome.Text = "Trang chủ";
             this.btnHome.UseTransparentBackground = true;
             // 
-            // panelInfo
-            // 
-            this.panelInfo.Controls.Add(this.ptrbAvatar);
-            this.panelInfo.Controls.Add(this.lblRole);
-            this.panelInfo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelInfo.Location = new System.Drawing.Point(0, 0);
-            this.panelInfo.Name = "panelInfo";
-            this.panelInfo.Size = new System.Drawing.Size(213, 100);
-            this.panelInfo.TabIndex = 0;
-            // 
             // ptrbAvatar
             // 
             this.ptrbAvatar.Image = global::GUI.Properties.Resources.user_icon;
@@ -307,22 +357,6 @@
             this.ptrbAvatar.Size = new System.Drawing.Size(50, 49);
             this.ptrbAvatar.TabIndex = 15;
             this.ptrbAvatar.TabStop = false;
-            // 
-            // frmCustomerDragControl
-            // 
-            this.frmCustomerDragControl.DockIndicatorTransparencyValue = 0.6D;
-            this.frmCustomerDragControl.TargetControl = this.panelTitle;
-            this.frmCustomerDragControl.UseTransparentDrag = true;
-            // 
-            // panelContent
-            // 
-            this.panelContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
-            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContent.Location = new System.Drawing.Point(213, 33);
-            this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(1083, 633);
-            this.panelContent.TabIndex = 12;
-            this.panelContent.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContent_Paint);
             // 
             // dataGridViewImageColumn1
             // 
@@ -342,20 +376,16 @@
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             this.dataGridViewImageColumn2.ReadOnly = true;
             // 
-            // timerClose
-            // 
-            this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
-            // 
-            // frmCustomer
+            // FCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1296, 666);
+            this.ClientSize = new System.Drawing.Size(1249, 666);
             this.Controls.Add(this.panelContent);
             this.Controls.Add(this.panelTitle);
             this.Controls.Add(this.panelSlide);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmCustomer";
+            this.Name = "FCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCustomer";
             this.Load += new System.EventHandler(this.frmCustomer_Load);
@@ -379,8 +409,7 @@
         private Guna.UI2.WinForms.Guna2Panel panelSlide;
         private Guna.UI2.WinForms.Guna2Panel panelInfo;
         private Guna.UI2.WinForms.Guna2DragControl frmCustomerDragControl;
-        private Guna.UI2.WinForms.Guna2GradientButton btnUpdateInfo;
-        private Guna.UI2.WinForms.Guna2GradientButton btnSettlePayment;
+        private Guna.UI2.WinForms.Guna2GradientButton btnOrderHistory;
         private Guna.UI2.WinForms.Guna2GradientButton btnCart;
         private Guna.UI2.WinForms.Guna2GradientButton btnSearchProduct;
         private Guna.UI2.WinForms.Guna2GradientButton btnHome;
@@ -390,5 +419,7 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox ptrbAvatar;
         private Guna.UI2.WinForms.Guna2Panel panelContent;
         private System.Windows.Forms.Timer timerClose;
+        private Guna.UI2.WinForms.Guna2GradientButton btnOrderStatus;
+        private Guna.UI2.WinForms.Guna2GradientButton btnUpdateInfo;
     }
 }

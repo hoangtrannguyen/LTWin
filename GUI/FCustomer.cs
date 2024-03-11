@@ -37,12 +37,11 @@ namespace GUI {
         }
 
         private void panelContent_Paint(object sender, PaintEventArgs e) {
-            
         }
 
         private void timerClose_Tick(object sender, EventArgs e) {
             if(this.Opacity > 0.0) {
-                this.Opacity -= 0.2;
+                this.Opacity -= 0.25;
             } else {
                 timerClose.Stop();
                 Application.Exit();
@@ -51,6 +50,13 @@ namespace GUI {
 
         private void btnClose_Click(object sender, EventArgs e) {
             timerClose.Start();
+        }
+
+        private void btnCart_Click(object sender, EventArgs e) {
+            if(currentButton != (Guna2GradientButton)sender) {
+                OpenChildForm(new FCart(), "Giỏ hàng");
+                currentButton = (Guna2GradientButton)sender;
+            }
         }
     }
 }
