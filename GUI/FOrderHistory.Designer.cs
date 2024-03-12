@@ -74,7 +74,7 @@
             this.lblProductImg.BackColor = System.Drawing.Color.Transparent;
             this.lblProductImg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblProductImg.ForeColor = System.Drawing.Color.White;
-            this.lblProductImg.Location = new System.Drawing.Point(84, 12);
+            this.lblProductImg.Location = new System.Drawing.Point(52, 12);
             this.lblProductImg.Name = "lblProductImg";
             this.lblProductImg.Size = new System.Drawing.Size(76, 22);
             this.lblProductImg.TabIndex = 0;
@@ -104,7 +104,7 @@
             this.btnNext.ForeColor = System.Drawing.Color.White;
             this.btnNext.Image = global::GUI.Properties.Resources.next_icon;
             this.btnNext.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnNext.Location = new System.Drawing.Point(473, 9);
+            this.btnNext.Location = new System.Drawing.Point(513, 9);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(30, 30);
             this.btnNext.TabIndex = 3;
@@ -122,7 +122,7 @@
             this.btnPrevious.ForeColor = System.Drawing.Color.White;
             this.btnPrevious.Image = global::GUI.Properties.Resources.previous_icon;
             this.btnPrevious.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnPrevious.Location = new System.Drawing.Point(437, 9);
+            this.btnPrevious.Location = new System.Drawing.Point(477, 9);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(30, 30);
             this.btnPrevious.TabIndex = 4;

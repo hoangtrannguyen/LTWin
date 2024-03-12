@@ -29,6 +29,7 @@
             this.lblQuantity = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblProductName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btnFeedback = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,9 +45,9 @@
             this.btnReOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReOrder.ForeColor = System.Drawing.Color.White;
             this.btnReOrder.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
-            this.btnReOrder.Location = new System.Drawing.Point(799, 41);
+            this.btnReOrder.Location = new System.Drawing.Point(848, 41);
             this.btnReOrder.Name = "btnReOrder";
-            this.btnReOrder.Size = new System.Drawing.Size(177, 45);
+            this.btnReOrder.Size = new System.Drawing.Size(110, 45);
             this.btnReOrder.TabIndex = 14;
             this.btnReOrder.Text = "Mua lại";
             // 
@@ -105,11 +106,29 @@
             this.guna2PictureBox1.TabIndex = 8;
             this.guna2PictureBox1.TabStop = false;
             // 
+            // btnFeedback
+            // 
+            this.btnFeedback.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFeedback.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.btnFeedback.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btnFeedback.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
+            this.btnFeedback.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnFeedback.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
+            this.btnFeedback.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFeedback.ForeColor = System.Drawing.Color.White;
+            this.btnFeedback.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
+            this.btnFeedback.Location = new System.Drawing.Point(685, 41);
+            this.btnFeedback.Name = "btnFeedback";
+            this.btnFeedback.Size = new System.Drawing.Size(110, 45);
+            this.btnFeedback.TabIndex = 14;
+            this.btnFeedback.Text = "Đánh giá";
+            // 
             // UC_OrderHistoryCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
+            this.Controls.Add(this.btnFeedback);
             this.Controls.Add(this.btnReOrder);
             this.Controls.Add(this.lblTotalMoney);
             this.Controls.Add(this.lblPrice);
@@ -133,5 +152,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblQuantity;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblProductName;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2Button btnFeedback;
     }
 }

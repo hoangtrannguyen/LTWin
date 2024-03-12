@@ -147,7 +147,7 @@
             this.btnPrevious.ForeColor = System.Drawing.Color.White;
             this.btnPrevious.Image = global::GUI.Properties.Resources.previous_icon;
             this.btnPrevious.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnPrevious.Location = new System.Drawing.Point(437, 9);
+            this.btnPrevious.Location = new System.Drawing.Point(485, 9);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(30, 30);
             this.btnPrevious.TabIndex = 4;
@@ -165,7 +165,7 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Image = global::GUI.Properties.Resources.next_icon;
             this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(473, 9);
+            this.guna2Button1.Location = new System.Drawing.Point(521, 9);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(30, 30);
             this.guna2Button1.TabIndex = 3;

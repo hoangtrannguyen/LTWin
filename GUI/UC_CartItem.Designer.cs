@@ -26,11 +26,11 @@
             this.chkChoice = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.lblProductName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.nduQuantity = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.nudQuantity = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.nduQuantity)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,21 +72,21 @@
             this.lblPrice.TabIndex = 4;
             this.lblPrice.Text = "200.000";
             // 
-            // nduQuantity
+            // nudQuantity
             // 
-            this.nduQuantity.BackColor = System.Drawing.Color.Transparent;
-            this.nduQuantity.BorderRadius = 5;
-            this.nduQuantity.BorderThickness = 0;
-            this.nduQuantity.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nduQuantity.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
-            this.nduQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nduQuantity.ForeColor = System.Drawing.Color.White;
-            this.nduQuantity.Location = new System.Drawing.Point(591, 43);
-            this.nduQuantity.Name = "nduQuantity";
-            this.nduQuantity.Size = new System.Drawing.Size(100, 36);
-            this.nduQuantity.TabIndex = 5;
-            this.nduQuantity.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.nduQuantity.UpDownButtonForeColor = System.Drawing.Color.White;
+            this.nudQuantity.BackColor = System.Drawing.Color.Transparent;
+            this.nudQuantity.BorderThickness = 0;
+            this.nudQuantity.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nudQuantity.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
+            this.nudQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudQuantity.ForeColor = System.Drawing.Color.White;
+            this.nudQuantity.Location = new System.Drawing.Point(611, 43);
+            this.nudQuantity.Name = "nudQuantity";
+            this.nudQuantity.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.nudQuantity.Size = new System.Drawing.Size(58, 36);
+            this.nudQuantity.TabIndex = 5;
+            this.nudQuantity.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.nudQuantity.UpDownButtonForeColor = System.Drawing.Color.White;
             // 
             // btnDelete
             // 
@@ -133,7 +133,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.nduQuantity);
+            this.Controls.Add(this.nudQuantity);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblProductName);
@@ -143,7 +143,7 @@
             this.Name = "UC_CartItem";
             this.Size = new System.Drawing.Size(1003, 124);
             this.Load += new System.EventHandler(this.UC_CartItem_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.nduQuantity)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -156,7 +156,7 @@
         private Guna.UI2.WinForms.Guna2CustomCheckBox chkChoice;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblProductName;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPrice;
-        private Guna.UI2.WinForms.Guna2NumericUpDown nduQuantity;
+        private Guna.UI2.WinForms.Guna2NumericUpDown nudQuantity;
         private Guna.UI2.WinForms.Guna2Button btnDelete;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
     }

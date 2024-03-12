@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\finorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\finorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\uc_inordercustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\uc_inordercustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fproductdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fproductdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +30,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UC_InOrderCustomer.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_InOrderCustomer.cs",
-              "RelativeDocumentMoniker": "GUI\\UC_InOrderCustomer.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_InOrderCustomer.cs [Design]",
-              "RelativeToolTip": "GUI\\UC_InOrderCustomer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T03:51:35.534Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FInOrder.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FInOrder.cs",
-              "RelativeDocumentMoniker": "GUI\\FInOrder.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FInOrder.cs [Design]",
-              "RelativeToolTip": "GUI\\FInOrder.cs [Design]",
+              "Title": "FProductDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FProductDetail.cs",
+              "RelativeDocumentMoniker": "GUI\\FProductDetail.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FProductDetail.cs [Design]",
+              "RelativeToolTip": "GUI\\FProductDetail.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T03:51:09.469Z",
+              "WhenOpened": "2024-03-12T14:23:01.536Z",
               "EditorCaption": " [Design]"
             }
           ]

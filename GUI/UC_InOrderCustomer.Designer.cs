@@ -39,7 +39,7 @@
             // 
             this.guna2PictureBox1.Image = global::GUI.Properties.Resources.xe_dieu_khien;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(11, 12);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(19, 12);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(104, 101);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
