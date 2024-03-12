@@ -34,7 +34,6 @@ C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\bin\Debug\GUI.exe
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\bin\Debug\GUI.pdb
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\bin\Debug\Guna.UI2.dll
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
-C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.frmBrand.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.Properties.Resources.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
@@ -49,7 +48,6 @@ C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FCategoryMod
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FCustomer.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FLogin.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FProduct.resources
-C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FProductDetail.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FProductModule.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FRegister.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FSearchProduct.resources
@@ -62,3 +60,5 @@ C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FInOrder.res
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.UC_InOrderCustomer.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FOrderHistory.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.UC_OrderHistoryCustomer.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FProductDetail.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FBrand.resources

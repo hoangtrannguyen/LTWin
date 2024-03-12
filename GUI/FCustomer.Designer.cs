@@ -32,7 +32,7 @@
             this.lblRole = new System.Windows.Forms.Label();
             this.panelSlide = new Guna.UI2.WinForms.Guna2Panel();
             this.btnUpdateInfo = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnExit = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnOrderHistory = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnOrderStatus = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnCart = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -43,8 +43,6 @@
             this.frmCustomerDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
             this.timerClose = new System.Windows.Forms.Timer(this.components);
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.panelTitle.SuspendLayout();
             this.panelSlide.SuspendLayout();
             this.panelInfo.SuspendLayout();
@@ -119,7 +117,7 @@
             this.panelSlide.AutoScroll = true;
             this.panelSlide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.panelSlide.Controls.Add(this.btnUpdateInfo);
-            this.panelSlide.Controls.Add(this.guna2GradientButton1);
+            this.panelSlide.Controls.Add(this.btnExit);
             this.panelSlide.Controls.Add(this.btnOrderHistory);
             this.panelSlide.Controls.Add(this.btnOrderStatus);
             this.panelSlide.Controls.Add(this.btnCart);
@@ -158,31 +156,31 @@
             this.btnUpdateInfo.Text = "Cập nhật thông tin";
             this.btnUpdateInfo.UseTransparentBackground = true;
             // 
-            // guna2GradientButton1
+            // btnExit
             // 
-            this.guna2GradientButton1.Animated = true;
-            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.guna2GradientButton1.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.guna2GradientButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
-            this.guna2GradientButton1.Image = global::GUI.Properties.Resources.logout_icon;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(0, 621);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(213, 45);
-            this.guna2GradientButton1.TabIndex = 8;
-            this.guna2GradientButton1.Text = "Đăng xuất";
-            this.guna2GradientButton1.UseTransparentBackground = true;
+            this.btnExit.Animated = true;
+            this.btnExit.BackColor = System.Drawing.Color.Transparent;
+            this.btnExit.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnExit.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExit.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExit.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnExit.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
+            this.btnExit.Image = global::GUI.Properties.Resources.logout_icon;
+            this.btnExit.Location = new System.Drawing.Point(0, 621);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(213, 45);
+            this.btnExit.TabIndex = 8;
+            this.btnExit.Text = "Đăng xuất";
+            this.btnExit.UseTransparentBackground = true;
             // 
             // btnOrderHistory
             // 
@@ -360,24 +358,6 @@
             // 
             this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
             // 
-            // dataGridViewImageColumn1
-            // 
-            this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dataGridViewImageColumn1.HeaderText = "";
-            this.dataGridViewImageColumn1.Image = global::GUI.Properties.Resources.edit_20px;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            this.dataGridViewImageColumn1.ReadOnly = true;
-            this.dataGridViewImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewImageColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // dataGridViewImageColumn2
-            // 
-            this.dataGridViewImageColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dataGridViewImageColumn2.HeaderText = "";
-            this.dataGridViewImageColumn2.Image = global::GUI.Properties.Resources.delete_20px;
-            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
-            this.dataGridViewImageColumn2.ReadOnly = true;
-            // 
             // FCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -415,9 +395,7 @@
         private Guna.UI2.WinForms.Guna2GradientButton btnCart;
         private Guna.UI2.WinForms.Guna2GradientButton btnSearchProduct;
         private Guna.UI2.WinForms.Guna2GradientButton btnHome;
-        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
-        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton btnExit;
         private Guna.UI2.WinForms.Guna2CirclePictureBox ptrbAvatar;
         private Guna.UI2.WinForms.Guna2Panel panelContent;
         private System.Windows.Forms.Timer timerClose;

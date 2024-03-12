@@ -78,7 +78,7 @@
             this.nudQuantity.BorderThickness = 0;
             this.nudQuantity.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nudQuantity.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
-            this.nudQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.nudQuantity.ForeColor = System.Drawing.Color.White;
             this.nudQuantity.Location = new System.Drawing.Point(611, 43);
             this.nudQuantity.Name = "nudQuantity";
@@ -87,6 +87,11 @@
             this.nudQuantity.TabIndex = 5;
             this.nudQuantity.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.nudQuantity.UpDownButtonForeColor = System.Drawing.Color.White;
+            this.nudQuantity.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // btnDelete
             // 

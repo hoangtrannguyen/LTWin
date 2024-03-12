@@ -134,6 +134,12 @@
     <Compile Include="FPayment.Designer.cs">
       <DependentUpon>FPayment.cs</DependentUpon>
     </Compile>
+    <Compile Include="FProductDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FProductDetail.Designer.cs">
+      <DependentUpon>FProductDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="FStatistics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,12 +157,6 @@
     </Compile>
     <Compile Include="FProduct.Designer.cs">
       <DependentUpon>FProduct.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FProductDetail.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FProductDetail.Designer.cs">
-      <DependentUpon>FProductDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="FProductModule.cs">
       <SubType>Form</SubType>
@@ -236,6 +236,9 @@
     <EmbeddedResource Include="FPayment.resx">
       <DependentUpon>FPayment.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FProductDetail.resx">
+      <DependentUpon>FProductDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FStatistics.resx">
       <DependentUpon>FStatistics.cs</DependentUpon>
     </EmbeddedResource>
@@ -244,9 +247,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FProduct.resx">
       <DependentUpon>FProduct.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FProductDetail.resx">
-      <DependentUpon>FProductDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FProductModule.resx">
       <DependentUpon>FProductModule.cs</DependentUpon>

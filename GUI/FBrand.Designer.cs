@@ -1,5 +1,5 @@
 ﻿namespace GUI {
-    partial class frmBrand {
+    partial class FBrand {
         /// <summary>
         /// Required designer variable.
         /// </summary>

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GUI {
@@ -15,8 +8,21 @@ namespace GUI {
         }
 
         private void FProductDetail_Load(object sender, EventArgs e) {
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.VER_POSITIVE);
+        }
 
-            WinAPI.AnimateWindow(this.Handle, 500, WinAPI.BLEND);
+        private void timerClose_Tick(object sender, EventArgs e) {
+            if(Opacity > 0.0) {
+                Opacity -= 0.5;
+            } else {
+                timerClose.Stop();
+                this.Close();
+            }
+        }
+
+
+        private void btnClose_Click(object sender, EventArgs e) {
+            timerClose.Start();
         }
     }
 }

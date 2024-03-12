@@ -205,7 +205,7 @@
             this.txtEmail.Location = new System.Drawing.Point(100, 180);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.PasswordChar = '\0';
+            this.txtEmail.PasswordChar = '●';
             this.txtEmail.PlaceholderText = "Email";
             this.txtEmail.SelectedText = "";
             this.txtEmail.Size = new System.Drawing.Size(262, 36);

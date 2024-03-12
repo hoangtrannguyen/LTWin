@@ -8,7 +8,7 @@ namespace GUI {
         }
 
         private void FBrandModule_Load(object sender, EventArgs e) {
-            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
+            WinAPI.AnimateWindow(this.Handle, 100, WinAPI.VER_POSITIVE);
         }
     }
 }

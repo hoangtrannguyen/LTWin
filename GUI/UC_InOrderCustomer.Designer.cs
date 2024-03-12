@@ -117,7 +117,7 @@
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.Size = new System.Drawing.Size(177, 45);
             this.btnConfirm.TabIndex = 7;
-            this.btnConfirm.Text = "Xác nhận đơn hàng";
+            this.btnConfirm.Text = "Đã nhận được hàng";
             // 
             // btnCancel
             // 

@@ -25,12 +25,7 @@ namespace GUI {
             childForm.BringToFront();
             childForm.Show();
         }
-        private void btnSearchProduct_Click(object sender, EventArgs e) {
-            if(currentButton != (Guna2GradientButton)sender) {
-                OpenChildForm(new FSearchProduct(), "Tìm kiếm sản phẩm");
-                currentButton = (Guna2GradientButton)sender;
-            }
-        }
+       
 
         private void FCustomer_Load(object sender, EventArgs e) {
             WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
@@ -50,6 +45,13 @@ namespace GUI {
 
         private void btnClose_Click(object sender, EventArgs e) {
             timerClose.Start();
+        }
+
+        private void btnSearchProduct_Click(object sender, EventArgs e) {
+            if(currentButton != (Guna2GradientButton)sender) {
+                OpenChildForm(new FSearchProduct(), "Tìm kiếm sản phẩm");
+                currentButton = (Guna2GradientButton)sender;
+            }
         }
 
         private void btnCart_Click(object sender, EventArgs e) {
