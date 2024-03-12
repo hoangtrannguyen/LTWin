@@ -24,13 +24,13 @@
         /// </summary>
         private void InitializeComponent() {
             this.panelAddBrand = new Guna.UI2.WinForms.Guna2Panel();
+            this.txtSearchProduct = new Guna.UI2.WinForms.Guna2TextBox();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.flowPanelSearchProduct = new System.Windows.Forms.FlowLayoutPanel();
             this.panelPagination = new Guna.UI2.WinForms.Guna2Panel();
             this.btnPrevious = new Guna.UI2.WinForms.Guna2Button();
             this.btnNext = new Guna.UI2.WinForms.Guna2Button();
-            this.txtSearchProduct = new Guna.UI2.WinForms.Guna2TextBox();
             this.panelAddBrand.SuspendLayout();
             this.panelPagination.SuspendLayout();
             this.SuspendLayout();
@@ -44,6 +44,32 @@
             this.panelAddBrand.Name = "panelAddBrand";
             this.panelAddBrand.Size = new System.Drawing.Size(948, 43);
             this.panelAddBrand.TabIndex = 14;
+            // 
+            // txtSearchProduct
+            // 
+            this.txtSearchProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.txtSearchProduct.BorderThickness = 0;
+            this.txtSearchProduct.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSearchProduct.DefaultText = "";
+            this.txtSearchProduct.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtSearchProduct.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtSearchProduct.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchProduct.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchProduct.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtSearchProduct.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.txtSearchProduct.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.txtSearchProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchProduct.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearchProduct.IconLeft = global::GUI.Properties.Resources.search_30px;
+            this.txtSearchProduct.IconLeftOffset = new System.Drawing.Point(20, 0);
+            this.txtSearchProduct.Location = new System.Drawing.Point(0, 0);
+            this.txtSearchProduct.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearchProduct.Name = "txtSearchProduct";
+            this.txtSearchProduct.PasswordChar = '\0';
+            this.txtSearchProduct.PlaceholderText = "Tìm kiếm...";
+            this.txtSearchProduct.SelectedText = "";
+            this.txtSearchProduct.Size = new System.Drawing.Size(948, 43);
+            this.txtSearchProduct.TabIndex = 0;
             // 
             // dataGridViewImageColumn2
             // 
@@ -117,32 +143,6 @@
             this.btnNext.Size = new System.Drawing.Size(30, 30);
             this.btnNext.TabIndex = 3;
             // 
-            // txtSearchProduct
-            // 
-            this.txtSearchProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.txtSearchProduct.BorderThickness = 0;
-            this.txtSearchProduct.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSearchProduct.DefaultText = "";
-            this.txtSearchProduct.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtSearchProduct.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtSearchProduct.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchProduct.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchProduct.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtSearchProduct.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.txtSearchProduct.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.txtSearchProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchProduct.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchProduct.IconLeft = global::GUI.Properties.Resources.search_30px;
-            this.txtSearchProduct.IconLeftOffset = new System.Drawing.Point(20, 0);
-            this.txtSearchProduct.Location = new System.Drawing.Point(0, 0);
-            this.txtSearchProduct.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtSearchProduct.Name = "txtSearchProduct";
-            this.txtSearchProduct.PasswordChar = '\0';
-            this.txtSearchProduct.PlaceholderText = "Tìm kiếm...";
-            this.txtSearchProduct.SelectedText = "";
-            this.txtSearchProduct.Size = new System.Drawing.Size(948, 43);
-            this.txtSearchProduct.TabIndex = 0;
-            // 
             // FSearchProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,7 +155,7 @@
             this.Name = "FSearchProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmSearchProduct";
-            this.Load += new System.EventHandler(this.frmSearchProduct_Load);
+            this.Load += new System.EventHandler(this.FSearchProduct_Load);
             this.panelAddBrand.ResumeLayout(false);
             this.panelPagination.ResumeLayout(false);
             this.ResumeLayout(false);

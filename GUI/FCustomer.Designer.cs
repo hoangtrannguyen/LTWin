@@ -31,10 +31,6 @@
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.lblRole = new System.Windows.Forms.Label();
             this.panelSlide = new Guna.UI2.WinForms.Guna2Panel();
-            this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
-            this.frmCustomerDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
-            this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.btnUpdateInfo = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnOrderHistory = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -42,7 +38,11 @@
             this.btnCart = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSearchProduct = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnHome = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
             this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.frmCustomerDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
+            this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.panelTitle.SuspendLayout();
@@ -132,37 +132,6 @@
             this.panelSlide.Size = new System.Drawing.Size(213, 666);
             this.panelSlide.TabIndex = 10;
             // 
-            // panelInfo
-            // 
-            this.panelInfo.Controls.Add(this.ptrbAvatar);
-            this.panelInfo.Controls.Add(this.lblRole);
-            this.panelInfo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelInfo.Location = new System.Drawing.Point(0, 0);
-            this.panelInfo.Name = "panelInfo";
-            this.panelInfo.Size = new System.Drawing.Size(213, 100);
-            this.panelInfo.TabIndex = 0;
-            // 
-            // frmCustomerDragControl
-            // 
-            this.frmCustomerDragControl.DockIndicatorTransparencyValue = 0.6D;
-            this.frmCustomerDragControl.TargetControl = this.panelTitle;
-            this.frmCustomerDragControl.UseTransparentDrag = true;
-            // 
-            // panelContent
-            // 
-            this.panelContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContent.Location = new System.Drawing.Point(213, 33);
-            this.panelContent.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
-            this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(1036, 633);
-            this.panelContent.TabIndex = 12;
-            this.panelContent.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContent_Paint);
-            // 
-            // timerClose
-            // 
-            this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
-            // 
             // btnUpdateInfo
             // 
             this.btnUpdateInfo.Animated = true;
@@ -240,6 +209,7 @@
             this.btnOrderHistory.TabIndex = 7;
             this.btnOrderHistory.Text = "Lịch sử mua hàng";
             this.btnOrderHistory.UseTransparentBackground = true;
+            this.btnOrderHistory.Click += new System.EventHandler(this.btnOrderHistory_Click);
             // 
             // btnOrderStatus
             // 
@@ -266,6 +236,7 @@
             this.btnOrderStatus.TabIndex = 6;
             this.btnOrderStatus.Text = "Đơn hàng";
             this.btnOrderStatus.UseTransparentBackground = true;
+            this.btnOrderStatus.Click += new System.EventHandler(this.btnOrderStatus_Click);
             // 
             // btnCart
             // 
@@ -347,6 +318,16 @@
             this.btnHome.Text = "Trang chủ";
             this.btnHome.UseTransparentBackground = true;
             // 
+            // panelInfo
+            // 
+            this.panelInfo.Controls.Add(this.ptrbAvatar);
+            this.panelInfo.Controls.Add(this.lblRole);
+            this.panelInfo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelInfo.Location = new System.Drawing.Point(0, 0);
+            this.panelInfo.Name = "panelInfo";
+            this.panelInfo.Size = new System.Drawing.Size(213, 100);
+            this.panelInfo.TabIndex = 0;
+            // 
             // ptrbAvatar
             // 
             this.ptrbAvatar.Image = global::GUI.Properties.Resources.user_icon;
@@ -357,6 +338,27 @@
             this.ptrbAvatar.Size = new System.Drawing.Size(50, 49);
             this.ptrbAvatar.TabIndex = 15;
             this.ptrbAvatar.TabStop = false;
+            // 
+            // frmCustomerDragControl
+            // 
+            this.frmCustomerDragControl.DockIndicatorTransparencyValue = 0.6D;
+            this.frmCustomerDragControl.TargetControl = this.panelTitle;
+            this.frmCustomerDragControl.UseTransparentDrag = true;
+            // 
+            // panelContent
+            // 
+            this.panelContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContent.Location = new System.Drawing.Point(213, 33);
+            this.panelContent.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(1036, 633);
+            this.panelContent.TabIndex = 12;
+            this.panelContent.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContent_Paint);
+            // 
+            // timerClose
+            // 
+            this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
             // 
             // dataGridViewImageColumn1
             // 
@@ -388,7 +390,7 @@
             this.Name = "FCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCustomer";
-            this.Load += new System.EventHandler(this.frmCustomer_Load);
+            this.Load += new System.EventHandler(this.FCustomer_Load);
             this.panelTitle.ResumeLayout(false);
             this.panelTitle.PerformLayout();
             this.panelSlide.ResumeLayout(false);

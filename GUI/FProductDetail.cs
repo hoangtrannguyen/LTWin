@@ -14,7 +14,8 @@ namespace GUI {
             InitializeComponent();
         }
 
-        private void frmProductDetail_Load(object sender, EventArgs e) {
+        private void FProductDetail_Load(object sender, EventArgs e) {
+
             WinAPI.AnimateWindow(this.Handle, 500, WinAPI.BLEND);
         }
     }

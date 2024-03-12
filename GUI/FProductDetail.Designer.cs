@@ -68,7 +68,7 @@
             this.btnAddToCart.TabIndex = 3;
             this.btnAddToCart.Text = "Thêm vào giỏ hàng";
             // 
-            // frmProductDetail
+            // FProductDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -78,10 +78,10 @@
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmProductDetail";
+            this.Name = "FProductDetail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmProductDetail";
-            this.Load += new System.EventHandler(this.frmProductDetail_Load);
+            this.Load += new System.EventHandler(this.FProductDetail_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 

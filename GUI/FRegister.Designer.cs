@@ -396,7 +396,7 @@
             this.btnClose.Size = new System.Drawing.Size(50, 30);
             this.btnClose.TabIndex = 59;
             // 
-            // frmRegister
+            // FRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -422,10 +422,10 @@
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmRegister";
+            this.Name = "FRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmRegister";
-            this.Load += new System.EventHandler(this.frmRegister_Load);
+            this.Load += new System.EventHandler(this.FRegister_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

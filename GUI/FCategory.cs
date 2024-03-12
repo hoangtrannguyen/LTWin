@@ -7,12 +7,12 @@ namespace GUI {
             InitializeComponent();
         }
 
-        private void frmCategory_Load(object sender, EventArgs e) {
-            WinAPI.AnimateWindow(this.Handle, 500, WinAPI.BLEND);
-        }
-
         private void btnAddCategory_Click(object sender, EventArgs e) {
             (new FCategoryModule()).ShowDialog();
+        }
+
+        private void FCategory_Load(object sender, EventArgs e) {
+            WinAPI.AnimateWindow(this.Handle, 500, WinAPI.BLEND);
         }
     }
 }

@@ -344,7 +344,7 @@
             this.cbxCategory.Size = new System.Drawing.Size(260, 36);
             this.cbxCategory.TabIndex = 14;
             // 
-            // frmProductModule
+            // FProductModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -367,10 +367,10 @@
             this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.txtProductCode);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmProductModule";
+            this.Name = "FProductModule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmProductModule";
-            this.Load += new System.EventHandler(this.frmProductModule_Load);
+            this.Load += new System.EventHandler(this.FProductModule_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).EndInit();

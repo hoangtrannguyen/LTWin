@@ -179,7 +179,7 @@
             this.txtBrandName.TabIndex = 9;
             this.txtBrandName.UseSystemPasswordChar = true;
             // 
-            // frmCategoryModule
+            // FCategoryModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -192,10 +192,10 @@
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.txtBrandName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmCategoryModule";
+            this.Name = "FCategoryModule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmCategoryModule";
-            this.Load += new System.EventHandler(this.frmCategoryModule_Load);
+            this.Text = "FCategoryModule";
+            this.Load += new System.EventHandler(this.FCategoryModule_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.ResumeLayout(false);

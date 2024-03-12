@@ -6,7 +6,7 @@ namespace GUI {
             InitializeComponent();
         }
 
-        private void frmRegister_Load(object sender, System.EventArgs e) {
+        private void FRegister_Load(object sender, System.EventArgs e) {
             WinAPI.AnimateWindow(this.Handle, 500, WinAPI.BLEND);
         }
     }

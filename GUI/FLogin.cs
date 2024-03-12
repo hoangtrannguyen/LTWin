@@ -15,7 +15,7 @@ namespace GUI {
             (new FRegister()).ShowDialog();  
         }
 
-        private void frmLogin_Load(object sender, EventArgs e) {
+        private void FLogin_Load(object sender, EventArgs e) {
              WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
         }
     }

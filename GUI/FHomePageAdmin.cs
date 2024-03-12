@@ -13,5 +13,9 @@ namespace GUI {
         public FHomePageAdmin() {
             InitializeComponent();
         }
+
+        private void FHomePageAdmin_Load(object sender, EventArgs e) {
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.CENTER);
+        }
     }
 }

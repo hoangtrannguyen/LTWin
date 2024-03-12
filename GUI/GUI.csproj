@@ -116,6 +116,18 @@
     <Compile Include="FHomePageAdmin.Designer.cs">
       <DependentUpon>FHomePageAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FInOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FInOrder.Designer.cs">
+      <DependentUpon>FInOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FOrderHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FOrderHistory.Designer.cs">
+      <DependentUpon>FOrderHistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="FPayment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,17 +184,17 @@
     <Compile Include="UC_CartItem.Designer.cs">
       <DependentUpon>UC_CartItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC_History.cs">
+    <Compile Include="UC_OrderHistoryCustomer.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_History.Designer.cs">
-      <DependentUpon>UC_History.cs</DependentUpon>
+    <Compile Include="UC_OrderHistoryCustomer.Designer.cs">
+      <DependentUpon>UC_OrderHistoryCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC_Order.cs">
+    <Compile Include="UC_InOrderCustomer.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_Order.Designer.cs">
-      <DependentUpon>UC_Order.cs</DependentUpon>
+    <Compile Include="UC_InOrderCustomer.Designer.cs">
+      <DependentUpon>UC_InOrderCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="UC_Product.cs">
       <SubType>UserControl</SubType>
@@ -215,6 +227,12 @@
     <EmbeddedResource Include="FHomePageAdmin.resx">
       <DependentUpon>FHomePageAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FInOrder.resx">
+      <DependentUpon>FInOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FOrderHistory.resx">
+      <DependentUpon>FOrderHistory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FPayment.resx">
       <DependentUpon>FPayment.cs</DependentUpon>
     </EmbeddedResource>
@@ -246,6 +264,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UC_CartItem.resx">
       <DependentUpon>UC_CartItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_InOrderCustomer.resx">
+      <DependentUpon>UC_InOrderCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_OrderHistoryCustomer.resx">
+      <DependentUpon>UC_OrderHistoryCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC_Product.resx">
       <DependentUpon>UC_Product.cs</DependentUpon>

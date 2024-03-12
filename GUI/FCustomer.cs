@@ -32,7 +32,7 @@ namespace GUI {
             }
         }
 
-        private void frmCustomer_Load(object sender, EventArgs e) {
+        private void FCustomer_Load(object sender, EventArgs e) {
             WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
         }
 
@@ -55,6 +55,20 @@ namespace GUI {
         private void btnCart_Click(object sender, EventArgs e) {
             if(currentButton != (Guna2GradientButton)sender) {
                 OpenChildForm(new FCart(), "Giỏ hàng");
+                currentButton = (Guna2GradientButton)sender;
+            }
+        }
+
+        private void btnOrderStatus_Click(object sender, EventArgs e) {
+            if(currentButton != (Guna2GradientButton)sender) {
+                OpenChildForm(new FInOrder(), "Đơn hàng");
+                currentButton = (Guna2GradientButton)sender;
+            }
+        }
+
+        private void btnOrderHistory_Click(object sender, EventArgs e) {
+            if(currentButton != (Guna2GradientButton)sender) {
+                OpenChildForm(new FOrderHistory(), "Lịch sử mua hàng");
                 currentButton = (Guna2GradientButton)sender;
             }
         }

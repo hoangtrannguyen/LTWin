@@ -46,6 +46,7 @@
             this.Name = "FHomePageAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FHomePageAdmin";
+            this.Load += new System.EventHandler(this.FHomePageAdmin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

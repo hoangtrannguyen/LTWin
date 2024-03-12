@@ -514,6 +514,7 @@
             // btnOkCustomDate
             // 
             this.btnOkCustomDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(88)))), ((int)(((byte)(127)))));
+            this.btnOkCustomDate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnOkCustomDate.FlatAppearance.BorderSize = 0;
             this.btnOkCustomDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOkCustomDate.Image = ((System.Drawing.Image)(resources.GetObject("btnOkCustomDate.Image")));
@@ -527,6 +528,7 @@
             // btnCustomDate
             // 
             this.btnCustomDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.btnCustomDate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCustomDate.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(83)))), ((int)(((byte)(255)))));
             this.btnCustomDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCustomDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -542,6 +544,7 @@
             // btnToday
             // 
             this.btnToday.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.btnToday.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnToday.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(83)))), ((int)(((byte)(255)))));
             this.btnToday.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnToday.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -557,6 +560,7 @@
             // btnLast7Days
             // 
             this.btnLast7Days.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.btnLast7Days.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLast7Days.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(83)))), ((int)(((byte)(255)))));
             this.btnLast7Days.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLast7Days.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -572,6 +576,7 @@
             // btnLast30Days
             // 
             this.btnLast30Days.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.btnLast30Days.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLast30Days.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(83)))), ((int)(((byte)(255)))));
             this.btnLast30Days.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLast30Days.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -587,6 +592,7 @@
             // btnThisMonth
             // 
             this.btnThisMonth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.btnThisMonth.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnThisMonth.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(83)))), ((int)(((byte)(255)))));
             this.btnThisMonth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThisMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);

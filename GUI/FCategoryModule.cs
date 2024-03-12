@@ -7,7 +7,7 @@ namespace GUI {
             InitializeComponent();
         }
 
-        private void frmCategoryModule_Load(object sender, EventArgs e) {
+        private void FCategoryModule_Load(object sender, EventArgs e) {
             WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
         }
     }

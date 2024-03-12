@@ -8,7 +8,6 @@ namespace GUI {
         }
 
         private void FStatistics_Load(object sender, EventArgs e) {
-
             WinAPI.AnimateWindow(this.Handle, 200, WinAPI.CENTER);
         }
     }

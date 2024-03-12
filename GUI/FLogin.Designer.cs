@@ -228,7 +228,7 @@
             this.frmLoginDragControl.TargetControl = this;
             this.frmLoginDragControl.UseTransparentDrag = true;
             // 
-            // frmLogin
+            // FLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -246,10 +246,10 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.ptrbLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmLogin";
+            this.Name = "FLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmLogin";
-            this.Load += new System.EventHandler(this.frmLogin_Load);
+            this.Load += new System.EventHandler(this.FLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptrbLogin)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

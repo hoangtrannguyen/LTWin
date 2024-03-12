@@ -7,7 +7,7 @@ namespace GUI {
             InitializeComponent();
         }
 
-        private void frmBrandModule_Load(object sender, EventArgs e) {
+        private void FBrandModule_Load(object sender, EventArgs e) {
             WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
         }
     }

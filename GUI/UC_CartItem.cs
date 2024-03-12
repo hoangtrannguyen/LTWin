@@ -8,6 +8,7 @@ namespace GUI {
         }
 
         private void UC_CartItem_Load(object sender, EventArgs e) {
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.HOR_Positive);
         }
     }
 }

@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GUI {
-    public partial class UC_Order : UserControl {
-        public UC_Order() {
+    public partial class UC_OrderHistoryCustomer : UserControl {
+        public UC_OrderHistoryCustomer() {
             InitializeComponent();
         }
     }

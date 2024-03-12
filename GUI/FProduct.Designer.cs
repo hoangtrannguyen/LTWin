@@ -24,12 +24,12 @@
         /// </summary>
         private void InitializeComponent() {
             this.panelAddBrand = new Guna.UI2.WinForms.Guna2Panel();
+            this.txtProductCode = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnAddProduct = new Guna.UI2.WinForms.Guna2Button();
             this.flowPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.btnPrevious = new Guna.UI2.WinForms.Guna2Button();
-            this.txtProductCode = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnAddProduct = new Guna.UI2.WinForms.Guna2Button();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.panelAddBrand.SuspendLayout();
@@ -46,6 +46,57 @@
             this.panelAddBrand.Name = "panelAddBrand";
             this.panelAddBrand.Size = new System.Drawing.Size(948, 43);
             this.panelAddBrand.TabIndex = 12;
+            // 
+            // txtProductCode
+            // 
+            this.txtProductCode.Animated = true;
+            this.txtProductCode.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.txtProductCode.BorderThickness = 0;
+            this.txtProductCode.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtProductCode.DefaultText = "";
+            this.txtProductCode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtProductCode.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtProductCode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtProductCode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtProductCode.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtProductCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.txtProductCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtProductCode.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.txtProductCode.ForeColor = System.Drawing.Color.White;
+            this.txtProductCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.txtProductCode.IconLeft = global::GUI.Properties.Resources.search_30px;
+            this.txtProductCode.IconLeftOffset = new System.Drawing.Point(20, 0);
+            this.txtProductCode.Location = new System.Drawing.Point(0, 0);
+            this.txtProductCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtProductCode.Name = "txtProductCode";
+            this.txtProductCode.PasswordChar = '●';
+            this.txtProductCode.PlaceholderText = "Tìm kiếm...";
+            this.txtProductCode.SelectedText = "";
+            this.txtProductCode.Size = new System.Drawing.Size(768, 43);
+            this.txtProductCode.TabIndex = 10;
+            this.txtProductCode.UseSystemPasswordChar = true;
+            // 
+            // btnAddProduct
+            // 
+            this.btnAddProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.btnAddProduct.BorderColor = System.Drawing.Color.Transparent;
+            this.btnAddProduct.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAddProduct.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddProduct.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddProduct.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAddProduct.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAddProduct.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnAddProduct.FillColor = System.Drawing.Color.Transparent;
+            this.btnAddProduct.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnAddProduct.ForeColor = System.Drawing.Color.White;
+            this.btnAddProduct.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.btnAddProduct.Image = global::GUI.Properties.Resources.add_30px;
+            this.btnAddProduct.Location = new System.Drawing.Point(768, 0);
+            this.btnAddProduct.Name = "btnAddProduct";
+            this.btnAddProduct.Size = new System.Drawing.Size(180, 43);
+            this.btnAddProduct.TabIndex = 0;
+            this.btnAddProduct.Text = "Thêm sản phẩm";
+            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
             // flowPanel
             // 
@@ -107,57 +158,6 @@
             this.btnPrevious.Size = new System.Drawing.Size(30, 30);
             this.btnPrevious.TabIndex = 0;
             // 
-            // txtProductCode
-            // 
-            this.txtProductCode.Animated = true;
-            this.txtProductCode.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
-            this.txtProductCode.BorderThickness = 0;
-            this.txtProductCode.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtProductCode.DefaultText = "";
-            this.txtProductCode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtProductCode.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtProductCode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtProductCode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtProductCode.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtProductCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.txtProductCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtProductCode.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtProductCode.ForeColor = System.Drawing.Color.White;
-            this.txtProductCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
-            this.txtProductCode.IconLeft = global::GUI.Properties.Resources.search_30px;
-            this.txtProductCode.IconLeftOffset = new System.Drawing.Point(20, 0);
-            this.txtProductCode.Location = new System.Drawing.Point(0, 0);
-            this.txtProductCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtProductCode.Name = "txtProductCode";
-            this.txtProductCode.PasswordChar = '●';
-            this.txtProductCode.PlaceholderText = "Tìm kiếm...";
-            this.txtProductCode.SelectedText = "";
-            this.txtProductCode.Size = new System.Drawing.Size(768, 43);
-            this.txtProductCode.TabIndex = 10;
-            this.txtProductCode.UseSystemPasswordChar = true;
-            // 
-            // btnAddProduct
-            // 
-            this.btnAddProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.btnAddProduct.BorderColor = System.Drawing.Color.Transparent;
-            this.btnAddProduct.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAddProduct.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAddProduct.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAddProduct.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAddProduct.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAddProduct.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnAddProduct.FillColor = System.Drawing.Color.Transparent;
-            this.btnAddProduct.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnAddProduct.ForeColor = System.Drawing.Color.White;
-            this.btnAddProduct.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.btnAddProduct.Image = global::GUI.Properties.Resources.add_30px;
-            this.btnAddProduct.Location = new System.Drawing.Point(768, 0);
-            this.btnAddProduct.Name = "btnAddProduct";
-            this.btnAddProduct.Size = new System.Drawing.Size(180, 43);
-            this.btnAddProduct.TabIndex = 0;
-            this.btnAddProduct.Text = "Thêm sản phẩm";
-            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
-            // 
             // dataGridViewImageColumn1
             // 
             this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -186,7 +186,7 @@
             this.Name = "FProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmProduct";
-            this.Load += new System.EventHandler(this.frmProduct_Load);
+            this.Load += new System.EventHandler(this.FProduct_Load);
             this.panelAddBrand.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);

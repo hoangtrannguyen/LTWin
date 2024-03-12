@@ -8,19 +8,19 @@ namespace GUI {
             InitializeComponent();
         }
 
-        private async void frmCart_Load(object sender, EventArgs e) {
-            WinAPI.AnimateWindow(this.Handle, 500, WinAPI.BLEND);
+        private void btnPay_Click(object sender, EventArgs e) {
+            (new FPayment()).ShowDialog();
+
+        }
+
+        private async void FCart_Load(object sender, EventArgs e) {
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
 
             for(int i = 0; i < 4; i++) {
                 flowPanelCart.Controls.Add(new UC_CartItem());
 
-                await Task.Delay(200);
+                await Task.Delay(100);
             }
-        }
-
-        private void btnPay_Click(object sender, EventArgs e) {
-            (new FPayment()).ShowDialog();
-
         }
     }
 }

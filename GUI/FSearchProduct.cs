@@ -8,18 +8,18 @@ namespace GUI {
             InitializeComponent();
         }
 
-        private async void frmSearchProduct_Load(object sender, EventArgs e) {
-            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
+        private void flowPanelSearchProduct_Paint(object sender, PaintEventArgs e) {
+            
+        }
+
+        private async void FSearchProduct_Load(object sender, EventArgs e) {
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.HOR_Positive);
 
             for(int i = 0; i < 8; i++) {
                 flowPanelSearchProduct.Controls.Add(new UC_Product());
 
-                await Task.Delay(200);
+                await Task.Delay(100);
             }
-        }
-
-        private void flowPanelSearchProduct_Paint(object sender, PaintEventArgs e) {
-            
         }
     }
 }
