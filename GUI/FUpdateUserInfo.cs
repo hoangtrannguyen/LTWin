@@ -2,12 +2,12 @@
 using System.Windows.Forms;
 
 namespace GUI {
-    public partial class UC_CartItem : UserControl {
-        public UC_CartItem() {
+    public partial class FUpdateUserInfo : Form {
+        public FUpdateUserInfo() {
             InitializeComponent();
         }
 
-        private void UC_CartItem_Load(object sender, EventArgs e) {
+        private void FUpdateUserInfo_Load(object sender, EventArgs e) {
             WinAPI.AnimateWindow(this.Handle, 200, WinAPI.VER_POSITIVE);
         }
     }

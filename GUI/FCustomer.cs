@@ -29,6 +29,9 @@ namespace GUI {
 
         private void FCustomer_Load(object sender, EventArgs e) {
             WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
+
+            OpenChildForm(new FHomePageCustomer(), "Trang chủ");
+            currentButton = btnHomePage;
         }
 
         private void panelContent_Paint(object sender, PaintEventArgs e) {
@@ -71,6 +74,20 @@ namespace GUI {
         private void btnOrderHistory_Click(object sender, EventArgs e) {
             if(currentButton != (Guna2GradientButton)sender) {
                 OpenChildForm(new FOrderHistory(), "Lịch sử mua hàng");
+                currentButton = (Guna2GradientButton)sender;
+            }
+        }
+
+        private void btnUpdateInfo_Click(object sender, EventArgs e) {
+            if(currentButton != (Guna2GradientButton)sender) {
+                OpenChildForm(new FUpdateUserInfo(), "Cập nhật thông tin");
+                currentButton = (Guna2GradientButton)sender;
+            }
+        }
+
+        private void btnHomePage_Click(object sender, EventArgs e) {
+            if(currentButton != (Guna2GradientButton)sender) {
+                OpenChildForm(new FHomePageCustomer(), "Trang chủ");
                 currentButton = (Guna2GradientButton)sender;
             }
         }

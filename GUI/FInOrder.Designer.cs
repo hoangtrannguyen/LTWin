@@ -65,7 +65,7 @@
             this.lblTotalMoney.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblTotalMoney.ForeColor = System.Drawing.Color.White;
-            this.lblTotalMoney.Location = new System.Drawing.Point(483, 12);
+            this.lblTotalMoney.Location = new System.Drawing.Point(481, 12);
             this.lblTotalMoney.Name = "lblTotalMoney";
             this.lblTotalMoney.Size = new System.Drawing.Size(69, 22);
             this.lblTotalMoney.TabIndex = 0;

@@ -31,18 +31,18 @@
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.lblRole = new System.Windows.Forms.Label();
             this.panelSlide = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
+            this.frmCustomerDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
+            this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.btnUpdateInfo = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnExit = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnOrderHistory = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnOrderStatus = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnCart = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSearchProduct = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnHome = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnHomePage = new Guna.UI2.WinForms.Guna2GradientButton();
             this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.frmCustomerDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
-            this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.panelTitle.SuspendLayout();
             this.panelSlide.SuspendLayout();
             this.panelInfo.SuspendLayout();
@@ -52,20 +52,20 @@
             // lblTitle
             // 
             this.lblTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(425, 4);
+            this.lblTitle.Location = new System.Drawing.Point(426, -1);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(32, 23);
+            this.lblTitle.Size = new System.Drawing.Size(55, 33);
             this.lblTitle.TabIndex = 6;
             this.lblTitle.Text = "Title";
             // 
             // btnClose
             // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.Animated = true;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.CustomClick = true;
-            this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnClose.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnClose.IconColor = System.Drawing.Color.White;
@@ -85,15 +85,15 @@
             this.panelTitle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.panelTitle.Location = new System.Drawing.Point(213, 0);
             this.panelTitle.Name = "panelTitle";
-            this.panelTitle.Size = new System.Drawing.Size(1036, 33);
+            this.panelTitle.Size = new System.Drawing.Size(1036, 32);
             this.panelTitle.TabIndex = 11;
             // 
             // btnMinimize
             // 
+            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimize.Animated = true;
             this.btnMinimize.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
             this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnMinimize.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnMinimize.IconColor = System.Drawing.Color.White;
             this.btnMinimize.Location = new System.Drawing.Point(936, 0);
@@ -122,13 +122,44 @@
             this.panelSlide.Controls.Add(this.btnOrderStatus);
             this.panelSlide.Controls.Add(this.btnCart);
             this.panelSlide.Controls.Add(this.btnSearchProduct);
-            this.panelSlide.Controls.Add(this.btnHome);
+            this.panelSlide.Controls.Add(this.btnHomePage);
             this.panelSlide.Controls.Add(this.panelInfo);
             this.panelSlide.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSlide.Location = new System.Drawing.Point(0, 0);
             this.panelSlide.Name = "panelSlide";
             this.panelSlide.Size = new System.Drawing.Size(213, 666);
             this.panelSlide.TabIndex = 10;
+            // 
+            // panelInfo
+            // 
+            this.panelInfo.Controls.Add(this.ptrbAvatar);
+            this.panelInfo.Controls.Add(this.lblRole);
+            this.panelInfo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelInfo.Location = new System.Drawing.Point(0, 0);
+            this.panelInfo.Name = "panelInfo";
+            this.panelInfo.Size = new System.Drawing.Size(213, 100);
+            this.panelInfo.TabIndex = 0;
+            // 
+            // frmCustomerDragControl
+            // 
+            this.frmCustomerDragControl.DockIndicatorTransparencyValue = 0.6D;
+            this.frmCustomerDragControl.TargetControl = this.panelTitle;
+            this.frmCustomerDragControl.UseTransparentDrag = true;
+            // 
+            // panelContent
+            // 
+            this.panelContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContent.Location = new System.Drawing.Point(213, 32);
+            this.panelContent.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(1036, 634);
+            this.panelContent.TabIndex = 12;
+            this.panelContent.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContent_Paint);
+            // 
+            // timerClose
+            // 
+            this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
             // 
             // btnUpdateInfo
             // 
@@ -155,9 +186,11 @@
             this.btnUpdateInfo.TabIndex = 9;
             this.btnUpdateInfo.Text = "Cập nhật thông tin";
             this.btnUpdateInfo.UseTransparentBackground = true;
+            this.btnUpdateInfo.Click += new System.EventHandler(this.btnUpdateInfo_Click);
             // 
             // btnExit
             // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExit.Animated = true;
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
@@ -168,7 +201,6 @@
             this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnExit.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExit.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnExit.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 12F);
@@ -290,41 +322,32 @@
             this.btnSearchProduct.UseTransparentBackground = true;
             this.btnSearchProduct.Click += new System.EventHandler(this.btnSearchProduct_Click);
             // 
-            // btnHome
+            // btnHomePage
             // 
-            this.btnHome.Animated = true;
-            this.btnHome.BackColor = System.Drawing.Color.Transparent;
-            this.btnHome.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnHome.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHome.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnHome.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnHome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnHome.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.btnHome.ForeColor = System.Drawing.Color.White;
-            this.btnHome.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
-            this.btnHome.Image = global::GUI.Properties.Resources.home_page_white_icon;
-            this.btnHome.Location = new System.Drawing.Point(0, 100);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(213, 45);
-            this.btnHome.TabIndex = 3;
-            this.btnHome.Text = "Trang chủ";
-            this.btnHome.UseTransparentBackground = true;
-            // 
-            // panelInfo
-            // 
-            this.panelInfo.Controls.Add(this.ptrbAvatar);
-            this.panelInfo.Controls.Add(this.lblRole);
-            this.panelInfo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelInfo.Location = new System.Drawing.Point(0, 0);
-            this.panelInfo.Name = "panelInfo";
-            this.panelInfo.Size = new System.Drawing.Size(213, 100);
-            this.panelInfo.TabIndex = 0;
+            this.btnHomePage.Animated = true;
+            this.btnHomePage.BackColor = System.Drawing.Color.Transparent;
+            this.btnHomePage.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnHomePage.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnHomePage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHomePage.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHomePage.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHomePage.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHomePage.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHomePage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHomePage.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnHomePage.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnHomePage.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnHomePage.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnHomePage.ForeColor = System.Drawing.Color.White;
+            this.btnHomePage.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
+            this.btnHomePage.Image = global::GUI.Properties.Resources.home_page_white_icon;
+            this.btnHomePage.Location = new System.Drawing.Point(0, 100);
+            this.btnHomePage.Name = "btnHomePage";
+            this.btnHomePage.Size = new System.Drawing.Size(213, 45);
+            this.btnHomePage.TabIndex = 3;
+            this.btnHomePage.Text = "Trang chủ";
+            this.btnHomePage.UseTransparentBackground = true;
+            this.btnHomePage.Click += new System.EventHandler(this.btnHomePage_Click);
             // 
             // ptrbAvatar
             // 
@@ -336,27 +359,6 @@
             this.ptrbAvatar.Size = new System.Drawing.Size(50, 49);
             this.ptrbAvatar.TabIndex = 15;
             this.ptrbAvatar.TabStop = false;
-            // 
-            // frmCustomerDragControl
-            // 
-            this.frmCustomerDragControl.DockIndicatorTransparencyValue = 0.6D;
-            this.frmCustomerDragControl.TargetControl = this.panelTitle;
-            this.frmCustomerDragControl.UseTransparentDrag = true;
-            // 
-            // panelContent
-            // 
-            this.panelContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContent.Location = new System.Drawing.Point(213, 33);
-            this.panelContent.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
-            this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(1036, 633);
-            this.panelContent.TabIndex = 12;
-            this.panelContent.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContent_Paint);
-            // 
-            // timerClose
-            // 
-            this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
             // 
             // FCustomer
             // 
@@ -394,7 +396,7 @@
         private Guna.UI2.WinForms.Guna2GradientButton btnOrderHistory;
         private Guna.UI2.WinForms.Guna2GradientButton btnCart;
         private Guna.UI2.WinForms.Guna2GradientButton btnSearchProduct;
-        private Guna.UI2.WinForms.Guna2GradientButton btnHome;
+        private Guna.UI2.WinForms.Guna2GradientButton btnHomePage;
         private Guna.UI2.WinForms.Guna2GradientButton btnExit;
         private Guna.UI2.WinForms.Guna2CirclePictureBox ptrbAvatar;
         private Guna.UI2.WinForms.Guna2Panel panelContent;

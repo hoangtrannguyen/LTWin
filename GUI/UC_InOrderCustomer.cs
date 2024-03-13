@@ -7,7 +7,11 @@ namespace GUI {
         }
 
         private void UC_InOrderCustomer_Load(object sender, System.EventArgs e) {
-            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.HOR_Positive);
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.VER_POSITIVE);
+        }
+
+        private void btnOrderDetail_Click(object sender, System.EventArgs e) {
+            (new FOrderDetail()).ShowDialog();
         }
     }
 }

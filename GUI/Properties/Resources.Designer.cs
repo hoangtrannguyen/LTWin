@@ -263,16 +263,6 @@ namespace GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap search_20px1 {
-            get {
-                object obj = ResourceManager.GetObject("search_20px1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap search_30px {
             get {
                 object obj = ResourceManager.GetObject("search_30px", resourceCulture);
@@ -313,6 +303,16 @@ namespace GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap update_icon {
+            get {
+                object obj = ResourceManager.GetObject("update-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_icon {
             get {
                 object obj = ResourceManager.GetObject("user-icon", resourceCulture);
@@ -336,6 +336,16 @@ namespace GUI.Properties {
         internal static System.Drawing.Bitmap xe_dieu_khien {
             get {
                 object obj = ResourceManager.GetObject("xe-dieu-khien", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xe_dieu_khien_2x {
+            get {
+                object obj = ResourceManager.GetObject("xe-dieu-khien-2x", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

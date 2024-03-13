@@ -40,7 +40,6 @@
             this.btnReOrder.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
             this.btnReOrder.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.btnReOrder.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnReOrder.Enabled = false;
             this.btnReOrder.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.btnReOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReOrder.ForeColor = System.Drawing.Color.White;
@@ -50,6 +49,7 @@
             this.btnReOrder.Size = new System.Drawing.Size(110, 45);
             this.btnReOrder.TabIndex = 14;
             this.btnReOrder.Text = "Mua lại";
+            this.btnReOrder.Click += new System.EventHandler(this.btnReOrder_Click);
             // 
             // lblTotalMoney
             // 
@@ -122,6 +122,7 @@
             this.btnFeedback.Size = new System.Drawing.Size(110, 45);
             this.btnFeedback.TabIndex = 14;
             this.btnFeedback.Text = "Đánh giá";
+            this.btnFeedback.Click += new System.EventHandler(this.btnFeedback_Click);
             // 
             // UC_OrderHistoryCustomer
             // 

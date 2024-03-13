@@ -153,6 +153,7 @@
             this.btnOrderDetail.TabIndex = 7;
             this.btnOrderDetail.Text = "Chi tiết đơn hàng";
             this.btnOrderDetail.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnOrderDetail.Click += new System.EventHandler(this.btnOrderDetail_Click);
             // 
             // UC_InOrderCustomer
             // 

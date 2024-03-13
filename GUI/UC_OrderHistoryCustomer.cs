@@ -1,17 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GUI {
     public partial class UC_OrderHistoryCustomer : UserControl {
         public UC_OrderHistoryCustomer() {
             InitializeComponent();
+        }
+
+        private void btnFeedback_Click(object sender, EventArgs e) {
+            (new FFeedback()).ShowDialog();
+        }
+
+        private void btnReOrder_Click(object sender, EventArgs e) {
+            (new FProductDetail()).ShowDialog();
         }
     }
 }

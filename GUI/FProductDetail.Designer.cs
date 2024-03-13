@@ -28,15 +28,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.ratingStar = new Guna.UI2.WinForms.Guna2RatingStar();
             this.lblAddress = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblratingValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblRatingValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblSold = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblPriceValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnAddToCart = new Guna.UI2.WinForms.Guna2Button();
-            this.ptrbProduct = new Guna.UI2.WinForms.Guna2PictureBox();
             this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.FProductDetailDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.ptrbProduct = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.lblProductDetail = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptrbProduct)).BeginInit();
             this.SuspendLayout();
@@ -67,7 +68,7 @@
             this.label1.AutoEllipsis = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(317, 55);
+            this.label1.Location = new System.Drawing.Point(324, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(629, 84);
             this.label1.TabIndex = 32;
@@ -93,16 +94,16 @@
             this.lblAddress.TabIndex = 26;
             this.lblAddress.Text = "TP. Hồ Chí Minh";
             // 
-            // lblratingValue
+            // lblRatingValue
             // 
-            this.lblratingValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblratingValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblratingValue.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblratingValue.Location = new System.Drawing.Point(426, 207);
-            this.lblratingValue.Name = "lblratingValue";
-            this.lblratingValue.Size = new System.Drawing.Size(25, 22);
-            this.lblratingValue.TabIndex = 27;
-            this.lblratingValue.Text = "3.2";
+            this.lblRatingValue.BackColor = System.Drawing.Color.Transparent;
+            this.lblRatingValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblRatingValue.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblRatingValue.Location = new System.Drawing.Point(426, 207);
+            this.lblRatingValue.Name = "lblRatingValue";
+            this.lblRatingValue.Size = new System.Drawing.Size(25, 22);
+            this.lblRatingValue.TabIndex = 27;
+            this.lblRatingValue.Text = "3.2";
             // 
             // lblSold
             // 
@@ -120,7 +121,7 @@
             this.lblPrice.BackColor = System.Drawing.Color.Transparent;
             this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPrice.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPrice.Location = new System.Drawing.Point(321, 163);
+            this.lblPrice.Location = new System.Drawing.Point(324, 163);
             this.lblPrice.Name = "lblPrice";
             this.lblPrice.Size = new System.Drawing.Size(32, 22);
             this.lblPrice.TabIndex = 29;
@@ -131,7 +132,7 @@
             this.lblPriceValue.BackColor = System.Drawing.Color.Transparent;
             this.lblPriceValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPriceValue.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPriceValue.Location = new System.Drawing.Point(359, 163);
+            this.lblPriceValue.Location = new System.Drawing.Point(358, 163);
             this.lblPriceValue.Name = "lblPriceValue";
             this.lblPriceValue.Size = new System.Drawing.Size(61, 22);
             this.lblPriceValue.TabIndex = 30;
@@ -153,18 +154,6 @@
             this.btnAddToCart.Size = new System.Drawing.Size(180, 45);
             this.btnAddToCart.TabIndex = 25;
             this.btnAddToCart.Text = "Thêm vào giỏ hàng";
-            // 
-            // ptrbProduct
-            // 
-            this.ptrbProduct.BackColor = System.Drawing.Color.Transparent;
-            this.ptrbProduct.Image = global::GUI.Properties.Resources.xe_dieu_khien;
-            this.ptrbProduct.ImageRotate = 0F;
-            this.ptrbProduct.Location = new System.Drawing.Point(42, 55);
-            this.ptrbProduct.Name = "ptrbProduct";
-            this.ptrbProduct.Size = new System.Drawing.Size(269, 266);
-            this.ptrbProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ptrbProduct.TabIndex = 23;
-            this.ptrbProduct.TabStop = false;
             // 
             // timerClose
             // 
@@ -191,6 +180,29 @@
             this.btnClose.TabIndex = 34;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // ptrbProduct
+            // 
+            this.ptrbProduct.BackColor = System.Drawing.Color.Transparent;
+            this.ptrbProduct.Image = global::GUI.Properties.Resources.xe_dieu_khien;
+            this.ptrbProduct.ImageRotate = 0F;
+            this.ptrbProduct.Location = new System.Drawing.Point(42, 55);
+            this.ptrbProduct.Name = "ptrbProduct";
+            this.ptrbProduct.Size = new System.Drawing.Size(269, 266);
+            this.ptrbProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptrbProduct.TabIndex = 23;
+            this.ptrbProduct.TabStop = false;
+            // 
+            // lblProductDetail
+            // 
+            this.lblProductDetail.BackColor = System.Drawing.Color.Transparent;
+            this.lblProductDetail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblProductDetail.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblProductDetail.Location = new System.Drawing.Point(42, 12);
+            this.lblProductDetail.Name = "lblProductDetail";
+            this.lblProductDetail.Size = new System.Drawing.Size(126, 22);
+            this.lblProductDetail.TabIndex = 29;
+            this.lblProductDetail.Text = "Chi tiết sản phẩm";
+            // 
             // FProductDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -202,8 +214,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ratingStar);
             this.Controls.Add(this.lblAddress);
-            this.Controls.Add(this.lblratingValue);
+            this.Controls.Add(this.lblRatingValue);
             this.Controls.Add(this.lblSold);
+            this.Controls.Add(this.lblProductDetail);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblPriceValue);
             this.Controls.Add(this.btnAddToCart);
@@ -226,7 +239,7 @@
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2RatingStar ratingStar;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblAddress;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblratingValue;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblRatingValue;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblSold;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPrice;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPriceValue;
@@ -235,5 +248,6 @@
         private System.Windows.Forms.Timer timerClose;
         private Guna.UI2.WinForms.Guna2DragControl FProductDetailDragControl;
         private Guna.UI2.WinForms.Guna2ControlBox btnClose;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblProductDetail;
     }
 }
