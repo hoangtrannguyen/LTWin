@@ -12,7 +12,13 @@ namespace GUI {
         }
 
         private void FCategory_Load(object sender, EventArgs e) {
-            WinAPI.AnimateWindow(this.Handle, 500, WinAPI.BLEND);
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.VER_POSITIVE);
+
+
+            for(int i =0; i < 4; i++) {
+                string[] row = { i.ToString(), $"Category {i}" };
+                dgvProduct.Rows.Add(row);
+            }
         }
     }
 }

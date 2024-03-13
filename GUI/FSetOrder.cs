@@ -2,13 +2,17 @@
 using System.Windows.Forms;
 
 namespace GUI {
-    public partial class FProductDetail : Form {
-        public FProductDetail() {
+    public partial class FSetOrder : Form {
+        public FSetOrder() {
             InitializeComponent();
         }
 
-        private void FProductDetail_Load(object sender, EventArgs e) {
+        private void FSetOrder_Load(object sender, EventArgs e) {
             WinAPI.AnimateWindow(this.Handle, 200, WinAPI.VER_POSITIVE);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e) {
+            timerClose.Start();
         }
 
         private void timerClose_Tick(object sender, EventArgs e) {
@@ -20,9 +24,8 @@ namespace GUI {
             }
         }
 
+        private void lblTotalMoney_Click(object sender, EventArgs e) {
 
-        private void btnClose_Click(object sender, EventArgs e) {
-            timerClose.Start();
         }
     }
 }

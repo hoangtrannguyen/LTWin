@@ -12,7 +12,7 @@ namespace GUI {
         }
 
         private void btnReOrder_Click(object sender, EventArgs e) {
-            (new FProductDetail()).ShowDialog();
+            (new FProductDetailCustomer()).ShowDialog();
         }
     }
 }

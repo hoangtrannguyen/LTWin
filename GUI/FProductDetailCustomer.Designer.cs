@@ -1,5 +1,5 @@
 ﻿namespace GUI {
-    partial class FProductDetail {
+    partial class FProductDetailCustomer {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -157,6 +157,7 @@
             // 
             // timerClose
             // 
+            this.timerClose.Interval = 10;
             this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
             // 
             // FProductDetailDragControl
@@ -203,11 +204,11 @@
             this.lblProductDetail.TabIndex = 29;
             this.lblProductDetail.Text = "Chi tiết sản phẩm";
             // 
-            // FProductDetail
+            // FProductDetailCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.ClientSize = new System.Drawing.Size(947, 374);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.nudQuantity);
@@ -222,10 +223,10 @@
             this.Controls.Add(this.btnAddToCart);
             this.Controls.Add(this.ptrbProduct);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FProductDetail";
+            this.Name = "FProductDetailCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FProductDetail";
-            this.Load += new System.EventHandler(this.FProductDetail_Load);
+            this.Load += new System.EventHandler(this.FProductDetailCustomer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptrbProduct)).EndInit();
             this.ResumeLayout(false);

@@ -30,7 +30,7 @@
             this.lblPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblProductImg = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelPagination = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnPay = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSetOrder = new Guna.UI2.WinForms.Guna2Button();
             this.btnPrevious = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panelTitle.SuspendLayout();
@@ -107,7 +107,7 @@
             // panelPagination
             // 
             this.panelPagination.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.panelPagination.Controls.Add(this.btnPay);
+            this.panelPagination.Controls.Add(this.btnSetOrder);
             this.panelPagination.Controls.Add(this.btnPrevious);
             this.panelPagination.Controls.Add(this.guna2Button1);
             this.panelPagination.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -116,23 +116,23 @@
             this.panelPagination.Size = new System.Drawing.Size(1036, 48);
             this.panelPagination.TabIndex = 1;
             // 
-            // btnPay
+            // btnSetOrder
             // 
-            this.btnPay.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPay.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPay.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPay.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPay.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPay.FillColor = System.Drawing.Color.Transparent;
-            this.btnPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPay.ForeColor = System.Drawing.Color.White;
-            this.btnPay.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.btnPay.Location = new System.Drawing.Point(817, 0);
-            this.btnPay.Name = "btnPay";
-            this.btnPay.Size = new System.Drawing.Size(180, 45);
-            this.btnPay.TabIndex = 5;
-            this.btnPay.Text = "Thanh toán";
-            this.btnPay.Click += new System.EventHandler(this.btnPay_Click);
+            this.btnSetOrder.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSetOrder.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSetOrder.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSetOrder.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSetOrder.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSetOrder.FillColor = System.Drawing.Color.Transparent;
+            this.btnSetOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSetOrder.ForeColor = System.Drawing.Color.White;
+            this.btnSetOrder.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.btnSetOrder.Location = new System.Drawing.Point(817, 0);
+            this.btnSetOrder.Name = "btnSetOrder";
+            this.btnSetOrder.Size = new System.Drawing.Size(180, 45);
+            this.btnSetOrder.TabIndex = 5;
+            this.btnSetOrder.Text = "Đặt hàng";
+            this.btnSetOrder.Click += new System.EventHandler(this.btnPay_Click);
             // 
             // btnPrevious
             // 
@@ -202,6 +202,6 @@
         private Guna.UI2.WinForms.Guna2Panel panelPagination;
         private Guna.UI2.WinForms.Guna2Button btnPrevious;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button btnPay;
+        private Guna.UI2.WinForms.Guna2Button btnSetOrder;
     }
 }

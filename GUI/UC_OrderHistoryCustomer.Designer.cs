@@ -28,9 +28,9 @@
             this.lblPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblQuantity = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblProductName = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.ptrbProduct = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnFeedback = new Guna.UI2.WinForms.Guna2Button();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrbProduct)).BeginInit();
             this.SuspendLayout();
             // 
             // btnReOrder
@@ -95,16 +95,16 @@
             this.lblProductName.TabIndex = 10;
             this.lblProductName.Text = "Xe điều khiển từ xa";
             // 
-            // guna2PictureBox1
+            // ptrbProduct
             // 
-            this.guna2PictureBox1.Image = global::GUI.Properties.Resources.xe_dieu_khien;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(26, 12);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(104, 101);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 8;
-            this.guna2PictureBox1.TabStop = false;
+            this.ptrbProduct.Image = global::GUI.Properties.Resources.xe_dieu_khien;
+            this.ptrbProduct.ImageRotate = 0F;
+            this.ptrbProduct.Location = new System.Drawing.Point(26, 12);
+            this.ptrbProduct.Name = "ptrbProduct";
+            this.ptrbProduct.Size = new System.Drawing.Size(104, 101);
+            this.ptrbProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptrbProduct.TabIndex = 8;
+            this.ptrbProduct.TabStop = false;
             // 
             // btnFeedback
             // 
@@ -135,11 +135,11 @@
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblQuantity);
             this.Controls.Add(this.lblProductName);
-            this.Controls.Add(this.guna2PictureBox1);
+            this.Controls.Add(this.ptrbProduct);
             this.Margin = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.Name = "UC_OrderHistoryCustomer";
             this.Size = new System.Drawing.Size(1003, 124);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrbProduct)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -152,7 +152,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPrice;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblQuantity;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblProductName;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2PictureBox ptrbProduct;
         private Guna.UI2.WinForms.Guna2Button btnFeedback;
     }
 }

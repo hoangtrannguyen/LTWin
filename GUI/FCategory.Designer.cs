@@ -27,49 +27,53 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
+            this.vScrollbardgvCategory = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.dgvProduct = new Guna.UI2.WinForms.Guna2DataGridView();
             this.No = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Edit = new System.Windows.Forms.DataGridViewImageColumn();
             this.Delete = new System.Windows.Forms.DataGridViewImageColumn();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
             this.txtProductCode = new Guna.UI2.WinForms.Guna2TextBox();
-            this.panelAddBrand = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelTitle = new Guna.UI2.WinForms.Guna2Panel();
             this.btnAddCategory = new Guna.UI2.WinForms.Guna2Button();
-            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dgvColDelete = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dgvColEdit = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).BeginInit();
-            this.guna2Panel1.SuspendLayout();
-            this.panelAddBrand.SuspendLayout();
+            this.panelContent.SuspendLayout();
+            this.panelTitle.SuspendLayout();
             this.SuspendLayout();
             // 
-            // guna2VScrollBar1
+            // vScrollbardgvCategory
             // 
-            this.guna2VScrollBar1.AutoRoundedCorners = true;
-            this.guna2VScrollBar1.BindingContainer = this.dgvProduct;
-            this.guna2VScrollBar1.BorderRadius = 8;
-            this.guna2VScrollBar1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2VScrollBar1.InUpdate = false;
-            this.guna2VScrollBar1.LargeChange = 10;
-            this.guna2VScrollBar1.Location = new System.Drawing.Point(980, 0);
-            this.guna2VScrollBar1.Minimum = 1;
-            this.guna2VScrollBar1.Name = "guna2VScrollBar1";
-            this.guna2VScrollBar1.ScrollbarSize = 18;
-            this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 496);
-            this.guna2VScrollBar1.TabIndex = 13;
-            this.guna2VScrollBar1.Value = 1;
+            this.vScrollbardgvCategory.AutoRoundedCorners = true;
+            this.vScrollbardgvCategory.BindingContainer = this.dgvProduct;
+            this.vScrollbardgvCategory.BorderRadius = 8;
+            this.vScrollbardgvCategory.FillColor = System.Drawing.Color.Transparent;
+            this.vScrollbardgvCategory.InUpdate = false;
+            this.vScrollbardgvCategory.LargeChange = 10;
+            this.vScrollbardgvCategory.Location = new System.Drawing.Point(1018, 0);
+            this.vScrollbardgvCategory.Minimum = 1;
+            this.vScrollbardgvCategory.Name = "vScrollbardgvCategory";
+            this.vScrollbardgvCategory.ScrollbarSize = 18;
+            this.vScrollbardgvCategory.Size = new System.Drawing.Size(18, 590);
+            this.vScrollbardgvCategory.TabIndex = 13;
+            this.vScrollbardgvCategory.Value = 1;
             // 
             // dgvProduct
             // 
             this.dgvProduct.AllowUserToAddRows = false;
+            this.dgvProduct.AllowUserToDeleteRows = false;
+            this.dgvProduct.AllowUserToResizeColumns = false;
+            this.dgvProduct.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
             this.dgvProduct.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvProduct.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgvProduct.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
             this.dgvProduct.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Silver;
@@ -105,7 +109,8 @@
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvProduct.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvProduct.RowHeadersVisible = false;
-            this.dgvProduct.Size = new System.Drawing.Size(998, 496);
+            this.dgvProduct.RowTemplate.Height = 25;
+            this.dgvProduct.Size = new System.Drawing.Size(1036, 590);
             this.dgvProduct.TabIndex = 12;
             this.dgvProduct.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvProduct.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -125,56 +130,59 @@
             this.dgvProduct.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvProduct.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvProduct.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.dgvProduct.ThemeStyle.RowsStyle.Height = 22;
+            this.dgvProduct.ThemeStyle.RowsStyle.Height = 25;
             this.dgvProduct.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvProduct.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
             // No
             // 
             this.No.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.No.HeaderText = "No";
+            this.No.HeaderText = "STT";
             this.No.Name = "No";
             this.No.ReadOnly = true;
-            this.No.Width = 54;
+            this.No.Width = 61;
             // 
             // Category
             // 
-            this.Category.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Category.HeaderText = "Category";
+            this.Category.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Category.HeaderText = "Danh mục";
             this.Category.Name = "Category";
             this.Category.ReadOnly = true;
-            this.Category.Width = 96;
             // 
             // Edit
             // 
             this.Edit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Edit.HeaderText = "";
-            this.Edit.Image = global::GUI.Properties.Resources.edit_20px;
+            this.Edit.Image = global::GUI.Properties.Resources.edit_icon;
+            this.Edit.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Edit.MinimumWidth = 50;
             this.Edit.Name = "Edit";
             this.Edit.ReadOnly = true;
-            this.Edit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Edit.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.Edit.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Edit.Width = 17;
+            this.Edit.Width = 50;
             // 
             // Delete
             // 
             this.Delete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Delete.HeaderText = "";
-            this.Delete.Image = global::GUI.Properties.Resources.delete_20px;
+            this.Delete.Image = global::GUI.Properties.Resources.remove_icon;
+            this.Delete.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Delete.MinimumWidth = 50;
             this.Delete.Name = "Delete";
             this.Delete.ReadOnly = true;
-            this.Delete.Width = 5;
+            this.Delete.Width = 50;
             // 
-            // guna2Panel1
+            // panelContent
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
-            this.guna2Panel1.Controls.Add(this.guna2VScrollBar1);
-            this.guna2Panel1.Controls.Add(this.dgvProduct);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 43);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(998, 496);
-            this.guna2Panel1.TabIndex = 15;
+            this.panelContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.panelContent.Controls.Add(this.vScrollbardgvCategory);
+            this.panelContent.Controls.Add(this.dgvProduct);
+            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContent.Location = new System.Drawing.Point(0, 43);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(1036, 590);
+            this.panelContent.TabIndex = 15;
             // 
             // txtProductCode
             // 
@@ -190,7 +198,7 @@
             this.txtProductCode.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtProductCode.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
             this.txtProductCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtProductCode.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.txtProductCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtProductCode.ForeColor = System.Drawing.Color.White;
             this.txtProductCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtProductCode.IconLeft = global::GUI.Properties.Resources.search_30px;
@@ -201,20 +209,20 @@
             this.txtProductCode.PasswordChar = '●';
             this.txtProductCode.PlaceholderText = "Tìm kiếm...";
             this.txtProductCode.SelectedText = "";
-            this.txtProductCode.Size = new System.Drawing.Size(818, 43);
+            this.txtProductCode.Size = new System.Drawing.Size(856, 43);
             this.txtProductCode.TabIndex = 10;
             this.txtProductCode.UseSystemPasswordChar = true;
             // 
-            // panelAddBrand
+            // panelTitle
             // 
-            this.panelAddBrand.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.panelAddBrand.Controls.Add(this.txtProductCode);
-            this.panelAddBrand.Controls.Add(this.btnAddCategory);
-            this.panelAddBrand.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelAddBrand.Location = new System.Drawing.Point(0, 0);
-            this.panelAddBrand.Name = "panelAddBrand";
-            this.panelAddBrand.Size = new System.Drawing.Size(998, 43);
-            this.panelAddBrand.TabIndex = 14;
+            this.panelTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.panelTitle.Controls.Add(this.txtProductCode);
+            this.panelTitle.Controls.Add(this.btnAddCategory);
+            this.panelTitle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTitle.Location = new System.Drawing.Point(0, 0);
+            this.panelTitle.Name = "panelTitle";
+            this.panelTitle.Size = new System.Drawing.Size(1036, 43);
+            this.panelTitle.TabIndex = 14;
             // 
             // btnAddCategory
             // 
@@ -231,56 +239,56 @@
             this.btnAddCategory.ForeColor = System.Drawing.Color.White;
             this.btnAddCategory.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnAddCategory.Image = global::GUI.Properties.Resources.add_30px;
-            this.btnAddCategory.Location = new System.Drawing.Point(818, 0);
+            this.btnAddCategory.Location = new System.Drawing.Point(856, 0);
             this.btnAddCategory.Name = "btnAddCategory";
             this.btnAddCategory.Size = new System.Drawing.Size(180, 43);
             this.btnAddCategory.TabIndex = 15;
             this.btnAddCategory.Text = "Thêm danh mục";
             this.btnAddCategory.Click += new System.EventHandler(this.btnAddCategory_Click);
             // 
-            // dataGridViewImageColumn2
+            // dgvColDelete
             // 
-            this.dataGridViewImageColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dataGridViewImageColumn2.HeaderText = "";
-            this.dataGridViewImageColumn2.Image = global::GUI.Properties.Resources.close_window_30px;
-            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
+            this.dgvColDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgvColDelete.HeaderText = "";
+            this.dgvColDelete.Image = global::GUI.Properties.Resources.close_window_30px;
+            this.dgvColDelete.Name = "dgvColDelete";
             // 
-            // dataGridViewImageColumn1
+            // dgvColEdit
             // 
-            this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewImageColumn1.HeaderText = "";
-            this.dataGridViewImageColumn1.Image = global::GUI.Properties.Resources.edit_20px;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            this.dataGridViewImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewImageColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dgvColEdit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dgvColEdit.HeaderText = "";
+            this.dgvColEdit.Image = global::GUI.Properties.Resources.edit_20px;
+            this.dgvColEdit.Name = "dgvColEdit";
+            this.dgvColEdit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvColEdit.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // FCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(998, 539);
-            this.Controls.Add(this.guna2Panel1);
-            this.Controls.Add(this.panelAddBrand);
+            this.ClientSize = new System.Drawing.Size(1036, 633);
+            this.Controls.Add(this.panelContent);
+            this.Controls.Add(this.panelTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FCategory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCategory";
             this.Load += new System.EventHandler(this.FCategory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).EndInit();
-            this.guna2Panel1.ResumeLayout(false);
-            this.panelAddBrand.ResumeLayout(false);
+            this.panelContent.ResumeLayout(false);
+            this.panelTitle.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2VScrollBar guna2VScrollBar1;
+        private Guna.UI2.WinForms.Guna2VScrollBar vScrollbardgvCategory;
         private Guna.UI2.WinForms.Guna2DataGridView dgvProduct;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel panelContent;
         private Guna.UI2.WinForms.Guna2TextBox txtProductCode;
-        private Guna.UI2.WinForms.Guna2Panel panelAddBrand;
-        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
-        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
+        private Guna.UI2.WinForms.Guna2Panel panelTitle;
+        private System.Windows.Forms.DataGridViewImageColumn dgvColDelete;
+        private System.Windows.Forms.DataGridViewImageColumn dgvColEdit;
         private Guna.UI2.WinForms.Guna2Button btnAddCategory;
         private System.Windows.Forms.DataGridViewTextBoxColumn No;
         private System.Windows.Forms.DataGridViewTextBoxColumn Category;

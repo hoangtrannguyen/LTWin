@@ -9,7 +9,7 @@ namespace GUI {
         }
 
         private void btnPay_Click(object sender, EventArgs e) {
-            (new FPayment()).ShowDialog();
+            (new FSetOrder()).ShowDialog();
 
         }
 

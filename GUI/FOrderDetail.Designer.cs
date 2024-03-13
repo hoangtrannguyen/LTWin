@@ -96,6 +96,7 @@
             // 
             // timerClose
             // 
+            this.timerClose.Interval = 10;
             this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
             // 
             // FOrderDetailDragControl
@@ -230,7 +231,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.ClientSize = new System.Drawing.Size(947, 338);
             this.Controls.Add(this.lblProductDescription);
             this.Controls.Add(this.lblAddressValue);

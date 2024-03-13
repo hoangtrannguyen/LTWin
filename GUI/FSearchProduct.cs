@@ -13,10 +13,11 @@ namespace GUI {
         }
 
         private async void FSearchProduct_Load(object sender, EventArgs e) {
-            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.HOR_Positive);
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.VER_POSITIVE);
 
             for(int i = 0; i < 8; i++) {
-                flowPanelSearchProduct.Controls.Add(new UC_Product());
+
+                flowPanelSearchProduct.Controls.Add(new UC_ProductCustomer());
 
                 await Task.Delay(100);
             }

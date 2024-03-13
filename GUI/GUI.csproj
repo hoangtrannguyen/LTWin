@@ -104,11 +104,47 @@
     <Compile Include="FCustomer.Designer.cs">
       <DependentUpon>FCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="FAdmin.cs">
+    <Compile Include="FInOrderSeller.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FAdmin.Designer.cs">
-      <DependentUpon>FAdmin.cs</DependentUpon>
+    <Compile Include="FInOrderSeller.Designer.cs">
+      <DependentUpon>FInOrderSeller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FOrderCustomerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FOrderCustomerInfo.Designer.cs">
+      <DependentUpon>FOrderCustomerInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FProductDetailSeller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FProductDetailSeller.Designer.cs">
+      <DependentUpon>FProductDetailSeller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_CustomerOrderProductInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_CustomerOrderProductInfo.Designer.cs">
+      <DependentUpon>UC_CustomerOrderProductInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_InOrderSeller.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_InOrderSeller.Designer.cs">
+      <DependentUpon>UC_InOrderSeller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ProductSeller.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ProductSeller.Designer.cs">
+      <DependentUpon>UC_ProductSeller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSeller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSeller.Designer.cs">
+      <DependentUpon>FSeller.cs</DependentUpon>
     </Compile>
     <Compile Include="FFeedback.cs">
       <SubType>Form</SubType>
@@ -146,17 +182,17 @@
     <Compile Include="FOrderHistory.Designer.cs">
       <DependentUpon>FOrderHistory.cs</DependentUpon>
     </Compile>
-    <Compile Include="FPayment.cs">
+    <Compile Include="FSetOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FPayment.Designer.cs">
-      <DependentUpon>FPayment.cs</DependentUpon>
+    <Compile Include="FSetOrder.Designer.cs">
+      <DependentUpon>FSetOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="FProductDetail.cs">
+    <Compile Include="FProductDetailCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FProductDetail.Designer.cs">
-      <DependentUpon>FProductDetail.cs</DependentUpon>
+    <Compile Include="FProductDetailCustomer.Designer.cs">
+      <DependentUpon>FProductDetailCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="FStatistics.cs">
       <SubType>Form</SubType>
@@ -170,11 +206,11 @@
     <Compile Include="FLogin.Designer.cs">
       <DependentUpon>FLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FProduct.cs">
+    <Compile Include="FProductList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FProduct.Designer.cs">
-      <DependentUpon>FProduct.cs</DependentUpon>
+    <Compile Include="FProductList.Designer.cs">
+      <DependentUpon>FProductList.cs</DependentUpon>
     </Compile>
     <Compile Include="FProductModule.cs">
       <SubType>Form</SubType>
@@ -220,11 +256,11 @@
     <Compile Include="UC_InOrderCustomer.Designer.cs">
       <DependentUpon>UC_InOrderCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC_Product.cs">
+    <Compile Include="UC_ProductCustomer.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_Product.Designer.cs">
-      <DependentUpon>UC_Product.cs</DependentUpon>
+    <Compile Include="UC_ProductCustomer.Designer.cs">
+      <DependentUpon>UC_ProductCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="WinAPI.cs" />
     <EmbeddedResource Include="FBrandModule.resx">
@@ -245,8 +281,26 @@
     <EmbeddedResource Include="FCustomer.resx">
       <DependentUpon>FCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FAdmin.resx">
-      <DependentUpon>FAdmin.cs</DependentUpon>
+    <EmbeddedResource Include="FInOrderSeller.resx">
+      <DependentUpon>FInOrderSeller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FOrderCustomerInfo.resx">
+      <DependentUpon>FOrderCustomerInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FProductDetailSeller.resx">
+      <DependentUpon>FProductDetailSeller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_CustomerOrderProductInfo.resx">
+      <DependentUpon>UC_CustomerOrderProductInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_InOrderSeller.resx">
+      <DependentUpon>UC_InOrderSeller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ProductSeller.resx">
+      <DependentUpon>UC_ProductSeller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSeller.resx">
+      <DependentUpon>FSeller.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FFeedback.resx">
       <DependentUpon>FFeedback.cs</DependentUpon>
@@ -266,11 +320,11 @@
     <EmbeddedResource Include="FOrderHistory.resx">
       <DependentUpon>FOrderHistory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FPayment.resx">
-      <DependentUpon>FPayment.cs</DependentUpon>
+    <EmbeddedResource Include="FSetOrder.resx">
+      <DependentUpon>FSetOrder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FProductDetail.resx">
-      <DependentUpon>FProductDetail.cs</DependentUpon>
+    <EmbeddedResource Include="FProductDetailCustomer.resx">
+      <DependentUpon>FProductDetailCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FStatistics.resx">
       <DependentUpon>FStatistics.cs</DependentUpon>
@@ -278,8 +332,8 @@
     <EmbeddedResource Include="FLogin.resx">
       <DependentUpon>FLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FProduct.resx">
-      <DependentUpon>FProduct.cs</DependentUpon>
+    <EmbeddedResource Include="FProductList.resx">
+      <DependentUpon>FProductList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FProductModule.resx">
       <DependentUpon>FProductModule.cs</DependentUpon>
@@ -307,8 +361,8 @@
     <EmbeddedResource Include="UC_OrderHistoryCustomer.resx">
       <DependentUpon>UC_OrderHistoryCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UC_Product.resx">
-      <DependentUpon>UC_Product.cs</DependentUpon>
+    <EmbeddedResource Include="UC_ProductCustomer.resx">
+      <DependentUpon>UC_ProductCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -430,6 +484,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\xe-dieu-khien-2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product-magagement-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brand-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\category-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_bin_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
