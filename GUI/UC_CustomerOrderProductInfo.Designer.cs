@@ -23,24 +23,24 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.ptrbAvatar = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblQuantity = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblProductName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblUnitPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblTotalMoney = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2PictureBox1
+            // ptrbAvatar
             // 
-            this.guna2PictureBox1.Image = global::GUI.Properties.Resources.xe_dieu_khien;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(21, 9);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(104, 101);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 3;
-            this.guna2PictureBox1.TabStop = false;
+            this.ptrbAvatar.Image = global::GUI.Properties.Resources.xe_dieu_khien;
+            this.ptrbAvatar.ImageRotate = 0F;
+            this.ptrbAvatar.Location = new System.Drawing.Point(21, 9);
+            this.ptrbAvatar.Name = "ptrbAvatar";
+            this.ptrbAvatar.Size = new System.Drawing.Size(104, 101);
+            this.ptrbAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptrbAvatar.TabIndex = 3;
+            this.ptrbAvatar.TabStop = false;
             // 
             // lblQuantity
             // 
@@ -95,11 +95,11 @@
             this.Controls.Add(this.lblTotalMoney);
             this.Controls.Add(this.lblUnitPrice);
             this.Controls.Add(this.lblQuantity);
-            this.Controls.Add(this.guna2PictureBox1);
+            this.Controls.Add(this.ptrbAvatar);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_CustomerOrderProductInfo";
             this.Size = new System.Drawing.Size(800, 120);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -107,7 +107,7 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2PictureBox ptrbAvatar;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblQuantity;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblProductName;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblUnitPrice;

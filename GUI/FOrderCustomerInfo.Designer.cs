@@ -37,10 +37,10 @@
             this.lblTotalMoney = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblUnitPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.flowPanelCustomerOrderProductInfo = new System.Windows.Forms.FlowLayoutPanel();
-            this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
+            this.vScrollbarflowPanelCustomerProductOrderInfo = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
             this.lblTotalMoneyValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblTotalOrderValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelTitle.SuspendLayout();
             this.panelContent.SuspendLayout();
             this.SuspendLayout();
@@ -205,23 +205,23 @@
             this.flowPanelCustomerOrderProductInfo.Size = new System.Drawing.Size(835, 383);
             this.flowPanelCustomerOrderProductInfo.TabIndex = 6;
             // 
-            // guna2VScrollBar1
+            // vScrollbarflowPanelCustomerProductOrderInfo
             // 
-            this.guna2VScrollBar1.AutoRoundedCorners = true;
-            this.guna2VScrollBar1.BindingContainer = this.flowPanelCustomerOrderProductInfo;
-            this.guna2VScrollBar1.BorderRadius = 8;
-            this.guna2VScrollBar1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.guna2VScrollBar1.InUpdate = false;
-            this.guna2VScrollBar1.LargeChange = 10;
-            this.guna2VScrollBar1.Location = new System.Drawing.Point(817, 0);
-            this.guna2VScrollBar1.Name = "guna2VScrollBar1";
-            this.guna2VScrollBar1.ScrollbarSize = 18;
-            this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 383);
-            this.guna2VScrollBar1.TabIndex = 0;
+            this.vScrollbarflowPanelCustomerProductOrderInfo.AutoRoundedCorners = true;
+            this.vScrollbarflowPanelCustomerProductOrderInfo.BindingContainer = this.flowPanelCustomerOrderProductInfo;
+            this.vScrollbarflowPanelCustomerProductOrderInfo.BorderRadius = 8;
+            this.vScrollbarflowPanelCustomerProductOrderInfo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.vScrollbarflowPanelCustomerProductOrderInfo.InUpdate = false;
+            this.vScrollbarflowPanelCustomerProductOrderInfo.LargeChange = 10;
+            this.vScrollbarflowPanelCustomerProductOrderInfo.Location = new System.Drawing.Point(817, 0);
+            this.vScrollbarflowPanelCustomerProductOrderInfo.Name = "vScrollbarflowPanelCustomerProductOrderInfo";
+            this.vScrollbarflowPanelCustomerProductOrderInfo.ScrollbarSize = 18;
+            this.vScrollbarflowPanelCustomerProductOrderInfo.Size = new System.Drawing.Size(18, 383);
+            this.vScrollbarflowPanelCustomerProductOrderInfo.TabIndex = 0;
             // 
             // panelContent
             // 
-            this.panelContent.Controls.Add(this.guna2VScrollBar1);
+            this.panelContent.Controls.Add(this.vScrollbarflowPanelCustomerProductOrderInfo);
             this.panelContent.Controls.Add(this.flowPanelCustomerOrderProductInfo);
             this.panelContent.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelContent.Location = new System.Drawing.Point(0, 283);
@@ -241,16 +241,16 @@
             this.lblTotalMoneyValue.TabIndex = 9;
             this.lblTotalMoneyValue.Text = "200.000";
             // 
-            // guna2HtmlLabel1
+            // lblTotalOrderValue
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(424, 156);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(156, 22);
-            this.guna2HtmlLabel1.TabIndex = 10;
-            this.guna2HtmlLabel1.Text = "Tổng giá trị đơn hàng:";
+            this.lblTotalOrderValue.BackColor = System.Drawing.Color.Transparent;
+            this.lblTotalOrderValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalOrderValue.ForeColor = System.Drawing.Color.White;
+            this.lblTotalOrderValue.Location = new System.Drawing.Point(424, 156);
+            this.lblTotalOrderValue.Name = "lblTotalOrderValue";
+            this.lblTotalOrderValue.Size = new System.Drawing.Size(156, 22);
+            this.lblTotalOrderValue.TabIndex = 10;
+            this.lblTotalOrderValue.Text = "Tổng giá trị đơn hàng:";
             // 
             // FOrderCustomerInfo
             // 
@@ -259,7 +259,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(835, 686);
             this.Controls.Add(this.lblTotalMoneyValue);
-            this.Controls.Add(this.guna2HtmlLabel1);
+            this.Controls.Add(this.lblTotalOrderValue);
             this.Controls.Add(this.panelTitle);
             this.Controls.Add(this.panelContent);
             this.Controls.Add(this.btnClose);
@@ -299,9 +299,9 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalMoney;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblUnitPrice;
         private System.Windows.Forms.FlowLayoutPanel flowPanelCustomerOrderProductInfo;
-        private Guna.UI2.WinForms.Guna2VScrollBar guna2VScrollBar1;
+        private Guna.UI2.WinForms.Guna2VScrollBar vScrollbarflowPanelCustomerProductOrderInfo;
         private Guna.UI2.WinForms.Guna2Panel panelContent;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalMoneyValue;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalOrderValue;
     }
 }

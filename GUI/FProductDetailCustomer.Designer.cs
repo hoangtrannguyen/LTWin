@@ -25,7 +25,7 @@
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
             this.nudQuantity = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblDescription = new System.Windows.Forms.Label();
             this.ratingStar = new Guna.UI2.WinForms.Guna2RatingStar();
             this.lblAddress = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblRatingValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -63,18 +63,18 @@
             0,
             0});
             // 
-            // label1
+            // lblDescription
             // 
-            this.label1.AutoEllipsis = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(324, 55);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(629, 84);
-            this.label1.TabIndex = 32;
-            this.label1.Text = "Đồ chơi điều khiển ô tô chạy dành cho trẻ em, đồ chơi ô tô điều khiển từ xa có th" +
+            this.lblDescription.AutoEllipsis = true;
+            this.lblDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription.ForeColor = System.Drawing.Color.White;
+            this.lblDescription.Location = new System.Drawing.Point(324, 55);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(629, 84);
+            this.lblDescription.TabIndex = 32;
+            this.lblDescription.Text = "Đồ chơi điều khiển ô tô chạy dành cho trẻ em, đồ chơi ô tô điều khiển từ xa có th" +
     "ể sạc lại, đồ chơi bé trai, xe đồ chơi.";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblDescription.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ratingStar
             // 
@@ -212,7 +212,7 @@
             this.ClientSize = new System.Drawing.Size(947, 374);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.nudQuantity);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblDescription);
             this.Controls.Add(this.ratingStar);
             this.Controls.Add(this.lblAddress);
             this.Controls.Add(this.lblRatingValue);
@@ -237,7 +237,7 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2NumericUpDown nudQuantity;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDescription;
         private Guna.UI2.WinForms.Guna2RatingStar ratingStar;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblAddress;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblRatingValue;

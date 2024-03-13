@@ -28,7 +28,7 @@
             this.lblPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.nudQuantity = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblTotalMoney = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -110,16 +110,16 @@
             this.btnDelete.TabIndex = 6;
             this.btnDelete.Text = "Xóa";
             // 
-            // guna2HtmlLabel1
+            // lblTotalMoney
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(772, 50);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(61, 22);
-            this.guna2HtmlLabel1.TabIndex = 4;
-            this.guna2HtmlLabel1.Text = "200.000";
+            this.lblTotalMoney.BackColor = System.Drawing.Color.Transparent;
+            this.lblTotalMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblTotalMoney.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblTotalMoney.Location = new System.Drawing.Point(772, 50);
+            this.lblTotalMoney.Name = "lblTotalMoney";
+            this.lblTotalMoney.Size = new System.Drawing.Size(61, 22);
+            this.lblTotalMoney.TabIndex = 4;
+            this.lblTotalMoney.Text = "200.000";
             // 
             // guna2PictureBox1
             // 
@@ -139,7 +139,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.nudQuantity);
-            this.Controls.Add(this.guna2HtmlLabel1);
+            this.Controls.Add(this.lblTotalMoney);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblProductName);
             this.Controls.Add(this.chkChoice);
@@ -163,6 +163,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPrice;
         private Guna.UI2.WinForms.Guna2NumericUpDown nudQuantity;
         private Guna.UI2.WinForms.Guna2Button btnDelete;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalMoney;
     }
 }

@@ -32,7 +32,7 @@
             this.panelPagination = new Guna.UI2.WinForms.Guna2Panel();
             this.btnSetOrder = new Guna.UI2.WinForms.Guna2Button();
             this.btnPrevious = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNext = new Guna.UI2.WinForms.Guna2Button();
             this.panelTitle.SuspendLayout();
             this.panelPagination.SuspendLayout();
             this.SuspendLayout();
@@ -109,7 +109,7 @@
             this.panelPagination.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.panelPagination.Controls.Add(this.btnSetOrder);
             this.panelPagination.Controls.Add(this.btnPrevious);
-            this.panelPagination.Controls.Add(this.guna2Button1);
+            this.panelPagination.Controls.Add(this.btnNext);
             this.panelPagination.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelPagination.Location = new System.Drawing.Point(0, 585);
             this.panelPagination.Name = "panelPagination";
@@ -152,23 +152,23 @@
             this.btnPrevious.Size = new System.Drawing.Size(30, 30);
             this.btnPrevious.TabIndex = 4;
             // 
-            // guna2Button1
+            // btnNext
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Image = global::GUI.Properties.Resources.next_icon;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(521, 9);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(30, 30);
-            this.guna2Button1.TabIndex = 3;
+            this.btnNext.Animated = true;
+            this.btnNext.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNext.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnNext.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnNext.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnNext.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnNext.FillColor = System.Drawing.Color.Transparent;
+            this.btnNext.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnNext.ForeColor = System.Drawing.Color.White;
+            this.btnNext.Image = global::GUI.Properties.Resources.next_icon;
+            this.btnNext.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnNext.Location = new System.Drawing.Point(521, 9);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(30, 30);
+            this.btnNext.TabIndex = 3;
             // 
             // FCart
             // 
@@ -201,7 +201,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalMoney;
         private Guna.UI2.WinForms.Guna2Panel panelPagination;
         private Guna.UI2.WinForms.Guna2Button btnPrevious;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnNext;
         private Guna.UI2.WinForms.Guna2Button btnSetOrder;
     }
 }

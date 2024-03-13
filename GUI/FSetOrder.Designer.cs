@@ -40,14 +40,14 @@
             this.panelTitle = new Guna.UI2.WinForms.Guna2Panel();
             this.lblProduct = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblQuantity = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblTotalMoney = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblUnitPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblPhoneNumber = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtPhoneNumber = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblName = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtName = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblTotalMoneyValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblTotalMoney = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblTotalOrderValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelContent.SuspendLayout();
             this.panelTitle.SuspendLayout();
             this.SuspendLayout();
@@ -233,7 +233,7 @@
             this.panelTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.panelTitle.Controls.Add(this.lblProduct);
             this.panelTitle.Controls.Add(this.lblQuantity);
-            this.panelTitle.Controls.Add(this.guna2HtmlLabel1);
+            this.panelTitle.Controls.Add(this.lblTotalMoney);
             this.panelTitle.Controls.Add(this.lblUnitPrice);
             this.panelTitle.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelTitle.Location = new System.Drawing.Point(0, 309);
@@ -263,16 +263,16 @@
             this.lblQuantity.TabIndex = 0;
             this.lblQuantity.Text = "Số lượng";
             // 
-            // guna2HtmlLabel1
+            // lblTotalMoney
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(696, 8);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(39, 22);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "Tổng";
+            this.lblTotalMoney.BackColor = System.Drawing.Color.Transparent;
+            this.lblTotalMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalMoney.ForeColor = System.Drawing.Color.White;
+            this.lblTotalMoney.Location = new System.Drawing.Point(696, 8);
+            this.lblTotalMoney.Name = "lblTotalMoney";
+            this.lblTotalMoney.Size = new System.Drawing.Size(39, 22);
+            this.lblTotalMoney.TabIndex = 0;
+            this.lblTotalMoney.Text = "Tổng";
             // 
             // lblUnitPrice
             // 
@@ -329,27 +329,27 @@
             this.lblName.TabIndex = 79;
             this.lblName.Text = "Họ và tên:";
             // 
-            // guna2TextBox1
+            // txtName
             // 
-            this.guna2TextBox1.BorderRadius = 5;
-            this.guna2TextBox1.BorderThickness = 0;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(262, 46);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '●';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(199, 36);
-            this.guna2TextBox1.TabIndex = 80;
+            this.txtName.BorderRadius = 5;
+            this.txtName.BorderThickness = 0;
+            this.txtName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtName.DefaultText = "";
+            this.txtName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.txtName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtName.Location = new System.Drawing.Point(262, 46);
+            this.txtName.Name = "txtName";
+            this.txtName.PasswordChar = '●';
+            this.txtName.PlaceholderText = "";
+            this.txtName.SelectedText = "";
+            this.txtName.Size = new System.Drawing.Size(199, 36);
+            this.txtName.TabIndex = 80;
             // 
             // lblTotalMoneyValue
             // 
@@ -362,16 +362,16 @@
             this.lblTotalMoneyValue.TabIndex = 84;
             this.lblTotalMoneyValue.Text = "200.000";
             // 
-            // lblTotalMoney
+            // lblTotalOrderValue
             // 
-            this.lblTotalMoney.BackColor = System.Drawing.Color.Transparent;
-            this.lblTotalMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalMoney.ForeColor = System.Drawing.Color.White;
-            this.lblTotalMoney.Location = new System.Drawing.Point(570, 231);
-            this.lblTotalMoney.Name = "lblTotalMoney";
-            this.lblTotalMoney.Size = new System.Drawing.Size(73, 22);
-            this.lblTotalMoney.TabIndex = 85;
-            this.lblTotalMoney.Text = "Tổng tiền:";
+            this.lblTotalOrderValue.BackColor = System.Drawing.Color.Transparent;
+            this.lblTotalOrderValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalOrderValue.ForeColor = System.Drawing.Color.White;
+            this.lblTotalOrderValue.Location = new System.Drawing.Point(570, 231);
+            this.lblTotalOrderValue.Name = "lblTotalOrderValue";
+            this.lblTotalOrderValue.Size = new System.Drawing.Size(73, 22);
+            this.lblTotalOrderValue.TabIndex = 85;
+            this.lblTotalOrderValue.Text = "Tổng tiền:";
             // 
             // FSetOrder
             // 
@@ -380,10 +380,10 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.ClientSize = new System.Drawing.Size(800, 749);
             this.Controls.Add(this.lblTotalMoneyValue);
-            this.Controls.Add(this.lblTotalMoney);
+            this.Controls.Add(this.lblTotalOrderValue);
             this.Controls.Add(this.panelTitle);
             this.Controls.Add(this.panelContent);
-            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.txtPhoneNumber);
             this.Controls.Add(this.txtConfirmPassword);
             this.Controls.Add(this.lblName);
@@ -427,13 +427,13 @@
         private Guna.UI2.WinForms.Guna2Panel panelTitle;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblProduct;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblQuantity;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalMoney;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblUnitPrice;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPhoneNumber;
         private Guna.UI2.WinForms.Guna2TextBox txtPhoneNumber;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblName;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txtName;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalMoneyValue;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalMoney;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalOrderValue;
     }
 }
