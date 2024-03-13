@@ -41,12 +41,14 @@
             this.lblReceiveDate = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ptrbProduct = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblOrderDetail = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblProductName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.ptrbProduct)).BeginInit();
             this.SuspendLayout();
             // 
             // btnClose
             // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.Animated = true;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.CustomClick = true;
@@ -64,7 +66,7 @@
             this.lblProductDescription.AutoEllipsis = true;
             this.lblProductDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProductDescription.ForeColor = System.Drawing.Color.White;
-            this.lblProductDescription.Location = new System.Drawing.Point(336, 35);
+            this.lblProductDescription.Location = new System.Drawing.Point(340, 76);
             this.lblProductDescription.Name = "lblProductDescription";
             this.lblProductDescription.Size = new System.Drawing.Size(567, 64);
             this.lblProductDescription.TabIndex = 42;
@@ -77,7 +79,7 @@
             this.lblPrice.BackColor = System.Drawing.Color.Transparent;
             this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPrice.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPrice.Location = new System.Drawing.Point(336, 113);
+            this.lblPrice.Location = new System.Drawing.Point(340, 152);
             this.lblPrice.Name = "lblPrice";
             this.lblPrice.Size = new System.Drawing.Size(32, 22);
             this.lblPrice.TabIndex = 39;
@@ -88,7 +90,7 @@
             this.lblPriceValue.BackColor = System.Drawing.Color.Transparent;
             this.lblPriceValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPriceValue.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPriceValue.Location = new System.Drawing.Point(371, 113);
+            this.lblPriceValue.Location = new System.Drawing.Point(375, 152);
             this.lblPriceValue.Name = "lblPriceValue";
             this.lblPriceValue.Size = new System.Drawing.Size(61, 22);
             this.lblPriceValue.TabIndex = 40;
@@ -110,7 +112,7 @@
             this.lblQuantity.BackColor = System.Drawing.Color.Transparent;
             this.lblQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblQuantity.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblQuantity.Location = new System.Drawing.Point(336, 149);
+            this.lblQuantity.Location = new System.Drawing.Point(438, 152);
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(19, 22);
             this.lblQuantity.TabIndex = 40;
@@ -121,7 +123,7 @@
             this.lblTotalMoneyValue.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalMoneyValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblTotalMoneyValue.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTotalMoneyValue.Location = new System.Drawing.Point(382, 185);
+            this.lblTotalMoneyValue.Location = new System.Drawing.Point(387, 186);
             this.lblTotalMoneyValue.Name = "lblTotalMoneyValue";
             this.lblTotalMoneyValue.Size = new System.Drawing.Size(61, 22);
             this.lblTotalMoneyValue.TabIndex = 40;
@@ -132,7 +134,7 @@
             this.lblTotalMoney.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblTotalMoney.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTotalMoney.Location = new System.Drawing.Point(336, 185);
+            this.lblTotalMoney.Location = new System.Drawing.Point(340, 186);
             this.lblTotalMoney.Name = "lblTotalMoney";
             this.lblTotalMoney.Size = new System.Drawing.Size(43, 22);
             this.lblTotalMoney.TabIndex = 39;
@@ -143,7 +145,7 @@
             this.lblPayMethodName.BackColor = System.Drawing.Color.Transparent;
             this.lblPayMethodName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPayMethodName.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPayMethodName.Location = new System.Drawing.Point(518, 221);
+            this.lblPayMethodName.Location = new System.Drawing.Point(518, 220);
             this.lblPayMethodName.Name = "lblPayMethodName";
             this.lblPayMethodName.Size = new System.Drawing.Size(188, 22);
             this.lblPayMethodName.TabIndex = 40;
@@ -154,7 +156,7 @@
             this.lblPayMethod.BackColor = System.Drawing.Color.Transparent;
             this.lblPayMethod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPayMethod.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPayMethod.Location = new System.Drawing.Point(336, 221);
+            this.lblPayMethod.Location = new System.Drawing.Point(340, 220);
             this.lblPayMethod.Name = "lblPayMethod";
             this.lblPayMethod.Size = new System.Drawing.Size(178, 22);
             this.lblPayMethod.TabIndex = 39;
@@ -165,7 +167,7 @@
             this.lblAddress.BackColor = System.Drawing.Color.Transparent;
             this.lblAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblAddress.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblAddress.Location = new System.Drawing.Point(336, 257);
+            this.lblAddress.Location = new System.Drawing.Point(340, 254);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(55, 22);
             this.lblAddress.TabIndex = 39;
@@ -176,7 +178,7 @@
             this.lblAddressValue.BackColor = System.Drawing.Color.Transparent;
             this.lblAddressValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblAddressValue.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblAddressValue.Location = new System.Drawing.Point(395, 257);
+            this.lblAddressValue.Location = new System.Drawing.Point(395, 254);
             this.lblAddressValue.Name = "lblAddressValue";
             this.lblAddressValue.Size = new System.Drawing.Size(445, 22);
             this.lblAddressValue.TabIndex = 39;
@@ -187,7 +189,7 @@
             this.lblReceive.BackColor = System.Drawing.Color.Transparent;
             this.lblReceive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblReceive.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblReceive.Location = new System.Drawing.Point(336, 293);
+            this.lblReceive.Location = new System.Drawing.Point(340, 288);
             this.lblReceive.Name = "lblReceive";
             this.lblReceive.Size = new System.Drawing.Size(114, 22);
             this.lblReceive.TabIndex = 39;
@@ -198,7 +200,7 @@
             this.lblReceiveDate.BackColor = System.Drawing.Color.Transparent;
             this.lblReceiveDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblReceiveDate.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblReceiveDate.Location = new System.Drawing.Point(456, 293);
+            this.lblReceiveDate.Location = new System.Drawing.Point(456, 288);
             this.lblReceiveDate.Name = "lblReceiveDate";
             this.lblReceiveDate.Size = new System.Drawing.Size(78, 22);
             this.lblReceiveDate.TabIndex = 39;
@@ -227,6 +229,17 @@
             this.lblOrderDetail.TabIndex = 39;
             this.lblOrderDetail.Text = "Chi tiết đơn hàng";
             // 
+            // lblProductName
+            // 
+            this.lblProductName.BackColor = System.Drawing.Color.Transparent;
+            this.lblProductName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblProductName.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblProductName.Location = new System.Drawing.Point(340, 42);
+            this.lblProductName.Name = "lblProductName";
+            this.lblProductName.Size = new System.Drawing.Size(99, 22);
+            this.lblProductName.TabIndex = 40;
+            this.lblProductName.Text = "Xe điều khiển";
+            // 
             // FOrderDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -242,6 +255,7 @@
             this.Controls.Add(this.lblTotalMoney);
             this.Controls.Add(this.lblOrderDetail);
             this.Controls.Add(this.lblPrice);
+            this.Controls.Add(this.lblProductName);
             this.Controls.Add(this.lblQuantity);
             this.Controls.Add(this.lblPayMethodName);
             this.Controls.Add(this.lblTotalMoneyValue);
@@ -278,5 +292,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblReceive;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblReceiveDate;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblOrderDetail;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblProductName;
     }
 }

@@ -41,12 +41,12 @@
             this.btnProduct = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnHomePage = new Guna.UI2.WinForms.Guna2GradientButton();
             this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblName = new System.Windows.Forms.Label();
+            this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblRole = new System.Windows.Forms.Label();
             this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
             this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.productTransition = new System.Windows.Forms.Timer(this.components);
-            this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.lblName = new System.Windows.Forms.Label();
             this.panelTitle.SuspendLayout();
             this.panelSlide.SuspendLayout();
             this.panelProduct.SuspendLayout();
@@ -133,6 +133,7 @@
             // 
             this.btnLogout.Animated = true;
             this.btnLogout.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogout.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.btnLogout.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnLogout.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -159,6 +160,7 @@
             // 
             this.btnUpdateInfo.Animated = true;
             this.btnUpdateInfo.BackColor = System.Drawing.Color.Transparent;
+            this.btnUpdateInfo.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.btnUpdateInfo.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnUpdateInfo.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnUpdateInfo.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -186,6 +188,7 @@
             // 
             this.btnStatistics.Animated = true;
             this.btnStatistics.BackColor = System.Drawing.Color.Transparent;
+            this.btnStatistics.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.btnStatistics.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnStatistics.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnStatistics.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -213,6 +216,7 @@
             // 
             this.btnOrder.Animated = true;
             this.btnOrder.BackColor = System.Drawing.Color.Transparent;
+            this.btnOrder.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.btnOrder.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnOrder.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnOrder.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -252,7 +256,8 @@
             // 
             this.btnBrand.Animated = true;
             this.btnBrand.BackColor = System.Drawing.Color.Transparent;
-            this.btnBrand.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnBrand.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.btnBrand.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.btnBrand.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnBrand.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBrand.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -279,7 +284,8 @@
             // 
             this.btnCategory.Animated = true;
             this.btnCategory.BackColor = System.Drawing.Color.Transparent;
-            this.btnCategory.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnCategory.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.btnCategory.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.btnCategory.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnCategory.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCategory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -306,7 +312,8 @@
             // 
             this.btnProductList.Animated = true;
             this.btnProductList.BackColor = System.Drawing.Color.Transparent;
-            this.btnProductList.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnProductList.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.btnProductList.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.btnProductList.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnProductList.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnProductList.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -333,6 +340,7 @@
             // 
             this.btnProduct.Animated = true;
             this.btnProduct.BackColor = System.Drawing.Color.Transparent;
+            this.btnProduct.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.btnProduct.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnProduct.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnProduct.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -360,6 +368,7 @@
             // 
             this.btnHomePage.Animated = true;
             this.btnHomePage.BackColor = System.Drawing.Color.Transparent;
+            this.btnHomePage.CheckedState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.btnHomePage.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnHomePage.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnHomePage.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -394,6 +403,29 @@
             this.panelInfo.Size = new System.Drawing.Size(213, 153);
             this.panelInfo.TabIndex = 0;
             // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblName.Location = new System.Drawing.Point(81, 98);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(52, 21);
+            this.lblName.TabIndex = 17;
+            this.lblName.Text = "Name";
+            // 
+            // ptrbAvatar
+            // 
+            this.ptrbAvatar.Image = global::GUI.Properties.Resources.user_icon;
+            this.ptrbAvatar.ImageRotate = 0F;
+            this.ptrbAvatar.Location = new System.Drawing.Point(64, 6);
+            this.ptrbAvatar.Name = "ptrbAvatar";
+            this.ptrbAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ptrbAvatar.Size = new System.Drawing.Size(86, 91);
+            this.ptrbAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptrbAvatar.TabIndex = 16;
+            this.ptrbAvatar.TabStop = false;
+            // 
             // lblRole
             // 
             this.lblRole.AutoSize = true;
@@ -425,29 +457,6 @@
             // 
             this.productTransition.Interval = 10;
             this.productTransition.Tick += new System.EventHandler(this.productTransition_Tick);
-            // 
-            // ptrbAvatar
-            // 
-            this.ptrbAvatar.Image = global::GUI.Properties.Resources.user_icon;
-            this.ptrbAvatar.ImageRotate = 0F;
-            this.ptrbAvatar.Location = new System.Drawing.Point(64, 6);
-            this.ptrbAvatar.Name = "ptrbAvatar";
-            this.ptrbAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.ptrbAvatar.Size = new System.Drawing.Size(86, 91);
-            this.ptrbAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ptrbAvatar.TabIndex = 16;
-            this.ptrbAvatar.TabStop = false;
-            // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblName.Location = new System.Drawing.Point(81, 98);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(52, 21);
-            this.lblName.TabIndex = 17;
-            this.lblName.Text = "Name";
             // 
             // FSeller
             // 

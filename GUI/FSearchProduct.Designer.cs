@@ -25,15 +25,15 @@
         private void InitializeComponent() {
             this.panelSearchProduct = new Guna.UI2.WinForms.Guna2Panel();
             this.panelSearchBy = new Guna.UI2.WinForms.Guna2Panel();
+            this.cbxPrice = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cbxAddress = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cbxBrand = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cbxCategory = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtSearchProduct = new Guna.UI2.WinForms.Guna2TextBox();
             this.flowPanelSearchProduct = new System.Windows.Forms.FlowLayoutPanel();
             this.panelPagination = new Guna.UI2.WinForms.Guna2Panel();
             this.btnPrevious = new Guna.UI2.WinForms.Guna2Button();
             this.btnNext = new Guna.UI2.WinForms.Guna2Button();
-            this.cbxPrice = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.cbxAddress = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.cbxBrand = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.cbxCategory = new Guna.UI2.WinForms.Guna2ComboBox();
             this.panelSearchProduct.SuspendLayout();
             this.panelSearchBy.SuspendLayout();
             this.panelPagination.SuspendLayout();
@@ -62,6 +62,103 @@
             this.panelSearchBy.Name = "panelSearchBy";
             this.panelSearchBy.Size = new System.Drawing.Size(691, 37);
             this.panelSearchBy.TabIndex = 2;
+            // 
+            // cbxPrice
+            // 
+            this.cbxPrice.BackColor = System.Drawing.Color.Transparent;
+            this.cbxPrice.BorderRadius = 5;
+            this.cbxPrice.BorderThickness = 0;
+            this.cbxPrice.CausesValidation = false;
+            this.cbxPrice.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbxPrice.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbxPrice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxPrice.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.cbxPrice.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbxPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbxPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxPrice.ForeColor = System.Drawing.Color.White;
+            this.cbxPrice.ItemHeight = 30;
+            this.cbxPrice.Items.AddRange(new object[] {
+            "Giá"});
+            this.cbxPrice.Location = new System.Drawing.Point(549, 2);
+            this.cbxPrice.Name = "cbxPrice";
+            this.cbxPrice.Size = new System.Drawing.Size(140, 36);
+            this.cbxPrice.StartIndex = 0;
+            this.cbxPrice.TabIndex = 0;
+            this.cbxPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // cbxAddress
+            // 
+            this.cbxAddress.BackColor = System.Drawing.Color.Transparent;
+            this.cbxAddress.BorderRadius = 5;
+            this.cbxAddress.BorderThickness = 0;
+            this.cbxAddress.CausesValidation = false;
+            this.cbxAddress.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbxAddress.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbxAddress.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.cbxAddress.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbxAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbxAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxAddress.ForeColor = System.Drawing.Color.White;
+            this.cbxAddress.ItemHeight = 30;
+            this.cbxAddress.Items.AddRange(new object[] {
+            "Địa chỉ"});
+            this.cbxAddress.Location = new System.Drawing.Point(364, 2);
+            this.cbxAddress.Name = "cbxAddress";
+            this.cbxAddress.Size = new System.Drawing.Size(179, 36);
+            this.cbxAddress.StartIndex = 0;
+            this.cbxAddress.TabIndex = 0;
+            this.cbxAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // cbxBrand
+            // 
+            this.cbxBrand.BackColor = System.Drawing.Color.Transparent;
+            this.cbxBrand.BorderRadius = 5;
+            this.cbxBrand.BorderThickness = 0;
+            this.cbxBrand.CausesValidation = false;
+            this.cbxBrand.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbxBrand.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbxBrand.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxBrand.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.cbxBrand.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbxBrand.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbxBrand.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxBrand.ForeColor = System.Drawing.Color.White;
+            this.cbxBrand.ItemHeight = 30;
+            this.cbxBrand.Items.AddRange(new object[] {
+            "Thương hiệu"});
+            this.cbxBrand.Location = new System.Drawing.Point(177, 2);
+            this.cbxBrand.Name = "cbxBrand";
+            this.cbxBrand.Size = new System.Drawing.Size(181, 36);
+            this.cbxBrand.StartIndex = 0;
+            this.cbxBrand.TabIndex = 0;
+            this.cbxBrand.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.cbxBrand.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            // 
+            // cbxCategory
+            // 
+            this.cbxCategory.BackColor = System.Drawing.Color.Transparent;
+            this.cbxCategory.BorderRadius = 5;
+            this.cbxCategory.BorderThickness = 0;
+            this.cbxCategory.CausesValidation = false;
+            this.cbxCategory.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbxCategory.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbxCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxCategory.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.cbxCategory.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbxCategory.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbxCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxCategory.ForeColor = System.Drawing.Color.White;
+            this.cbxCategory.ItemHeight = 30;
+            this.cbxCategory.Items.AddRange(new object[] {
+            "Danh mục"});
+            this.cbxCategory.Location = new System.Drawing.Point(-2, 2);
+            this.cbxCategory.Name = "cbxCategory";
+            this.cbxCategory.Size = new System.Drawing.Size(173, 36);
+            this.cbxCategory.StartIndex = 0;
+            this.cbxCategory.TabIndex = 0;
+            this.cbxCategory.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtSearchProduct
             // 
@@ -146,103 +243,6 @@
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(30, 30);
             this.btnNext.TabIndex = 3;
-            // 
-            // cbxPrice
-            // 
-            this.cbxPrice.BackColor = System.Drawing.Color.Transparent;
-            this.cbxPrice.BorderRadius = 5;
-            this.cbxPrice.BorderThickness = 0;
-            this.cbxPrice.CausesValidation = false;
-            this.cbxPrice.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbxPrice.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbxPrice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxPrice.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.cbxPrice.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbxPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbxPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbxPrice.ForeColor = System.Drawing.Color.White;
-            this.cbxPrice.ItemHeight = 30;
-            this.cbxPrice.Items.AddRange(new object[] {
-            "Giá"});
-            this.cbxPrice.Location = new System.Drawing.Point(549, 2);
-            this.cbxPrice.Name = "cbxPrice";
-            this.cbxPrice.Size = new System.Drawing.Size(140, 36);
-            this.cbxPrice.StartIndex = 0;
-            this.cbxPrice.TabIndex = 0;
-            this.cbxPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // cbxAddress
-            // 
-            this.cbxAddress.BackColor = System.Drawing.Color.Transparent;
-            this.cbxAddress.BorderRadius = 5;
-            this.cbxAddress.BorderThickness = 0;
-            this.cbxAddress.CausesValidation = false;
-            this.cbxAddress.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbxAddress.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbxAddress.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.cbxAddress.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbxAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbxAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbxAddress.ForeColor = System.Drawing.Color.White;
-            this.cbxAddress.ItemHeight = 30;
-            this.cbxAddress.Items.AddRange(new object[] {
-            "Địa chỉ"});
-            this.cbxAddress.Location = new System.Drawing.Point(364, 2);
-            this.cbxAddress.Name = "cbxAddress";
-            this.cbxAddress.Size = new System.Drawing.Size(179, 36);
-            this.cbxAddress.StartIndex = 0;
-            this.cbxAddress.TabIndex = 0;
-            this.cbxAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // cbxBrand
-            // 
-            this.cbxBrand.BackColor = System.Drawing.Color.Transparent;
-            this.cbxBrand.BorderRadius = 5;
-            this.cbxBrand.BorderThickness = 0;
-            this.cbxBrand.CausesValidation = false;
-            this.cbxBrand.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbxBrand.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbxBrand.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxBrand.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.cbxBrand.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbxBrand.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbxBrand.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbxBrand.ForeColor = System.Drawing.Color.White;
-            this.cbxBrand.ItemHeight = 30;
-            this.cbxBrand.Items.AddRange(new object[] {
-            "Thương hiệu"});
-            this.cbxBrand.Location = new System.Drawing.Point(177, 2);
-            this.cbxBrand.Name = "cbxBrand";
-            this.cbxBrand.Size = new System.Drawing.Size(181, 36);
-            this.cbxBrand.StartIndex = 0;
-            this.cbxBrand.TabIndex = 0;
-            this.cbxBrand.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.cbxBrand.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            // 
-            // cbxCategory
-            // 
-            this.cbxCategory.BackColor = System.Drawing.Color.Transparent;
-            this.cbxCategory.BorderRadius = 5;
-            this.cbxCategory.BorderThickness = 0;
-            this.cbxCategory.CausesValidation = false;
-            this.cbxCategory.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbxCategory.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbxCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxCategory.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.cbxCategory.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbxCategory.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbxCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbxCategory.ForeColor = System.Drawing.Color.White;
-            this.cbxCategory.ItemHeight = 30;
-            this.cbxCategory.Items.AddRange(new object[] {
-            "Danh mục"});
-            this.cbxCategory.Location = new System.Drawing.Point(-2, 2);
-            this.cbxCategory.Name = "cbxCategory";
-            this.cbxCategory.Size = new System.Drawing.Size(173, 36);
-            this.cbxCategory.StartIndex = 0;
-            this.cbxCategory.TabIndex = 0;
-            this.cbxCategory.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // FSearchProduct
             // 

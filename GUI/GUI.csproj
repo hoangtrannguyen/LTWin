@@ -68,6 +68,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAdmin.Designer.cs">
+      <DependentUpon>FAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FBrandModule.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,12 @@
     <Compile Include="FProductDetailSeller.Designer.cs">
       <DependentUpon>FProductDetailSeller.cs</DependentUpon>
     </Compile>
+    <Compile Include="FUserDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FUserDetail.Designer.cs">
+      <DependentUpon>FUserDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC_CustomerOrderProductInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -152,11 +164,11 @@
     <Compile Include="FFeedback.Designer.cs">
       <DependentUpon>FFeedback.cs</DependentUpon>
     </Compile>
-    <Compile Include="FHomePageAdmin.cs">
+    <Compile Include="FHomePageSeller.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FHomePageAdmin.Designer.cs">
-      <DependentUpon>FHomePageAdmin.cs</DependentUpon>
+    <Compile Include="FHomePageSeller.Designer.cs">
+      <DependentUpon>FHomePageSeller.cs</DependentUpon>
     </Compile>
     <Compile Include="FHomePageCustomer.cs">
       <SubType>Form</SubType>
@@ -262,7 +274,16 @@
     <Compile Include="UC_ProductCustomer.Designer.cs">
       <DependentUpon>UC_ProductCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC_User.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_User.Designer.cs">
+      <DependentUpon>UC_User.cs</DependentUpon>
+    </Compile>
     <Compile Include="WinAPI.cs" />
+    <EmbeddedResource Include="FAdmin.resx">
+      <DependentUpon>FAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FBrandModule.resx">
       <DependentUpon>FBrandModule.cs</DependentUpon>
     </EmbeddedResource>
@@ -290,6 +311,9 @@
     <EmbeddedResource Include="FProductDetailSeller.resx">
       <DependentUpon>FProductDetailSeller.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FUserDetail.resx">
+      <DependentUpon>FUserDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC_CustomerOrderProductInfo.resx">
       <DependentUpon>UC_CustomerOrderProductInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -305,8 +329,8 @@
     <EmbeddedResource Include="FFeedback.resx">
       <DependentUpon>FFeedback.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FHomePageAdmin.resx">
-      <DependentUpon>FHomePageAdmin.cs</DependentUpon>
+    <EmbeddedResource Include="FHomePageSeller.resx">
+      <DependentUpon>FHomePageSeller.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FHomePageCustomer.resx">
       <DependentUpon>FHomePageCustomer.cs</DependentUpon>
@@ -363,6 +387,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UC_ProductCustomer.resx">
       <DependentUpon>UC_ProductCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_User.resx">
+      <DependentUpon>UC_User.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -502,6 +529,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\edit-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-settings-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

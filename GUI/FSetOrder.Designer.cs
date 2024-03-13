@@ -54,14 +54,15 @@
             // 
             // btnClose
             // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.Animated = true;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.CustomClick = true;
             this.btnClose.FillColor = System.Drawing.Color.Transparent;
             this.btnClose.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnClose.IconColor = System.Drawing.Color.White;
-            this.btnClose.Location = new System.Drawing.Point(754, 1);
+            this.btnClose.Location = new System.Drawing.Point(779, 1);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(45, 29);
             this.btnClose.TabIndex = 0;
@@ -83,7 +84,7 @@
             this.btnSetOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnSetOrder.ForeColor = System.Drawing.Color.White;
             this.btnSetOrder.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.btnSetOrder.Location = new System.Drawing.Point(620, 259);
+            this.btnSetOrder.Location = new System.Drawing.Point(555, 259);
             this.btnSetOrder.Name = "btnSetOrder";
             this.btnSetOrder.Size = new System.Drawing.Size(179, 45);
             this.btnSetOrder.TabIndex = 6;
@@ -99,20 +100,20 @@
             this.lblPayMethod.Size = new System.Drawing.Size(174, 22);
             this.lblPayMethod.TabIndex = 7;
             this.lblPayMethod.Text = "Phương thức thanh toán";
-            this.lblPayMethod.Click += new System.EventHandler(this.lblTotalMoney_Click);
             // 
             // cbxPaymentType
             // 
-            this.cbxPaymentType.BackColor = System.Drawing.Color.Transparent;
+            this.cbxPaymentType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.cbxPaymentType.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.cbxPaymentType.BorderRadius = 5;
-            this.cbxPaymentType.BorderThickness = 0;
             this.cbxPaymentType.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbxPaymentType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbxPaymentType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxPaymentType.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.cbxPaymentType.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbxPaymentType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbxPaymentType.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cbxPaymentType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbxPaymentType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxPaymentType.ForeColor = System.Drawing.Color.White;
             this.cbxPaymentType.ItemHeight = 30;
             this.cbxPaymentType.Location = new System.Drawing.Point(530, 107);
             this.cbxPaymentType.Name = "cbxPaymentType";
@@ -132,19 +133,22 @@
             // 
             // txtConfirmPassword
             // 
+            this.txtConfirmPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.txtConfirmPassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.txtConfirmPassword.BorderRadius = 5;
-            this.txtConfirmPassword.BorderThickness = 0;
             this.txtConfirmPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtConfirmPassword.DefaultText = "";
             this.txtConfirmPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtConfirmPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtConfirmPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtConfirmPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtConfirmPassword.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.txtConfirmPassword.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtConfirmPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtConfirmPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtConfirmPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmPassword.ForeColor = System.Drawing.Color.White;
             this.txtConfirmPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtConfirmPassword.Location = new System.Drawing.Point(262, 224);
+            this.txtConfirmPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtConfirmPassword.Name = "txtConfirmPassword";
             this.txtConfirmPassword.PasswordChar = '●';
             this.txtConfirmPassword.PlaceholderText = "";
@@ -162,7 +166,6 @@
             this.lblPayInfo.Size = new System.Drawing.Size(301, 22);
             this.lblPayInfo.TabIndex = 7;
             this.lblPayInfo.Text = "Vui lòng chuẩn bị tiền vào ngày nhận hàng";
-            this.lblPayInfo.Click += new System.EventHandler(this.lblTotalMoney_Click);
             // 
             // lblReceiveAddress
             // 
@@ -177,16 +180,18 @@
             // 
             // cbxReceiveAddress
             // 
-            this.cbxReceiveAddress.BackColor = System.Drawing.Color.Transparent;
+            this.cbxReceiveAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.cbxReceiveAddress.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.cbxReceiveAddress.BorderRadius = 5;
             this.cbxReceiveAddress.BorderThickness = 0;
             this.cbxReceiveAddress.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbxReceiveAddress.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbxReceiveAddress.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxReceiveAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.cbxReceiveAddress.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbxReceiveAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cbxReceiveAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbxReceiveAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbxReceiveAddress.ForeColor = System.Drawing.Color.White;
             this.cbxReceiveAddress.ItemHeight = 30;
             this.cbxReceiveAddress.Location = new System.Drawing.Point(262, 165);
             this.cbxReceiveAddress.Name = "cbxReceiveAddress";
@@ -201,7 +206,7 @@
             this.panelContent.Location = new System.Drawing.Point(0, 346);
             this.panelContent.Name = "panelContent";
             this.panelContent.Padding = new System.Windows.Forms.Padding(0, 0, 0, 20);
-            this.panelContent.Size = new System.Drawing.Size(800, 403);
+            this.panelContent.Size = new System.Drawing.Size(825, 403);
             this.panelContent.TabIndex = 81;
             // 
             // vScrollbarOrderProduct
@@ -212,7 +217,7 @@
             this.vScrollbarOrderProduct.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.vScrollbarOrderProduct.InUpdate = false;
             this.vScrollbarOrderProduct.LargeChange = 10;
-            this.vScrollbarOrderProduct.Location = new System.Drawing.Point(782, 0);
+            this.vScrollbarOrderProduct.Location = new System.Drawing.Point(807, 0);
             this.vScrollbarOrderProduct.Name = "vScrollbarOrderProduct";
             this.vScrollbarOrderProduct.ScrollbarSize = 18;
             this.vScrollbarOrderProduct.Size = new System.Drawing.Size(18, 383);
@@ -221,16 +226,16 @@
             // flowPanelCustomerOrderProductInfo
             // 
             this.flowPanelCustomerOrderProductInfo.AutoScroll = true;
-            this.flowPanelCustomerOrderProductInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.flowPanelCustomerOrderProductInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
             this.flowPanelCustomerOrderProductInfo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowPanelCustomerOrderProductInfo.Location = new System.Drawing.Point(0, 0);
             this.flowPanelCustomerOrderProductInfo.Name = "flowPanelCustomerOrderProductInfo";
-            this.flowPanelCustomerOrderProductInfo.Size = new System.Drawing.Size(800, 383);
+            this.flowPanelCustomerOrderProductInfo.Size = new System.Drawing.Size(825, 383);
             this.flowPanelCustomerOrderProductInfo.TabIndex = 6;
             // 
             // panelTitle
             // 
-            this.panelTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.panelTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
             this.panelTitle.Controls.Add(this.lblProduct);
             this.panelTitle.Controls.Add(this.lblQuantity);
             this.panelTitle.Controls.Add(this.lblTotalMoney);
@@ -238,7 +243,7 @@
             this.panelTitle.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelTitle.Location = new System.Drawing.Point(0, 309);
             this.panelTitle.Name = "panelTitle";
-            this.panelTitle.Size = new System.Drawing.Size(800, 37);
+            this.panelTitle.Size = new System.Drawing.Size(825, 37);
             this.panelTitle.TabIndex = 83;
             // 
             // lblProduct
@@ -298,19 +303,22 @@
             // 
             // txtPhoneNumber
             // 
+            this.txtPhoneNumber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.txtPhoneNumber.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.txtPhoneNumber.BorderRadius = 5;
-            this.txtPhoneNumber.BorderThickness = 0;
             this.txtPhoneNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPhoneNumber.DefaultText = "";
             this.txtPhoneNumber.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtPhoneNumber.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtPhoneNumber.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPhoneNumber.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPhoneNumber.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.txtPhoneNumber.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtPhoneNumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPhoneNumber.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhoneNumber.ForeColor = System.Drawing.Color.White;
             this.txtPhoneNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPhoneNumber.Location = new System.Drawing.Point(262, 107);
+            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.PasswordChar = '●';
             this.txtPhoneNumber.PlaceholderText = "";
@@ -331,19 +339,22 @@
             // 
             // txtName
             // 
-            this.txtName.BorderRadius = 5;
-            this.txtName.BorderThickness = 0;
+            this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.txtName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
+            this.txtName.BorderRadius = 10;
             this.txtName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtName.DefaultText = "";
             this.txtName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.txtName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtName.ForeColor = System.Drawing.Color.White;
             this.txtName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtName.Location = new System.Drawing.Point(262, 46);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtName.Name = "txtName";
             this.txtName.PasswordChar = '●';
             this.txtName.PlaceholderText = "";
@@ -356,7 +367,7 @@
             this.lblTotalMoneyValue.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalMoneyValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalMoneyValue.ForeColor = System.Drawing.Color.White;
-            this.lblTotalMoneyValue.Location = new System.Drawing.Point(668, 231);
+            this.lblTotalMoneyValue.Location = new System.Drawing.Point(648, 231);
             this.lblTotalMoneyValue.Name = "lblTotalMoneyValue";
             this.lblTotalMoneyValue.Size = new System.Drawing.Size(61, 22);
             this.lblTotalMoneyValue.TabIndex = 84;
@@ -378,7 +389,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.ClientSize = new System.Drawing.Size(800, 749);
+            this.ClientSize = new System.Drawing.Size(825, 749);
             this.Controls.Add(this.lblTotalMoneyValue);
             this.Controls.Add(this.lblTotalOrderValue);
             this.Controls.Add(this.panelTitle);

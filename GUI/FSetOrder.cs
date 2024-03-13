@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GUI {
@@ -7,8 +8,14 @@ namespace GUI {
             InitializeComponent();
         }
 
-        private void FSetOrder_Load(object sender, EventArgs e) {
+        private async void FSetOrder_Load(object sender, EventArgs e) {
             WinAPI.AnimateWindow(this.Handle, 200, WinAPI.VER_POSITIVE);
+
+            for(int i = 0; i < 4; i++) {
+                flowPanelCustomerOrderProductInfo.Controls.Add(new UC_CustomerOrderProductInfo());
+
+                await Task.Delay(100);
+            }
         }
 
         private void btnClose_Click(object sender, EventArgs e) {
@@ -22,10 +29,6 @@ namespace GUI {
                 timerClose.Stop();
                 this.Close();
             }
-        }
-
-        private void lblTotalMoney_Click(object sender, EventArgs e) {
-
         }
     }
 }

@@ -31,7 +31,7 @@ namespace GUI {
             WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
             await Task.Delay(100);
 
-            OpenChildForm(new FHomePageAdmin(), "Trang chủ");
+            OpenChildForm(new FHomePageSeller(), "Trang chủ");
             currentButton = btnHomePage;
         }
 
@@ -50,7 +50,7 @@ namespace GUI {
 
         private void btnHomePage_Click(object sender, EventArgs e) {
             if(currentButton != (Guna2GradientButton)sender) {
-                OpenChildForm(new FHomePageAdmin(), "Trang chủ");
+                OpenChildForm(new FHomePageSeller(), "Trang chủ");
                 currentButton = (Guna2GradientButton)sender;
             }
         }

@@ -50,7 +50,6 @@ C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FProductModu
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FRegister.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FSearchProduct.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FStatistics.resources
-C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FHomePageAdmin.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.UC_CartItem.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FInOrder.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.UC_InOrderCustomer.resources
@@ -72,3 +71,7 @@ C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.UC_InOrderSe
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FOrderCustomerInfo.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FSetOrder.resources
 C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.UC_CustomerOrderProductInfo.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FHomePageSeller.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FAdmin.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.UC_User.resources
+C:\Users\ADMIN\Documents\CODE\FinalProjectWinform\GUI\obj\Debug\GUI.FUserDetail.resources
