@@ -114,9 +114,17 @@ namespace GUI {
 
         private void btnUpdateInfo_Click(object sender, EventArgs e) {
             if(currentButton != (Guna2GradientButton)sender) {
-                OpenChildForm(new FUpdateUserInfo(), "Cập nhật thông tin");
+                FUpdateUserInfo fUpdateUserInfo = new FUpdateUserInfo();
+                fUpdateUserInfo.lblAddReceiveAddress.Visible = false;
+                fUpdateUserInfo.txtAtddReceiveAddress.Visible = false;
+
+                OpenChildForm(fUpdateUserInfo, "Cập nhật thông tin");
                 currentButton = (Guna2GradientButton)sender;
             }
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e) {
+            this.Hide();
         }
     }
 }

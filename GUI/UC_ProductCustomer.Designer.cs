@@ -26,8 +26,6 @@
             this.ptrbProduct = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblProductName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblPriceValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.ratingStar = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.lblSold = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblAddress = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnViewDetail = new Guna.UI2.WinForms.Guna2Button();
             this.lblPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -61,29 +59,11 @@
             this.lblPriceValue.BackColor = System.Drawing.Color.Transparent;
             this.lblPriceValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPriceValue.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPriceValue.Location = new System.Drawing.Point(102, 157);
+            this.lblPriceValue.Location = new System.Drawing.Point(104, 171);
             this.lblPriceValue.Name = "lblPriceValue";
             this.lblPriceValue.Size = new System.Drawing.Size(61, 22);
             this.lblPriceValue.TabIndex = 1;
             this.lblPriceValue.Text = "200.000";
-            // 
-            // ratingStar
-            // 
-            this.ratingStar.Location = new System.Drawing.Point(31, 185);
-            this.ratingStar.Name = "ratingStar";
-            this.ratingStar.Size = new System.Drawing.Size(96, 20);
-            this.ratingStar.TabIndex = 2;
-            // 
-            // lblSold
-            // 
-            this.lblSold.BackColor = System.Drawing.Color.Transparent;
-            this.lblSold.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblSold.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblSold.Location = new System.Drawing.Point(133, 185);
-            this.lblSold.Name = "lblSold";
-            this.lblSold.Size = new System.Drawing.Size(77, 22);
-            this.lblSold.TabIndex = 1;
-            this.lblSold.Text = "Đã bán 23";
             // 
             // lblAddress
             // 
@@ -123,7 +103,7 @@
             this.lblPrice.BackColor = System.Drawing.Color.Transparent;
             this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPrice.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPrice.Location = new System.Drawing.Point(64, 157);
+            this.lblPrice.Location = new System.Drawing.Point(66, 171);
             this.lblPrice.Name = "lblPrice";
             this.lblPrice.Size = new System.Drawing.Size(32, 22);
             this.lblPrice.TabIndex = 1;
@@ -135,9 +115,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.Controls.Add(this.btnViewDetail);
-            this.Controls.Add(this.ratingStar);
             this.Controls.Add(this.lblAddress);
-            this.Controls.Add(this.lblSold);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblPriceValue);
             this.Controls.Add(this.lblProductName);
@@ -157,8 +135,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox ptrbProduct;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblProductName;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPriceValue;
-        private Guna.UI2.WinForms.Guna2RatingStar ratingStar;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblSold;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblAddress;
         private Guna.UI2.WinForms.Guna2Button btnViewDetail;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPrice;

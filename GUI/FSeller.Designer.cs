@@ -155,6 +155,7 @@
             this.btnLogout.TabIndex = 9;
             this.btnLogout.Text = "Đăng xuất";
             this.btnLogout.UseTransparentBackground = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnUpdateInfo
             // 

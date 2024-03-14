@@ -37,6 +37,7 @@
             this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.btnSave = new Guna.UI2.WinForms.Guna2GradientButton();
             this.cbxStatus = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cbxRole = new Guna.UI2.WinForms.Guna2ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,9 +82,9 @@
             this.lblRole.ForeColor = System.Drawing.Color.White;
             this.lblRole.Location = new System.Drawing.Point(141, 319);
             this.lblRole.Name = "lblRole";
-            this.lblRole.Size = new System.Drawing.Size(102, 22);
+            this.lblRole.Size = new System.Drawing.Size(53, 22);
             this.lblRole.TabIndex = 4;
-            this.lblRole.Text = "Quyền: Admin";
+            this.lblRole.Text = "Quyền:";
             // 
             // lblPhoneNumber
             // 
@@ -193,12 +194,37 @@
             this.cbxStatus.StartIndex = 0;
             this.cbxStatus.TabIndex = 13;
             // 
+            // cbxRole
+            // 
+            this.cbxRole.BackColor = System.Drawing.Color.Transparent;
+            this.cbxRole.BorderRadius = 6;
+            this.cbxRole.BorderThickness = 0;
+            this.cbxRole.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbxRole.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbxRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxRole.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
+            this.cbxRole.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbxRole.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbxRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxRole.ForeColor = System.Drawing.Color.White;
+            this.cbxRole.ItemHeight = 20;
+            this.cbxRole.Items.AddRange(new object[] {
+            "Admin",
+            "Người bán",
+            "Người dùng"});
+            this.cbxRole.Location = new System.Drawing.Point(200, 319);
+            this.cbxRole.Name = "cbxRole";
+            this.cbxRole.Size = new System.Drawing.Size(138, 26);
+            this.cbxRole.StartIndex = 0;
+            this.cbxRole.TabIndex = 14;
+            // 
             // FUserDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.ClientSize = new System.Drawing.Size(393, 523);
+            this.Controls.Add(this.cbxRole);
             this.Controls.Add(this.cbxStatus);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnClose);
@@ -235,5 +261,6 @@
         private System.Windows.Forms.Timer timerClose;
         private Guna.UI2.WinForms.Guna2GradientButton btnSave;
         private Guna.UI2.WinForms.Guna2ComboBox cbxStatus;
+        private Guna.UI2.WinForms.Guna2ComboBox cbxRole;
     }
 }

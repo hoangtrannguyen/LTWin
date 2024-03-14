@@ -6,8 +6,7 @@ namespace GUI {
             InitializeComponent();
         }
         private void UC_ProductCustomer_Load(object sender, System.EventArgs e) {
-            ratingStar.Value = 3.5f;
-            WinAPI.AnimateWindow(this.Handle, 100, WinAPI.BLEND);
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
         }
 
         private void btnViewDetail_Click(object sender, System.EventArgs e) {

@@ -539,5 +539,8 @@
   <ItemGroup>
     <None Include="Resources\avatar.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

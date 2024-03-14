@@ -75,6 +75,7 @@
             this.btnRegister.Size = new System.Drawing.Size(215, 45);
             this.btnRegister.TabIndex = 76;
             this.btnRegister.Text = "Đăng ký";
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // txtRetypePassword
             // 

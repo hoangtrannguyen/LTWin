@@ -459,7 +459,7 @@
             title2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             title2.ForeColor = System.Drawing.Color.WhiteSmoke;
             title2.Name = "Title1";
-            title2.Text = "Tổng thu nhập";
+            title2.Text = "Doanh thu";
             this.chartGrossRevenue.Titles.Add(title2);
             // 
             // panelTotalProfit

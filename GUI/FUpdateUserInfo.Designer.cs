@@ -25,7 +25,7 @@
         private void InitializeComponent() {
             this.lblOldPassword = new System.Windows.Forms.Label();
             this.txtOldUsername = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txAtddReceiveAddress = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtAtddReceiveAddress = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtRetypePassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblNewPassword = new System.Windows.Forms.Label();
             this.lblAddReceiveAddress = new System.Windows.Forms.Label();
@@ -86,31 +86,31 @@
             this.txtOldUsername.Size = new System.Drawing.Size(225, 36);
             this.txtOldUsername.TabIndex = 87;
             // 
-            // txAtddReceiveAddress
+            // txtAtddReceiveAddress
             // 
-            this.txAtddReceiveAddress.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txAtddReceiveAddress.Animated = true;
-            this.txAtddReceiveAddress.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
-            this.txAtddReceiveAddress.BorderRadius = 6;
-            this.txAtddReceiveAddress.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txAtddReceiveAddress.DefaultText = "";
-            this.txAtddReceiveAddress.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txAtddReceiveAddress.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txAtddReceiveAddress.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txAtddReceiveAddress.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txAtddReceiveAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
-            this.txAtddReceiveAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txAtddReceiveAddress.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txAtddReceiveAddress.ForeColor = System.Drawing.Color.White;
-            this.txAtddReceiveAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txAtddReceiveAddress.Location = new System.Drawing.Point(768, 346);
-            this.txAtddReceiveAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txAtddReceiveAddress.Name = "txAtddReceiveAddress";
-            this.txAtddReceiveAddress.PasswordChar = '*';
-            this.txAtddReceiveAddress.PlaceholderText = "";
-            this.txAtddReceiveAddress.SelectedText = "";
-            this.txAtddReceiveAddress.Size = new System.Drawing.Size(225, 36);
-            this.txAtddReceiveAddress.TabIndex = 92;
+            this.txtAtddReceiveAddress.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtAtddReceiveAddress.Animated = true;
+            this.txtAtddReceiveAddress.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
+            this.txtAtddReceiveAddress.BorderRadius = 6;
+            this.txtAtddReceiveAddress.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtAtddReceiveAddress.DefaultText = "";
+            this.txtAtddReceiveAddress.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtAtddReceiveAddress.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtAtddReceiveAddress.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtAtddReceiveAddress.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtAtddReceiveAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
+            this.txtAtddReceiveAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtAtddReceiveAddress.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.txtAtddReceiveAddress.ForeColor = System.Drawing.Color.White;
+            this.txtAtddReceiveAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtAtddReceiveAddress.Location = new System.Drawing.Point(768, 346);
+            this.txtAtddReceiveAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAtddReceiveAddress.Name = "txtAtddReceiveAddress";
+            this.txtAtddReceiveAddress.PasswordChar = '*';
+            this.txtAtddReceiveAddress.PlaceholderText = "";
+            this.txtAtddReceiveAddress.SelectedText = "";
+            this.txtAtddReceiveAddress.Size = new System.Drawing.Size(225, 36);
+            this.txtAtddReceiveAddress.TabIndex = 92;
             // 
             // txtRetypePassword
             // 
@@ -486,7 +486,7 @@
             this.Controls.Add(this.ptrbAvatar);
             this.Controls.Add(this.lblOldPassword);
             this.Controls.Add(this.txtOldUsername);
-            this.Controls.Add(this.txAtddReceiveAddress);
+            this.Controls.Add(this.txtAtddReceiveAddress);
             this.Controls.Add(this.txtRetypePassword);
             this.Controls.Add(this.lblNewPassword);
             this.Controls.Add(this.lblAddReceiveAddress);
@@ -515,10 +515,8 @@
 
         private System.Windows.Forms.Label lblOldPassword;
         private Guna.UI2.WinForms.Guna2TextBox txtOldUsername;
-        private Guna.UI2.WinForms.Guna2TextBox txAtddReceiveAddress;
         private Guna.UI2.WinForms.Guna2TextBox txtRetypePassword;
         private System.Windows.Forms.Label lblNewPassword;
-        private System.Windows.Forms.Label lblAddReceiveAddress;
         private System.Windows.Forms.Label lblRetypePassword;
         private Guna.UI2.WinForms.Guna2TextBox txtNewPassword;
         private Guna.UI2.WinForms.Guna2TextBox txtName;
@@ -535,5 +533,7 @@
         private Guna.UI2.WinForms.Guna2RadioButton radMale;
         private System.Windows.Forms.Label lblGender;
         private Guna.UI2.WinForms.Guna2GradientButton btnSave;
+        public Guna.UI2.WinForms.Guna2TextBox txtAtddReceiveAddress;
+        public System.Windows.Forms.Label lblAddReceiveAddress;
     }
 }

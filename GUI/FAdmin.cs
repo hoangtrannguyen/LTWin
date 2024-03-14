@@ -34,5 +34,9 @@ namespace GUI {
         private void btnClose_Click(object sender, EventArgs e) {
             timerClose.Start();
         }
+
+        private void btnLogout_Click(object sender, EventArgs e) {
+            this.Close();
+        }
     }
 }

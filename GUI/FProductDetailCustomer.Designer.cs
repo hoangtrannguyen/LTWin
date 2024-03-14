@@ -24,12 +24,8 @@
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
-            this.nudQuantity = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.lblDescription = new System.Windows.Forms.Label();
-            this.ratingStar = new Guna.UI2.WinForms.Guna2RatingStar();
             this.lblAddress = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblRatingValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblSold = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblPriceValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnAddToCart = new Guna.UI2.WinForms.Guna2Button();
@@ -39,90 +35,41 @@
             this.ptrbProduct = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblProductDetail = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblProductName = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).BeginInit();
+            this.lblQuantity = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblContactInfo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.ptrbProduct)).BeginInit();
             this.SuspendLayout();
-            // 
-            // nudQuantity
-            // 
-            this.nudQuantity.BackColor = System.Drawing.Color.Transparent;
-            this.nudQuantity.BorderThickness = 0;
-            this.nudQuantity.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.nudQuantity.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.nudQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.nudQuantity.ForeColor = System.Drawing.Color.White;
-            this.nudQuantity.Location = new System.Drawing.Point(560, 288);
-            this.nudQuantity.Name = "nudQuantity";
-            this.nudQuantity.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.nudQuantity.Size = new System.Drawing.Size(58, 36);
-            this.nudQuantity.TabIndex = 33;
-            this.nudQuantity.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.nudQuantity.UpDownButtonForeColor = System.Drawing.Color.White;
-            this.nudQuantity.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
             // 
             // lblDescription
             // 
             this.lblDescription.AutoEllipsis = true;
             this.lblDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescription.ForeColor = System.Drawing.Color.White;
-            this.lblDescription.Location = new System.Drawing.Point(324, 91);
+            this.lblDescription.Location = new System.Drawing.Point(345, 87);
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(629, 84);
+            this.lblDescription.Size = new System.Drawing.Size(629, 107);
             this.lblDescription.TabIndex = 32;
-            this.lblDescription.Text = "Đồ chơi điều khiển ô tô chạy dành cho trẻ em, đồ chơi ô tô điều khiển từ xa có th" +
-    "ể sạc lại, đồ chơi bé trai, xe đồ chơi.";
+            this.lblDescription.Text = "Tình trạng: Xe còn mới 85%, có trầy nhẹ\r\nChất liệu: Nhựa ABS\r\nMàu sắc: Nâu đen\r\nK" +
+    "ích thước: 25cm x 15cm x 10cm\r\nPin: Dùng pin sạc";
             this.lblDescription.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // ratingStar
-            // 
-            this.ratingStar.Location = new System.Drawing.Point(324, 225);
-            this.ratingStar.Name = "ratingStar";
-            this.ratingStar.Size = new System.Drawing.Size(96, 20);
-            this.ratingStar.TabIndex = 31;
             // 
             // lblAddress
             // 
             this.lblAddress.BackColor = System.Drawing.Color.Transparent;
             this.lblAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblAddress.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblAddress.Location = new System.Drawing.Point(324, 295);
+            this.lblAddress.Location = new System.Drawing.Point(345, 272);
             this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(116, 22);
+            this.lblAddress.Size = new System.Drawing.Size(172, 22);
             this.lblAddress.TabIndex = 26;
-            this.lblAddress.Text = "TP. Hồ Chí Minh";
-            // 
-            // lblRatingValue
-            // 
-            this.lblRatingValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblRatingValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblRatingValue.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblRatingValue.Location = new System.Drawing.Point(426, 224);
-            this.lblRatingValue.Name = "lblRatingValue";
-            this.lblRatingValue.Size = new System.Drawing.Size(25, 22);
-            this.lblRatingValue.TabIndex = 27;
-            this.lblRatingValue.Text = "3.2";
-            // 
-            // lblSold
-            // 
-            this.lblSold.BackColor = System.Drawing.Color.Transparent;
-            this.lblSold.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblSold.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblSold.Location = new System.Drawing.Point(324, 259);
-            this.lblSold.Name = "lblSold";
-            this.lblSold.Size = new System.Drawing.Size(77, 22);
-            this.lblSold.TabIndex = 28;
-            this.lblSold.Text = "Đã bán 23";
+            this.lblAddress.Text = "Địa chỉ: TP. Hồ Chí Minh";
             // 
             // lblPrice
             // 
             this.lblPrice.BackColor = System.Drawing.Color.Transparent;
             this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPrice.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPrice.Location = new System.Drawing.Point(324, 189);
+            this.lblPrice.Location = new System.Drawing.Point(345, 236);
             this.lblPrice.Name = "lblPrice";
             this.lblPrice.Size = new System.Drawing.Size(32, 22);
             this.lblPrice.TabIndex = 29;
@@ -133,7 +80,7 @@
             this.lblPriceValue.BackColor = System.Drawing.Color.Transparent;
             this.lblPriceValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPriceValue.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPriceValue.Location = new System.Drawing.Point(358, 189);
+            this.lblPriceValue.Location = new System.Drawing.Point(380, 236);
             this.lblPriceValue.Name = "lblPriceValue";
             this.lblPriceValue.Size = new System.Drawing.Size(61, 22);
             this.lblPriceValue.TabIndex = 30;
@@ -150,7 +97,7 @@
             this.btnAddToCart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddToCart.ForeColor = System.Drawing.Color.White;
             this.btnAddToCart.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
-            this.btnAddToCart.Location = new System.Drawing.Point(647, 284);
+            this.btnAddToCart.Location = new System.Drawing.Point(324, 300);
             this.btnAddToCart.Name = "btnAddToCart";
             this.btnAddToCart.Size = new System.Drawing.Size(180, 45);
             this.btnAddToCart.TabIndex = 25;
@@ -211,11 +158,33 @@
             this.lblProductName.BackColor = System.Drawing.Color.Transparent;
             this.lblProductName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblProductName.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblProductName.Location = new System.Drawing.Point(328, 55);
+            this.lblProductName.Location = new System.Drawing.Point(345, 55);
             this.lblProductName.Name = "lblProductName";
             this.lblProductName.Size = new System.Drawing.Size(99, 22);
             this.lblProductName.TabIndex = 29;
             this.lblProductName.Text = "Xe điều khiển";
+            // 
+            // lblQuantity
+            // 
+            this.lblQuantity.BackColor = System.Drawing.Color.Transparent;
+            this.lblQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblQuantity.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblQuantity.Location = new System.Drawing.Point(345, 204);
+            this.lblQuantity.Name = "lblQuantity";
+            this.lblQuantity.Size = new System.Drawing.Size(83, 22);
+            this.lblQuantity.TabIndex = 29;
+            this.lblQuantity.Text = "Số lượng: 1";
+            // 
+            // lblContactInfo
+            // 
+            this.lblContactInfo.BackColor = System.Drawing.Color.Transparent;
+            this.lblContactInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblContactInfo.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblContactInfo.Location = new System.Drawing.Point(548, 272);
+            this.lblContactInfo.Name = "lblContactInfo";
+            this.lblContactInfo.Size = new System.Drawing.Size(217, 22);
+            this.lblContactInfo.TabIndex = 29;
+            this.lblContactInfo.Text = "Thông tin liên hệ: 1234567890";
             // 
             // FProductDetailCustomer
             // 
@@ -224,14 +193,12 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.ClientSize = new System.Drawing.Size(947, 374);
             this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.nudQuantity);
             this.Controls.Add(this.lblDescription);
-            this.Controls.Add(this.ratingStar);
             this.Controls.Add(this.lblAddress);
-            this.Controls.Add(this.lblRatingValue);
-            this.Controls.Add(this.lblSold);
             this.Controls.Add(this.lblProductName);
             this.Controls.Add(this.lblProductDetail);
+            this.Controls.Add(this.lblQuantity);
+            this.Controls.Add(this.lblContactInfo);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblPriceValue);
             this.Controls.Add(this.btnAddToCart);
@@ -241,7 +208,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FProductDetail";
             this.Load += new System.EventHandler(this.FProductDetailCustomer_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptrbProduct)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -249,13 +215,8 @@
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2NumericUpDown nudQuantity;
         private System.Windows.Forms.Label lblDescription;
-        private Guna.UI2.WinForms.Guna2RatingStar ratingStar;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblAddress;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblRatingValue;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblSold;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPrice;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPriceValue;
         private Guna.UI2.WinForms.Guna2Button btnAddToCart;
@@ -265,5 +226,7 @@
         private Guna.UI2.WinForms.Guna2ControlBox btnClose;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblProductDetail;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblProductName;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblQuantity;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lblContactInfo;
     }
 }

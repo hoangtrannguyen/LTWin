@@ -179,7 +179,7 @@
             this.lblQuantity.BackColor = System.Drawing.Color.Transparent;
             this.lblQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuantity.ForeColor = System.Drawing.Color.Transparent;
-            this.lblQuantity.Location = new System.Drawing.Point(544, 5);
+            this.lblQuantity.Location = new System.Drawing.Point(552, 5);
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(66, 22);
             this.lblQuantity.TabIndex = 0;
@@ -190,7 +190,7 @@
             this.lblPrice.BackColor = System.Drawing.Color.Transparent;
             this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrice.ForeColor = System.Drawing.Color.Transparent;
-            this.lblPrice.Location = new System.Drawing.Point(426, 5);
+            this.lblPrice.Location = new System.Drawing.Point(434, 5);
             this.lblPrice.Name = "lblPrice";
             this.lblPrice.Size = new System.Drawing.Size(28, 22);
             this.lblPrice.TabIndex = 0;

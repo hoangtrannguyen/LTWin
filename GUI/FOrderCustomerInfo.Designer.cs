@@ -41,6 +41,7 @@
             this.panelContent = new Guna.UI2.WinForms.Guna2Panel();
             this.lblTotalMoneyValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblTotalOrderValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnPrint = new Guna.UI2.WinForms.Guna2Button();
             this.panelTitle.SuspendLayout();
             this.panelContent.SuspendLayout();
             this.SuspendLayout();
@@ -64,7 +65,7 @@
             this.btnClose.CausesValidation = false;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.CustomClick = true;
-            this.btnClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.btnClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.btnClose.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnClose.IconColor = System.Drawing.Color.White;
             this.btnClose.Location = new System.Drawing.Point(785, -1);
@@ -253,12 +254,31 @@
             this.lblTotalOrderValue.TabIndex = 10;
             this.lblTotalOrderValue.Text = "Tổng giá trị đơn hàng:";
             // 
+            // btnPrint
+            // 
+            this.btnPrint.Animated = true;
+            this.btnPrint.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPrint.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPrint.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPrint.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPrint.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPrint.FillColor = System.Drawing.Color.Transparent;
+            this.btnPrint.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnPrint.ForeColor = System.Drawing.Color.White;
+            this.btnPrint.Image = global::GUI.Properties.Resources.print_icon;
+            this.btnPrint.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnPrint.Location = new System.Drawing.Point(763, 156);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(30, 30);
+            this.btnPrint.TabIndex = 11;
+            // 
             // FOrderCustomerInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(60)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.ClientSize = new System.Drawing.Size(835, 686);
+            this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.lblTotalMoneyValue);
             this.Controls.Add(this.lblTotalOrderValue);
             this.Controls.Add(this.panelTitle);
@@ -304,5 +324,6 @@
         private Guna.UI2.WinForms.Guna2Panel panelContent;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalMoneyValue;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalOrderValue;
+        private Guna.UI2.WinForms.Guna2Button btnPrint;
     }
 }

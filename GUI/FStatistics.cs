@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GUI {
@@ -7,8 +8,14 @@ namespace GUI {
             InitializeComponent();
         }
 
-        private void FStatistics_Load(object sender, EventArgs e) {
-            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.CENTER);
+        private async void FStatistics_Load(object sender, EventArgs e) {
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
+
+            for(int i = 0; i < 4; i++) {
+                flowPanelProduct.Controls.Add(new UC_ProductSeller());
+            }
+
+            await Task.Delay(100);
         }
     }
 }

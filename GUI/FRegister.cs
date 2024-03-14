@@ -7,7 +7,12 @@ namespace GUI {
         }
 
         private void FRegister_Load(object sender, System.EventArgs e) {
-            WinAPI.AnimateWindow(this.Handle, 500, WinAPI.BLEND);
+            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
+        }
+
+        private void btnRegister_Click(object sender, System.EventArgs e) {
+            this.Hide();
+            (new FLogin()).ShowDialog();
         }
     }
 }

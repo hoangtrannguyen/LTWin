@@ -29,14 +29,18 @@
             this.lblRole = new System.Windows.Forms.Label();
             this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.panelSlide = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnLogout = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnUserSettings = new Guna.UI2.WinForms.Guna2GradientButton();
             this.panelInfo = new Guna.UI2.WinForms.Guna2Panel();
+            this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.FAdminDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.lblTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelTitle = new Guna.UI2.WinForms.Guna2Panel();
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.lblTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.flowPanelUser = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblStatus = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblLevel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblEmail = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblUser = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -44,16 +48,12 @@
             this.panelPagination = new Guna.UI2.WinForms.Guna2Panel();
             this.btnPrevious = new Guna.UI2.WinForms.Guna2Button();
             this.btnNext = new Guna.UI2.WinForms.Guna2Button();
-            this.btnLogout = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnUserSettings = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.lblStatus = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelSlide.SuspendLayout();
             this.panelInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).BeginInit();
             this.panelTitle.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.panelPagination.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).BeginInit();
             this.SuspendLayout();
             // 
             // productTransition
@@ -100,6 +100,59 @@
             this.panelSlide.Size = new System.Drawing.Size(213, 666);
             this.panelSlide.TabIndex = 9;
             // 
+            // btnLogout
+            // 
+            this.btnLogout.Animated = true;
+            this.btnLogout.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogout.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnLogout.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogout.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLogout.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLogout.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnLogout.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnLogout.ForeColor = System.Drawing.Color.White;
+            this.btnLogout.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
+            this.btnLogout.Image = global::GUI.Properties.Resources.logout_icon;
+            this.btnLogout.Location = new System.Drawing.Point(0, 198);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(213, 45);
+            this.btnLogout.TabIndex = 9;
+            this.btnLogout.Text = "Đăng xuất";
+            this.btnLogout.UseTransparentBackground = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // btnUserSettings
+            // 
+            this.btnUserSettings.Animated = true;
+            this.btnUserSettings.BackColor = System.Drawing.Color.Transparent;
+            this.btnUserSettings.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUserSettings.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUserSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUserSettings.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnUserSettings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnUserSettings.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUserSettings.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUserSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnUserSettings.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnUserSettings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUserSettings.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
+            this.btnUserSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUserSettings.ForeColor = System.Drawing.Color.White;
+            this.btnUserSettings.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
+            this.btnUserSettings.Image = global::GUI.Properties.Resources.user_settings_icon;
+            this.btnUserSettings.Location = new System.Drawing.Point(0, 153);
+            this.btnUserSettings.Name = "btnUserSettings";
+            this.btnUserSettings.Size = new System.Drawing.Size(213, 45);
+            this.btnUserSettings.TabIndex = 2;
+            this.btnUserSettings.Text = "Quản lý người dùng";
+            this.btnUserSettings.UseTransparentBackground = true;
+            // 
             // panelInfo
             // 
             this.panelInfo.Controls.Add(this.lblName);
@@ -111,11 +164,34 @@
             this.panelInfo.Size = new System.Drawing.Size(213, 153);
             this.panelInfo.TabIndex = 0;
             // 
+            // ptrbAvatar
+            // 
+            this.ptrbAvatar.Image = global::GUI.Properties.Resources.user_icon;
+            this.ptrbAvatar.ImageRotate = 0F;
+            this.ptrbAvatar.Location = new System.Drawing.Point(64, 6);
+            this.ptrbAvatar.Name = "ptrbAvatar";
+            this.ptrbAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ptrbAvatar.Size = new System.Drawing.Size(86, 91);
+            this.ptrbAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptrbAvatar.TabIndex = 16;
+            this.ptrbAvatar.TabStop = false;
+            // 
             // FAdminDragControl
             // 
             this.FAdminDragControl.DockIndicatorTransparencyValue = 0.6D;
             this.FAdminDragControl.TargetControl = this.lblTitle;
             this.FAdminDragControl.UseTransparentDrag = true;
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTitle.Location = new System.Drawing.Point(382, 6);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(170, 26);
+            this.lblTitle.TabIndex = 8;
+            this.lblTitle.Text = "Quản lý người dùng";
             // 
             // panelTitle
             // 
@@ -158,17 +234,6 @@
             this.btnClose.TabIndex = 6;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // lblTitle
-            // 
-            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(382, 6);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(170, 26);
-            this.lblTitle.TabIndex = 8;
-            this.lblTitle.Text = "Quản lý người dùng";
-            // 
             // flowPanelUser
             // 
             this.flowPanelUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
@@ -191,6 +256,17 @@
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(1036, 46);
             this.guna2Panel3.TabIndex = 14;
+            // 
+            // lblStatus
+            // 
+            this.lblStatus.BackColor = System.Drawing.Color.Transparent;
+            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.ForeColor = System.Drawing.Color.White;
+            this.lblStatus.Location = new System.Drawing.Point(743, 13);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(74, 22);
+            this.lblStatus.TabIndex = 0;
+            this.lblStatus.Text = "Trạng thái";
             // 
             // lblLevel
             // 
@@ -283,81 +359,6 @@
             this.btnNext.Size = new System.Drawing.Size(30, 30);
             this.btnNext.TabIndex = 3;
             // 
-            // btnLogout
-            // 
-            this.btnLogout.Animated = true;
-            this.btnLogout.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogout.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnLogout.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnLogout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnLogout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLogout.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLogout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLogout.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnLogout.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnLogout.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
-            this.btnLogout.Image = global::GUI.Properties.Resources.logout_icon;
-            this.btnLogout.Location = new System.Drawing.Point(0, 198);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(213, 45);
-            this.btnLogout.TabIndex = 9;
-            this.btnLogout.Text = "Đăng xuất";
-            this.btnLogout.UseTransparentBackground = true;
-            // 
-            // btnUserSettings
-            // 
-            this.btnUserSettings.Animated = true;
-            this.btnUserSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnUserSettings.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnUserSettings.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnUserSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUserSettings.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnUserSettings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnUserSettings.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnUserSettings.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnUserSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnUserSettings.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnUserSettings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnUserSettings.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnUserSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUserSettings.ForeColor = System.Drawing.Color.White;
-            this.btnUserSettings.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
-            this.btnUserSettings.Image = global::GUI.Properties.Resources.user_settings_icon;
-            this.btnUserSettings.Location = new System.Drawing.Point(0, 153);
-            this.btnUserSettings.Name = "btnUserSettings";
-            this.btnUserSettings.Size = new System.Drawing.Size(213, 45);
-            this.btnUserSettings.TabIndex = 2;
-            this.btnUserSettings.Text = "Quản lý người dùng";
-            this.btnUserSettings.UseTransparentBackground = true;
-            // 
-            // ptrbAvatar
-            // 
-            this.ptrbAvatar.Image = global::GUI.Properties.Resources.user_icon;
-            this.ptrbAvatar.ImageRotate = 0F;
-            this.ptrbAvatar.Location = new System.Drawing.Point(64, 6);
-            this.ptrbAvatar.Name = "ptrbAvatar";
-            this.ptrbAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.ptrbAvatar.Size = new System.Drawing.Size(86, 91);
-            this.ptrbAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ptrbAvatar.TabIndex = 16;
-            this.ptrbAvatar.TabStop = false;
-            // 
-            // lblStatus
-            // 
-            this.lblStatus.BackColor = System.Drawing.Color.Transparent;
-            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.ForeColor = System.Drawing.Color.White;
-            this.lblStatus.Location = new System.Drawing.Point(743, 13);
-            this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(74, 22);
-            this.lblStatus.TabIndex = 0;
-            this.lblStatus.Text = "Trạng thái";
-            // 
             // FAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -377,12 +378,12 @@
             this.panelSlide.ResumeLayout(false);
             this.panelInfo.ResumeLayout(false);
             this.panelInfo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).EndInit();
             this.panelTitle.ResumeLayout(false);
             this.panelTitle.PerformLayout();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
             this.panelPagination.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).EndInit();
             this.ResumeLayout(false);
 
         }

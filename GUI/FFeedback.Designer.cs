@@ -59,8 +59,7 @@
             this.lblProductDescription.Name = "lblProductDescription";
             this.lblProductDescription.Size = new System.Drawing.Size(570, 84);
             this.lblProductDescription.TabIndex = 33;
-            this.lblProductDescription.Text = "Đồ chơi điều khiển ô tô chạy dành cho trẻ em, đồ chơi ô tô điều khiển từ xa có th" +
-    "ể sạc lại, đồ chơi bé trai, xe đồ chơi.";
+            this.lblProductDescription.Text = "Xe điều khiển";
             this.lblProductDescription.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblRating

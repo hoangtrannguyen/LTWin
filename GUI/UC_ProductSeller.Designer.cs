@@ -98,7 +98,7 @@
             this.btnEdit.ForeColor = System.Drawing.Color.White;
             this.btnEdit.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.btnEdit.Image = global::GUI.Properties.Resources.edit_icon;
-            this.btnEdit.Location = new System.Drawing.Point(922, 46);
+            this.btnEdit.Location = new System.Drawing.Point(887, 40);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(20, 33);
             this.btnEdit.TabIndex = 20;
@@ -117,7 +117,7 @@
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.btnDelete.Image = global::GUI.Properties.Resources.remove_icon;
-            this.btnDelete.Location = new System.Drawing.Point(870, 46);
+            this.btnDelete.Location = new System.Drawing.Point(936, 40);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(20, 33);
             this.btnDelete.TabIndex = 20;
