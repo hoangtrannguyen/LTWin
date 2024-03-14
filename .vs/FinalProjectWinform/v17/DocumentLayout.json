@@ -3,6 +3,134 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fcategorymodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fcategorymodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\uc_cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\uc_cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\uc_customerorderproductinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\uc_customerorderproductinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\uc_inordercustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\uc_inordercustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\finorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\finorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\finorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\finorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\ffeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\ffeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\finorderseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\finorderseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fhomepageseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fhomepageseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fhomepagecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fhomepagecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fbrandmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fbrandmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fordercustomerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fordercustomerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\forderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\forderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fproductdetailseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fproductdetailseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fproductdetailcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fproductdetailcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\forderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\forderhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fproductmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fproductmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fupdateuserinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fupdateuserinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fuserdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fuserdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\uc_inorderseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\uc_inorderseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\uc_productseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\uc_productseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\uc_productcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\uc_productcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\uc_orderhistorycustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\uc_orderhistorycustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\winapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\winapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -31,6 +159,393 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FCategory.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FCategory.cs",
+              "RelativeDocumentMoniker": "GUI\\FCategory.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FCategory.cs",
+              "RelativeToolTip": "GUI\\FCategory.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:32:42.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FInOrder.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FInOrder.cs",
+              "RelativeDocumentMoniker": "GUI\\FInOrder.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FInOrder.cs",
+              "RelativeToolTip": "GUI\\FInOrder.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwA4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:31:56.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FCustomer.cs",
+              "RelativeDocumentMoniker": "GUI\\FCustomer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FCustomer.cs [Design]",
+              "RelativeToolTip": "GUI\\FCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:31:43.504Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FFeedback.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FFeedback.cs",
+              "RelativeDocumentMoniker": "GUI\\FFeedback.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FFeedback.cs [Design]",
+              "RelativeToolTip": "GUI\\FFeedback.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:31:14.151Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FHomePageCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FHomePageCustomer.cs",
+              "RelativeDocumentMoniker": "GUI\\FHomePageCustomer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FHomePageCustomer.cs [Design]",
+              "RelativeToolTip": "GUI\\FHomePageCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:31:12.329Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FHomePageSeller.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FHomePageSeller.cs",
+              "RelativeDocumentMoniker": "GUI\\FHomePageSeller.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FHomePageSeller.cs [Design]",
+              "RelativeToolTip": "GUI\\FHomePageSeller.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:31:06.967Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FInOrder.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FInOrder.cs",
+              "RelativeDocumentMoniker": "GUI\\FInOrder.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FInOrder.cs [Design]",
+              "RelativeToolTip": "GUI\\FInOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:31:05.419Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FProductModule.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FProductModule.cs",
+              "RelativeDocumentMoniker": "GUI\\FProductModule.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FProductModule.cs [Design]",
+              "RelativeToolTip": "GUI\\FProductModule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:30:53.359Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FStatistics.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FStatistics.cs",
+              "RelativeDocumentMoniker": "GUI\\FStatistics.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FStatistics.cs [Design]",
+              "RelativeToolTip": "GUI\\FStatistics.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:30:48.919Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FUpdateUserInfo.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FUpdateUserInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\FUpdateUserInfo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FUpdateUserInfo.cs [Design]",
+              "RelativeToolTip": "GUI\\FUpdateUserInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:30:41.711Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FUserDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FUserDetail.cs",
+              "RelativeDocumentMoniker": "GUI\\FUserDetail.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FUserDetail.cs [Design]",
+              "RelativeToolTip": "GUI\\FUserDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:30:38.483Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UC_CartItem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_CartItem.cs",
+              "RelativeDocumentMoniker": "GUI\\UC_CartItem.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_CartItem.cs [Design]",
+              "RelativeToolTip": "GUI\\UC_CartItem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:30:12.583Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UC_CustomerOrderProductInfo.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_CustomerOrderProductInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\UC_CustomerOrderProductInfo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_CustomerOrderProductInfo.cs [Design]",
+              "RelativeToolTip": "GUI\\UC_CustomerOrderProductInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:30:11.335Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UC_InOrderCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_InOrderCustomer.cs",
+              "RelativeDocumentMoniker": "GUI\\UC_InOrderCustomer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_InOrderCustomer.cs [Design]",
+              "RelativeToolTip": "GUI\\UC_InOrderCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:30:09.61Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UC_InOrderSeller.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_InOrderSeller.cs",
+              "RelativeDocumentMoniker": "GUI\\UC_InOrderSeller.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_InOrderSeller.cs [Design]",
+              "RelativeToolTip": "GUI\\UC_InOrderSeller.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:30:06.038Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UC_ProductSeller.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_ProductSeller.cs",
+              "RelativeDocumentMoniker": "GUI\\UC_ProductSeller.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_ProductSeller.cs [Design]",
+              "RelativeToolTip": "GUI\\UC_ProductSeller.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:30:03.801Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UC_ProductCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_ProductCustomer.cs",
+              "RelativeDocumentMoniker": "GUI\\UC_ProductCustomer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_ProductCustomer.cs [Design]",
+              "RelativeToolTip": "GUI\\UC_ProductCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:30:01.861Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UC_OrderHistoryCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_OrderHistoryCustomer.cs",
+              "RelativeDocumentMoniker": "GUI\\UC_OrderHistoryCustomer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\UC_OrderHistoryCustomer.cs [Design]",
+              "RelativeToolTip": "GUI\\UC_OrderHistoryCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:30:00.51Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WinAPI.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\WinAPI.cs",
+              "RelativeDocumentMoniker": "GUI\\WinAPI.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\WinAPI.cs",
+              "RelativeToolTip": "GUI\\WinAPI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:46.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FProductDetailSeller.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FProductDetailSeller.cs",
+              "RelativeDocumentMoniker": "GUI\\FProductDetailSeller.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FProductDetailSeller.cs [Design]",
+              "RelativeToolTip": "GUI\\FProductDetailSeller.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:42.732Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FProductDetailCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FProductDetailCustomer.cs",
+              "RelativeDocumentMoniker": "GUI\\FProductDetailCustomer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FProductDetailCustomer.cs [Design]",
+              "RelativeToolTip": "GUI\\FProductDetailCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:41.575Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FOrderHistory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FOrderHistory.cs",
+              "RelativeDocumentMoniker": "GUI\\FOrderHistory.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FOrderHistory.cs [Design]",
+              "RelativeToolTip": "GUI\\FOrderHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:40.505Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FOrderCustomerInfo.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FOrderCustomerInfo.cs",
+              "RelativeDocumentMoniker": "GUI\\FOrderCustomerInfo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FOrderCustomerInfo.cs [Design]",
+              "RelativeToolTip": "GUI\\FOrderCustomerInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:34.257Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FOrderDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FOrderDetail.cs",
+              "RelativeDocumentMoniker": "GUI\\FOrderDetail.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FOrderDetail.cs [Design]",
+              "RelativeToolTip": "GUI\\FOrderDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:30.487Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FInOrderSeller.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FInOrderSeller.cs",
+              "RelativeDocumentMoniker": "GUI\\FInOrderSeller.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FInOrderSeller.cs [Design]",
+              "RelativeToolTip": "GUI\\FInOrderSeller.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:28.322Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FLogin.cs",
+              "RelativeDocumentMoniker": "GUI\\FLogin.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FLogin.cs [Design]",
+              "RelativeToolTip": "GUI\\FLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:24.333Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FCategoryModule.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FCategoryModule.cs",
+              "RelativeDocumentMoniker": "GUI\\FCategoryModule.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FCategoryModule.cs [Design]",
+              "RelativeToolTip": "GUI\\FCategoryModule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:22.365Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FCategory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FCategory.cs",
+              "RelativeDocumentMoniker": "GUI\\FCategory.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FCategory.cs [Design]",
+              "RelativeToolTip": "GUI\\FCategory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:21.322Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FCart.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FCart.cs",
+              "RelativeDocumentMoniker": "GUI\\FCart.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FCart.cs [Design]",
+              "RelativeToolTip": "GUI\\FCart.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:17.471Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FBrandModule.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FBrandModule.cs",
+              "RelativeDocumentMoniker": "GUI\\FBrandModule.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FBrandModule.cs [Design]",
+              "RelativeToolTip": "GUI\\FBrandModule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:14.055Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FBrand.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FBrand.cs",
+              "RelativeDocumentMoniker": "GUI\\FBrand.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FBrand.cs [Design]",
+              "RelativeToolTip": "GUI\\FBrand.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:12.855Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FAdmin.cs",
+              "RelativeDocumentMoniker": "GUI\\FAdmin.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FAdmin.cs [Design]",
+              "RelativeToolTip": "GUI\\FAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:29:10.951Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "FProductList.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FProductList.cs",
               "RelativeDocumentMoniker": "GUI\\FProductList.cs",
