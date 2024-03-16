@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblProductDescription.Text" xml:space="preserve">
+    <value>Mua từ năm 2023, giá gốc 400.000, không còn bảo hành
+Xuất xứ: Trung Quốc
+Tình trạng: Xe còn mới 85%, có trầy nhẹ 
+Chất liệu: Nhựa ABS
+Màu sắc: Nâu đen
+Kích thước: 25cm x 15cm x 10cm
+Pin: Dùng pin AA sạc, dung lượng 1500m mAh
+Phụ kiện đi kèm: Pin sạc, bộ điều khiển từ xa
+
+</value>
+  </data>
   <metadata name="timerClose.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>532, 31</value>
   </metadata>

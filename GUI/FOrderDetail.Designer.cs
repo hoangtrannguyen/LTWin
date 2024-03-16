@@ -24,13 +24,11 @@
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FOrderDetail));
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
             this.lblProductDescription = new System.Windows.Forms.Label();
-            this.lblPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblPriceValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.FOrderDetailDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.lblQuantity = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblTotalMoneyValue = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblTotalMoney = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblPayMethodName = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -68,33 +66,10 @@
             this.lblProductDescription.ForeColor = System.Drawing.Color.White;
             this.lblProductDescription.Location = new System.Drawing.Point(340, 68);
             this.lblProductDescription.Name = "lblProductDescription";
-            this.lblProductDescription.Size = new System.Drawing.Size(567, 119);
+            this.lblProductDescription.Size = new System.Drawing.Size(567, 162);
             this.lblProductDescription.TabIndex = 42;
-            this.lblProductDescription.Text = "Tình trạng: Xe còn mới 85%, có trầy nhẹ\r\nChất liệu: Nhựa ABS\r\nMàu sắc: Nâu đen\r\nK" +
-    "ích thước: 25cm x 15cm x 10cm\r\nPin: Dùng pin sạc\r\n";
+            this.lblProductDescription.Text = resources.GetString("lblProductDescription.Text");
             this.lblProductDescription.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // lblPrice
-            // 
-            this.lblPrice.BackColor = System.Drawing.Color.Transparent;
-            this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblPrice.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPrice.Location = new System.Drawing.Point(340, 195);
-            this.lblPrice.Name = "lblPrice";
-            this.lblPrice.Size = new System.Drawing.Size(32, 22);
-            this.lblPrice.TabIndex = 39;
-            this.lblPrice.Text = "Giá:";
-            // 
-            // lblPriceValue
-            // 
-            this.lblPriceValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblPriceValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblPriceValue.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPriceValue.Location = new System.Drawing.Point(375, 195);
-            this.lblPriceValue.Name = "lblPriceValue";
-            this.lblPriceValue.Size = new System.Drawing.Size(61, 22);
-            this.lblPriceValue.TabIndex = 40;
-            this.lblPriceValue.Text = "200.000";
             // 
             // timerClose
             // 
@@ -107,23 +82,12 @@
             this.FOrderDetailDragControl.TargetControl = this;
             this.FOrderDetailDragControl.UseTransparentDrag = true;
             // 
-            // lblQuantity
-            // 
-            this.lblQuantity.BackColor = System.Drawing.Color.Transparent;
-            this.lblQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblQuantity.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblQuantity.Location = new System.Drawing.Point(438, 195);
-            this.lblQuantity.Name = "lblQuantity";
-            this.lblQuantity.Size = new System.Drawing.Size(19, 22);
-            this.lblQuantity.TabIndex = 40;
-            this.lblQuantity.Text = "x1";
-            // 
             // lblTotalMoneyValue
             // 
             this.lblTotalMoneyValue.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalMoneyValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblTotalMoneyValue.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTotalMoneyValue.Location = new System.Drawing.Point(555, 195);
+            this.lblTotalMoneyValue.Location = new System.Drawing.Point(389, 294);
             this.lblTotalMoneyValue.Name = "lblTotalMoneyValue";
             this.lblTotalMoneyValue.Size = new System.Drawing.Size(61, 22);
             this.lblTotalMoneyValue.TabIndex = 40;
@@ -134,7 +98,7 @@
             this.lblTotalMoney.BackColor = System.Drawing.Color.Transparent;
             this.lblTotalMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblTotalMoney.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTotalMoney.Location = new System.Drawing.Point(508, 195);
+            this.lblTotalMoney.Location = new System.Drawing.Point(340, 294);
             this.lblTotalMoney.Name = "lblTotalMoney";
             this.lblTotalMoney.Size = new System.Drawing.Size(43, 22);
             this.lblTotalMoney.TabIndex = 39;
@@ -145,7 +109,7 @@
             this.lblPayMethodName.BackColor = System.Drawing.Color.Transparent;
             this.lblPayMethodName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPayMethodName.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPayMethodName.Location = new System.Drawing.Point(518, 225);
+            this.lblPayMethodName.Location = new System.Drawing.Point(518, 233);
             this.lblPayMethodName.Name = "lblPayMethodName";
             this.lblPayMethodName.Size = new System.Drawing.Size(188, 22);
             this.lblPayMethodName.TabIndex = 40;
@@ -156,7 +120,7 @@
             this.lblPayMethod.BackColor = System.Drawing.Color.Transparent;
             this.lblPayMethod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblPayMethod.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPayMethod.Location = new System.Drawing.Point(340, 225);
+            this.lblPayMethod.Location = new System.Drawing.Point(340, 233);
             this.lblPayMethod.Name = "lblPayMethod";
             this.lblPayMethod.Size = new System.Drawing.Size(178, 22);
             this.lblPayMethod.TabIndex = 39;
@@ -167,7 +131,7 @@
             this.lblAddress.BackColor = System.Drawing.Color.Transparent;
             this.lblAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblAddress.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblAddress.Location = new System.Drawing.Point(340, 255);
+            this.lblAddress.Location = new System.Drawing.Point(340, 263);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(55, 22);
             this.lblAddress.TabIndex = 39;
@@ -178,7 +142,7 @@
             this.lblAddressValue.BackColor = System.Drawing.Color.Transparent;
             this.lblAddressValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblAddressValue.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblAddressValue.Location = new System.Drawing.Point(395, 255);
+            this.lblAddressValue.Location = new System.Drawing.Point(395, 263);
             this.lblAddressValue.Name = "lblAddressValue";
             this.lblAddressValue.Size = new System.Drawing.Size(445, 22);
             this.lblAddressValue.TabIndex = 39;
@@ -189,7 +153,7 @@
             this.lblReceive.BackColor = System.Drawing.Color.Transparent;
             this.lblReceive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblReceive.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblReceive.Location = new System.Drawing.Point(340, 285);
+            this.lblReceive.Location = new System.Drawing.Point(503, 293);
             this.lblReceive.Name = "lblReceive";
             this.lblReceive.Size = new System.Drawing.Size(114, 22);
             this.lblReceive.TabIndex = 39;
@@ -200,7 +164,7 @@
             this.lblReceiveDate.BackColor = System.Drawing.Color.Transparent;
             this.lblReceiveDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblReceiveDate.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblReceiveDate.Location = new System.Drawing.Point(456, 285);
+            this.lblReceiveDate.Location = new System.Drawing.Point(619, 293);
             this.lblReceiveDate.Name = "lblReceiveDate";
             this.lblReceiveDate.Size = new System.Drawing.Size(78, 22);
             this.lblReceiveDate.TabIndex = 39;
@@ -234,7 +198,7 @@
             this.lblProductName.BackColor = System.Drawing.Color.Transparent;
             this.lblProductName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblProductName.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblProductName.Location = new System.Drawing.Point(340, 38);
+            this.lblProductName.Location = new System.Drawing.Point(342, 38);
             this.lblProductName.Name = "lblProductName";
             this.lblProductName.Size = new System.Drawing.Size(99, 22);
             this.lblProductName.TabIndex = 40;
@@ -254,12 +218,9 @@
             this.Controls.Add(this.lblPayMethod);
             this.Controls.Add(this.lblTotalMoney);
             this.Controls.Add(this.lblOrderDetail);
-            this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblProductName);
-            this.Controls.Add(this.lblQuantity);
             this.Controls.Add(this.lblPayMethodName);
             this.Controls.Add(this.lblTotalMoneyValue);
-            this.Controls.Add(this.lblPriceValue);
             this.Controls.Add(this.ptrbProduct);
             this.Controls.Add(this.btnClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -277,12 +238,9 @@
 
         private Guna.UI2.WinForms.Guna2ControlBox btnClose;
         private System.Windows.Forms.Label lblProductDescription;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblPrice;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblPriceValue;
         private Guna.UI2.WinForms.Guna2PictureBox ptrbProduct;
         private System.Windows.Forms.Timer timerClose;
         private Guna.UI2.WinForms.Guna2DragControl FOrderDetailDragControl;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblQuantity;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalMoneyValue;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblTotalMoney;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblPayMethodName;

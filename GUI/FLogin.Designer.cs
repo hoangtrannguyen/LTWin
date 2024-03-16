@@ -34,7 +34,7 @@
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.ptrbLogin = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.frmLoginDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.FLoginDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ptrbLogin)).BeginInit();
             this.SuspendLayout();
@@ -200,11 +200,11 @@
             this.ptrbLogin.TabIndex = 22;
             this.ptrbLogin.TabStop = false;
             // 
-            // frmLoginDragControl
+            // FLoginDragControl
             // 
-            this.frmLoginDragControl.DockIndicatorTransparencyValue = 0.6D;
-            this.frmLoginDragControl.TargetControl = this;
-            this.frmLoginDragControl.UseTransparentDrag = true;
+            this.FLoginDragControl.DockIndicatorTransparencyValue = 0.6D;
+            this.FLoginDragControl.TargetControl = this;
+            this.FLoginDragControl.UseTransparentDrag = true;
             // 
             // txtEmail
             // 
@@ -221,6 +221,7 @@
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.Location = new System.Drawing.Point(100, 180);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
             this.txtEmail.PlaceholderText = "Email";
@@ -268,7 +269,7 @@
         private Guna.UI2.WinForms.Guna2ControlBox btnClose;
         private Guna.UI2.WinForms.Guna2TextBox txtPassword;
         private Guna.UI2.WinForms.Guna2PictureBox ptrbLogin;
-        private Guna.UI2.WinForms.Guna2DragControl frmLoginDragControl;
+        private Guna.UI2.WinForms.Guna2DragControl FLoginDragControl;
         private Guna.UI2.WinForms.Guna2TextBox txtEmail;
     }
 }
