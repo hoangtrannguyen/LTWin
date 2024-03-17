@@ -28,7 +28,7 @@ namespace GUI {
        
 
         private void FCustomer_Load(object sender, EventArgs e) {
-            WinAPI.AnimateWindow(this.Handle, 200, WinAPI.BLEND);
+            WinAPI.AnimateWindow(this.Handle, 100, WinAPI.BLEND);
 
             OpenChildForm(new FHomePageCustomer(), "Trang chủ");
             currentButton = btnHomePage;
@@ -94,6 +94,7 @@ namespace GUI {
 
         private void btnLogout_Click(object sender, EventArgs e) {
             this.Hide();
+            (new FLogin()).ShowDialog();
         }
     }
 }

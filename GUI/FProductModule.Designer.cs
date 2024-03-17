@@ -44,8 +44,6 @@
             this.txtProductName = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtDescription = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtPrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lblAddress = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtAddress = new Guna.UI2.WinForms.Guna2TextBox();
             this.timerClose = new System.Windows.Forms.Timer(this.components);
             this.panelTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).BeginInit();
@@ -379,37 +377,6 @@
             this.txtPrice.Size = new System.Drawing.Size(200, 36);
             this.txtPrice.TabIndex = 102;
             // 
-            // lblAddress
-            // 
-            this.lblAddress.BackColor = System.Drawing.Color.Transparent;
-            this.lblAddress.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddress.ForeColor = System.Drawing.Color.White;
-            this.lblAddress.Location = new System.Drawing.Point(666, 183);
-            this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(29, 23);
-            this.lblAddress.TabIndex = 13;
-            this.lblAddress.Text = "Giá:";
-            // 
-            // txtAddress
-            // 
-            this.txtAddress.BorderRadius = 5;
-            this.txtAddress.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtAddress.DefaultText = "";
-            this.txtAddress.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtAddress.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtAddress.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtAddress.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAddress.Location = new System.Drawing.Point(770, 176);
-            this.txtAddress.Name = "txtAddress";
-            this.txtAddress.PasswordChar = '\0';
-            this.txtAddress.PlaceholderText = "";
-            this.txtAddress.SelectedText = "";
-            this.txtAddress.Size = new System.Drawing.Size(200, 36);
-            this.txtAddress.TabIndex = 102;
-            // 
             // timerClose
             // 
             this.timerClose.Interval = 10;
@@ -421,7 +388,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(28)))), ((int)(((byte)(63)))));
             this.ClientSize = new System.Drawing.Size(982, 402);
-            this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.txtPrice);
             this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.txtProductName);
@@ -432,7 +398,6 @@
             this.Controls.Add(this.lblCategory);
             this.Controls.Add(this.panelTitle);
             this.Controls.Add(this.lblBrand);
-            this.Controls.Add(this.lblAddress);
             this.Controls.Add(this.lblQuantity);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblDescription);
@@ -477,8 +442,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txtProductName;
         private Guna.UI2.WinForms.Guna2TextBox txtDescription;
         private Guna.UI2.WinForms.Guna2TextBox txtPrice;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lblAddress;
-        private Guna.UI2.WinForms.Guna2TextBox txtAddress;
         private System.Windows.Forms.Timer timerClose;
     }
 }

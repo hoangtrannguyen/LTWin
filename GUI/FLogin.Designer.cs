@@ -24,6 +24,8 @@
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
+            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FLogin));
             this.lblRemember = new System.Windows.Forms.Label();
             this.toggleRemember = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.lblOr = new System.Windows.Forms.Label();
@@ -36,12 +38,14 @@
             this.ptrbLogin = new Guna.UI2.WinForms.Guna2PictureBox();
             this.FLoginDragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
             ((System.ComponentModel.ISupportInitialize)(this.ptrbLogin)).BeginInit();
             this.SuspendLayout();
             // 
             // lblRemember
             // 
             this.lblRemember.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.lblRemember, Guna.UI2.AnimatorNS.DecorationType.None);
             this.lblRemember.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblRemember.ForeColor = System.Drawing.Color.White;
             this.lblRemember.Location = new System.Drawing.Point(141, 303);
@@ -58,6 +62,7 @@
             this.toggleRemember.CheckedState.InnerBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(1)))), ((int)(((byte)(88)))));
             this.toggleRemember.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.toggleRemember.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Transition1.SetDecoration(this.toggleRemember, Guna.UI2.AnimatorNS.DecorationType.None);
             this.toggleRemember.Location = new System.Drawing.Point(100, 303);
             this.toggleRemember.Name = "toggleRemember";
             this.toggleRemember.Size = new System.Drawing.Size(35, 20);
@@ -72,6 +77,7 @@
             // 
             this.lblOr.AutoSize = true;
             this.lblOr.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Transition1.SetDecoration(this.lblOr, Guna.UI2.AnimatorNS.DecorationType.None);
             this.lblOr.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblOr.ForeColor = System.Drawing.Color.White;
             this.lblOr.Location = new System.Drawing.Point(209, 406);
@@ -84,6 +90,7 @@
             // 
             this.lblForgotPassword.AutoSize = true;
             this.lblForgotPassword.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Transition1.SetDecoration(this.lblForgotPassword, Guna.UI2.AnimatorNS.DecorationType.None);
             this.lblForgotPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblForgotPassword.ForeColor = System.Drawing.Color.White;
             this.lblForgotPassword.Location = new System.Drawing.Point(245, 303);
@@ -100,11 +107,12 @@
             this.btnMinimize.BorderRadius = 2;
             this.btnMinimize.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
             this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Transition1.SetDecoration(this.btnMinimize, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnMinimize.FillColor = System.Drawing.Color.Transparent;
             this.btnMinimize.IconColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(353, 2);
+            this.btnMinimize.Location = new System.Drawing.Point(360, 0);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(50, 30);
+            this.btnMinimize.Size = new System.Drawing.Size(45, 30);
             this.btnMinimize.TabIndex = 27;
             // 
             // btnRegister
@@ -113,6 +121,7 @@
             this.btnRegister.BackColor = System.Drawing.Color.Transparent;
             this.btnRegister.BorderRadius = 10;
             this.btnRegister.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Transition1.SetDecoration(this.btnRegister, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnRegister.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnRegister.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnRegister.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -133,6 +142,7 @@
             this.btnLogin.BackColor = System.Drawing.Color.Transparent;
             this.btnLogin.BorderRadius = 10;
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Transition1.SetDecoration(this.btnLogin, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -146,6 +156,7 @@
             this.btnLogin.TabIndex = 25;
             this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            this.btnLogin.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnLogin_KeyDown);
             // 
             // btnClose
             // 
@@ -154,12 +165,13 @@
             this.btnClose.Animated = true;
             this.btnClose.BorderRadius = 2;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Transition1.SetDecoration(this.btnClose, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnClose.FillColor = System.Drawing.Color.Transparent;
             this.btnClose.HoverState.FillColor = System.Drawing.Color.Red;
             this.btnClose.IconColor = System.Drawing.Color.White;
-            this.btnClose.Location = new System.Drawing.Point(407, 2);
+            this.btnClose.Location = new System.Drawing.Point(405, 0);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(50, 30);
+            this.btnClose.Size = new System.Drawing.Size(45, 30);
             this.btnClose.TabIndex = 26;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -169,6 +181,7 @@
             this.txtPassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
             this.txtPassword.BorderRadius = 6;
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2Transition1.SetDecoration(this.txtPassword, Guna.UI2.AnimatorNS.DecorationType.None);
             this.txtPassword.DefaultText = "";
             this.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -191,6 +204,7 @@
             // 
             // ptrbLogin
             // 
+            this.guna2Transition1.SetDecoration(this.ptrbLogin, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ptrbLogin.Image = global::GUI.Properties.Resources.shopify_100px;
             this.ptrbLogin.ImageRotate = 0F;
             this.ptrbLogin.Location = new System.Drawing.Point(157, 56);
@@ -211,6 +225,7 @@
             this.txtEmail.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
             this.txtEmail.BorderRadius = 6;
             this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2Transition1.SetDecoration(this.txtEmail, Guna.UI2.AnimatorNS.DecorationType.None);
             this.txtEmail.DefaultText = "";
             this.txtEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -229,12 +244,34 @@
             this.txtEmail.Size = new System.Drawing.Size(262, 41);
             this.txtEmail.TabIndex = 32;
             // 
+            // guna2Transition1
+            // 
+            this.guna2Transition1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Scale;
+            this.guna2Transition1.Cursor = System.Windows.Forms.Cursors.Hand;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.guna2Transition1.DefaultAnimation = animation1;
+            // 
             // FLogin
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
-            this.ClientSize = new System.Drawing.Size(457, 540);
+            this.ClientSize = new System.Drawing.Size(450, 550);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.lblRemember);
             this.Controls.Add(this.toggleRemember);
@@ -246,6 +283,7 @@
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.ptrbLogin);
+            this.guna2Transition1.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -271,5 +309,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox ptrbLogin;
         private Guna.UI2.WinForms.Guna2DragControl FLoginDragControl;
         private Guna.UI2.WinForms.Guna2TextBox txtEmail;
+        private Guna.UI2.WinForms.Guna2Transition guna2Transition1;
     }
 }

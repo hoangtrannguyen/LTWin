@@ -542,5 +542,15 @@
   <ItemGroup>
     <None Include="Resources\print-icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{4caef80d-88e4-458e-a5a1-57681309c7f5}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{62895e72-907a-44a9-8d9d-88099e68cbf0}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
