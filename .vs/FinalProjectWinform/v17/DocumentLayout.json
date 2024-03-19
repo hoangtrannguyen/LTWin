@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CAEF80D-88E4-458E-A5A1-57681309C7F5}|DAO\\DAO.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CAEF80D-88E4-458E-A5A1-57681309C7F5}|DAO\\DAO.csproj|solutionrelative:dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62895E72-907A-44A9-8D9D-88099E68CBF0}|DTO\\DTO.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62895E72-907A-44A9-8D9D-88099E68CBF0}|DTO\\DTO.csproj|solutionrelative:dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|c:\\users\\admin\\documents\\code\\finalprojectwinform\\gui\\fregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\gui\\fregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D30288-933C-47D4-A401-DB527ADBE45B}|GUI\\GUI.csproj|solutionrelative:gui\\fregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +43,69 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FLogin.cs",
+              "RelativeDocumentMoniker": "GUI\\FLogin.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FLogin.cs [Design]",
+              "RelativeToolTip": "GUI\\FLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T16:42:35.06Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "DTO\\UserDTO.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwEgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T16:34:08.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\DAO\\UserDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\UserDAO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\DAO\\UserDAO.cs",
+              "RelativeToolTip": "DAO\\UserDAO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T16:01:25.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FRegister.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FRegister.cs",
+              "RelativeDocumentMoniker": "GUI\\FRegister.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FRegister.cs",
+              "RelativeToolTip": "GUI\\FRegister.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwE0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T03:44:12.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FRegister.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FRegister.cs",
+              "RelativeDocumentMoniker": "GUI\\FRegister.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\CODE\\FinalProjectWinform\\GUI\\FRegister.cs [Design]",
+              "RelativeToolTip": "GUI\\FRegister.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T03:35:47.025Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

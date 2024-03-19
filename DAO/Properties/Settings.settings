@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="connStr" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Data Source=Dell\TANTRUSQL;Initial Catalog=ExchangeItemDB;Integrated Security=True;Trust Server Certificate=True</Value>
+      <Value Profile="(Default)">Data Source=Dell\TANTRUSQL;Initial Catalog=ExchangeItem;Integrated Security=True;TrustServerCertificate=True</Value>
     </Setting>
   </Settings>
 </SettingsFile>

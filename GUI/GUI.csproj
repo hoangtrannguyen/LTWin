@@ -411,6 +411,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\avatar-user" />
     <None Include="Resources\edit_20px.png" />
   </ItemGroup>
   <ItemGroup>
@@ -507,9 +508,6 @@
     <None Include="Resources\update-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\vn-11134207-7qukw-lkfk62ykuy081d.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\xe-dieu-khien-2x.png" />
   </ItemGroup>
   <ItemGroup>
@@ -532,9 +530,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\user-settings-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\avatar.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\avatar.jpg" />

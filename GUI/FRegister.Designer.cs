@@ -42,11 +42,12 @@
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
             this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblUsername = new System.Windows.Forms.Label();
-            this.btnExit = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblGender = new System.Windows.Forms.Label();
             this.radMale = new Guna.UI2.WinForms.Guna2RadioButton();
             this.radFemale = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.btnExit = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -165,7 +166,6 @@
             this.txtName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtName.Enabled = false;
             this.txtName.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtName.Font = new System.Drawing.Font("Segoe UI", 12F);
@@ -242,7 +242,6 @@
             this.txtEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtEmail.Enabled = false;
             this.txtEmail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.txtEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 12F);
@@ -375,6 +374,62 @@
             this.lblUsername.TabIndex = 70;
             this.lblUsername.Text = "Tên tài khoản:";
             // 
+            // lblGender
+            // 
+            this.lblGender.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblGender.AutoSize = true;
+            this.lblGender.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGender.ForeColor = System.Drawing.Color.White;
+            this.lblGender.Location = new System.Drawing.Point(286, 321);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(73, 21);
+            this.lblGender.TabIndex = 66;
+            this.lblGender.Text = "Giới tính:";
+            // 
+            // radMale
+            // 
+            this.radMale.Animated = true;
+            this.radMale.AutoSize = true;
+            this.radMale.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
+            this.radMale.CheckedState.BorderThickness = 0;
+            this.radMale.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
+            this.radMale.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(1)))), ((int)(((byte)(88)))));
+            this.radMale.CheckedState.InnerOffset = -7;
+            this.radMale.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.radMale.ForeColor = System.Drawing.Color.White;
+            this.radMale.Location = new System.Drawing.Point(397, 321);
+            this.radMale.Name = "radMale";
+            this.radMale.Size = new System.Drawing.Size(60, 24);
+            this.radMale.TabIndex = 79;
+            this.radMale.Text = "Nam";
+            this.radMale.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.radMale.UncheckedState.BorderThickness = 2;
+            this.radMale.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.radMale.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // radFemale
+            // 
+            this.radFemale.Animated = true;
+            this.radFemale.AutoSize = true;
+            this.radFemale.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
+            this.radFemale.CheckedState.BorderThickness = 0;
+            this.radFemale.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
+            this.radFemale.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(1)))), ((int)(((byte)(88)))));
+            this.radFemale.CheckedState.InnerOffset = -7;
+            this.radFemale.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radFemale.ForeColor = System.Drawing.Color.White;
+            this.radFemale.Location = new System.Drawing.Point(510, 321);
+            this.radFemale.Name = "radFemale";
+            this.radFemale.Size = new System.Drawing.Size(47, 24);
+            this.radFemale.TabIndex = 79;
+            this.radFemale.Text = "Nữ";
+            this.radFemale.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.radFemale.UncheckedState.BorderThickness = 2;
+            this.radFemale.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.radFemale.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
             // btnExit
             // 
             this.btnExit.Animated = true;
@@ -393,12 +448,13 @@
             this.btnExit.ForeColor = System.Drawing.Color.White;
             this.btnExit.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnExit.Image = global::GUI.Properties.Resources.update_icon;
-            this.btnExit.Location = new System.Drawing.Point(30, 287);
+            this.btnExit.Location = new System.Drawing.Point(42, 287);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(213, 45);
             this.btnExit.TabIndex = 78;
             this.btnExit.Text = "Chọn ảnh";
             this.btnExit.UseTransparentBackground = true;
+            this.btnExit.Click += new System.EventHandler(this.btnUpload_Click);
             // 
             // ptrbAvatar
             // 
@@ -407,62 +463,25 @@
             this.ptrbAvatar.Location = new System.Drawing.Point(54, 93);
             this.ptrbAvatar.Name = "ptrbAvatar";
             this.ptrbAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.ptrbAvatar.Size = new System.Drawing.Size(165, 167);
-            this.ptrbAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptrbAvatar.Size = new System.Drawing.Size(189, 188);
+            this.ptrbAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptrbAvatar.TabIndex = 77;
             this.ptrbAvatar.TabStop = false;
             // 
-            // lblGender
+            // guna2Button1
             // 
-            this.lblGender.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblGender.AutoSize = true;
-            this.lblGender.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGender.ForeColor = System.Drawing.Color.White;
-            this.lblGender.Location = new System.Drawing.Point(286, 321);
-            this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(73, 21);
-            this.lblGender.TabIndex = 66;
-            this.lblGender.Text = "Giới tính:";
-            // 
-            // radMale
-            // 
-            this.radMale.AutoSize = true;
-            this.radMale.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.radMale.CheckedState.BorderThickness = 0;
-            this.radMale.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.radMale.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.radMale.CheckedState.InnerOffset = -4;
-            this.radMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.radMale.ForeColor = System.Drawing.Color.White;
-            this.radMale.Location = new System.Drawing.Point(397, 321);
-            this.radMale.Name = "radMale";
-            this.radMale.Size = new System.Drawing.Size(60, 24);
-            this.radMale.TabIndex = 79;
-            this.radMale.Text = "Nam";
-            this.radMale.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.radMale.UncheckedState.BorderThickness = 2;
-            this.radMale.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.radMale.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            // 
-            // radFemale
-            // 
-            this.radFemale.AutoSize = true;
-            this.radFemale.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.radFemale.CheckedState.BorderThickness = 0;
-            this.radFemale.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.radFemale.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.radFemale.CheckedState.InnerOffset = -4;
-            this.radFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radFemale.ForeColor = System.Drawing.Color.White;
-            this.radFemale.Location = new System.Drawing.Point(510, 321);
-            this.radFemale.Name = "radFemale";
-            this.radFemale.Size = new System.Drawing.Size(47, 24);
-            this.radFemale.TabIndex = 79;
-            this.radFemale.Text = "Nữ";
-            this.radFemale.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.radFemale.UncheckedState.BorderThickness = 2;
-            this.radFemale.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.radFemale.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(262, 452);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button1.TabIndex = 80;
+            this.guna2Button1.Text = "guna2Button1";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // FRegister
             // 
@@ -470,6 +489,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
             this.ClientSize = new System.Drawing.Size(1091, 541);
+            this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.radFemale);
             this.Controls.Add(this.radMale);
             this.Controls.Add(this.btnExit);
@@ -527,5 +547,6 @@
         private System.Windows.Forms.Label lblGender;
         private Guna.UI2.WinForms.Guna2RadioButton radMale;
         private Guna.UI2.WinForms.Guna2RadioButton radFemale;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

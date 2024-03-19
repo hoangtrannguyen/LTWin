@@ -30,9 +30,9 @@
             this.lblRole = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
             this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.ptrbAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblStatus = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNoValue
@@ -116,17 +116,17 @@
             this.btnDelete.Size = new System.Drawing.Size(20, 33);
             this.btnDelete.TabIndex = 24;
             // 
-            // guna2CirclePictureBox1
+            // ptrbAvatar
             // 
-            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(79, 5);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(120, 120);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox1.TabIndex = 1;
-            this.guna2CirclePictureBox1.TabStop = false;
+            this.ptrbAvatar.Image = ((System.Drawing.Image)(resources.GetObject("ptrbAvatar.Image")));
+            this.ptrbAvatar.ImageRotate = 0F;
+            this.ptrbAvatar.Location = new System.Drawing.Point(79, 5);
+            this.ptrbAvatar.Name = "ptrbAvatar";
+            this.ptrbAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ptrbAvatar.Size = new System.Drawing.Size(120, 120);
+            this.ptrbAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptrbAvatar.TabIndex = 1;
+            this.ptrbAvatar.TabStop = false;
             // 
             // lblStatus
             // 
@@ -150,11 +150,11 @@
             this.Controls.Add(this.lblRole);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.lblName);
-            this.Controls.Add(this.guna2CirclePictureBox1);
+            this.Controls.Add(this.ptrbAvatar);
             this.Controls.Add(this.lblNoValue);
             this.Name = "UC_User";
             this.Size = new System.Drawing.Size(1017, 130);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrbAvatar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -168,7 +168,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblRole;
         private Guna.UI2.WinForms.Guna2Button btnEdit;
         private Guna.UI2.WinForms.Guna2Button btnDelete;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ptrbAvatar;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblStatus;
     }
 }

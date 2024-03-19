@@ -6,7 +6,7 @@ namespace GUI {
     public struct ROLE {
         public static readonly string ADMIN = "1";
         public static readonly string SELLER = "2";
-        public static readonly string USER = "3";
+        public static readonly string CUSTOMER = "3";
     }
 
     public partial class FLogin : Form {

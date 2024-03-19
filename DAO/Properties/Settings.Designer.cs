@@ -25,8 +25,8 @@ namespace DAO.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=Dell\\TANTRUSQL;Initial Catalog=ExchangeItemDB;Integrated Security=Tru" +
-            "e;Trust Server Certificate=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=Dell\\TANTRUSQL;Initial Catalog=ExchangeItem;Integrated Security=True;" +
+            "TrustServerCertificate=True")]
         public string connStr {
             get {
                 return ((string)(this["connStr"]));

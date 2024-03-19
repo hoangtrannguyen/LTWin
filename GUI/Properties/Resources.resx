@@ -154,9 +154,6 @@
   <data name="delete_bin_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_bin_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\avatar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="search_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -196,6 +193,9 @@
   <data name="delete_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="previous-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\previous-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="edit_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\edit_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -214,8 +214,8 @@
   <data name="in-order-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\in-order-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="previous-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\previous-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avatar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,10 +226,10 @@
   <data name="user-settings-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-settings-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="print-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\print-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
